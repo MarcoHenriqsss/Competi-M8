@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Integração servidor de e-mail Gmail</title>
+
+
+
+    <link rel="stylesheet" href="/templates/estilo.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo-area">
+
+        <img src="/assets/competi.jpg" class="logo">
+
+        <div>
+
+            <div class="empresa">
+
+                COMPETI SISTEMAS
+
+            </div>
+
+            <div class="erp">
+
+                Documentação Oficial do M8 ERP
+
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+<div class="titulo">
+
+Integração servidor de e-mail Gmail
+
+</div>
+
+<div class="categoria">
+
+Demais Assuntos
+
+</div>
+
+<div class="conteudo">
+
+<h2>Integração do Gmail para Envio de Notificações</h2>
+<h2>Configurações da conta Gmail</h2>
+<p>Para realizar a integração de contas de e-mail do Gmail, é necessário configurar a segurança da conta, realizando o seguinte procedimento:</p>
+<p><img alt="" height="747" src="/Manuais%20M8/_imagens/384/imagem_001.png" width="569"/></p>
+<p>Acessado na conta desejada, abrir o “Gerenciamento da conta Google”, no ícone da conta no canto superior direito.</p>
+<p><img alt="" height="717" src="/Manuais%20M8/_imagens/384/imagem_002.png" width="938"/></p>
+<p>No menu na lateral, selecionar as opções de “Segurança”, em seguida, “Como fazer login no Google”.</p>
+<p><img alt="" height="472" src="/Manuais%20M8/_imagens/384/imagem_003.png" width="1077"/></p>
+<p><img alt="" height="653" src="/Manuais%20M8/_imagens/384/imagem_004.png" width="694"/></p>
+<p>Para habilitar a segurança na integração das contas, será necessário criar a “Verificação em duas etapas”. Em seguida, em “Primeiros Passos”, dessa forma será criada a camada de segurança.</p>
+<p><img alt="" height="611" src="/Manuais%20M8/_imagens/384/imagem_005.png" width="679"/></p>
+<p>Para verificação de segurança, informar o número de telefone que irá efetuar a validação e como deseja receber os códigos de validação.<br/>Conforme a opção selecionada, será recebida uma ou SMS com código de confirmação.</p>
+<p><img alt="" height="679" src="/Manuais%20M8/_imagens/384/imagem_006.png" width="811"/></p>
+<p><img alt="" height="593" src="/Manuais%20M8/_imagens/384/imagem_007.png" width="786"/></p>
+<p>No campo indicado, informar o código recebedio, em seguida avançar para continuar com a ativação.</p>
+<p><img alt="" height="409" src="/Manuais%20M8/_imagens/384/imagem_008.png" width="926"/></p>
+<p>Após a ativação da verificação em duas etapas, é necessário criar a senha da integração. Na opção “Como fazer login no Google”, acessar “Senhas de app” para gerar o token.</p>
+<p><img alt="" height="708" src="/Manuais%20M8/_imagens/384/imagem_009.png" width="940"/></p>
+<p><img alt="" height="632" src="/Manuais%20M8/_imagens/384/imagem_010.png" width="815"/></p>
+<p>Para gerar a senha da integração para app, selecionar a opção Outro (nome personalizado) e informar a senha desejada.<br/>Em seguida, clica em “Gerar”, onde irá informar a senha gerada para utilizar na integração.</p>
+<div class="callout callout-info">Essa senha será utilizada no campo "Senha" na integração dentro do sistema.</div>
+<h2>Integrando o Servidor de E-mail Gmail no M8 Cloud</h2>
+<div class="callout callout-info">Configurações &gt; CADASTROS &gt; CADASTROS &gt; Lista Cadastro de Estabelecimentos</div>
+<p><img alt="" height="936" src="/Manuais%20M8/_imagens/384/imagem_011.png" width="1916"/></p>
+<p>Dentro do Cadastro de Estabelecimento, acesse a aba Configuração Estabelecimento, onde deverá preencher os campos referente ao e-mail, conforme descrição abaixo.</p>
+<ul><li><strong>E-mail Próprio</strong>: Habilitar essa opção para informar o SMTP de saída do servidor de e-mail.</li><li><strong>SSL</strong>: Habilitar sempre, pois essa informação é obrigatória para utilização dos serviços de e-mail do Google.</li><li><strong>Porta</strong>: Informa a porta de saída do servidor SMTP 587.</li><li><strong>E-mail</strong>: Informar qual endereço de e-mail será integrado para efetuar os disparos dos e-mails.</li><li><strong>E-mail Cópia Oculta</strong>: Esse endereço de e-mail irá receber uma cópia de todos os e-mails enviados.</li><li><strong>Senha</strong>: Neste campo informar a senha gerada na verificação de segurança, efetuada na conta do Gmail, conforme passo a passo detalhado acima.</li></ul>
+<div class="callout callout-info">Gostou de aprender sobre Integração do Servidor de E-mail Gmail? Caso restem dúvidas entre em contato com nossa equipe de Suporte.</div>
+
+</div>
+
+<footer>
+
+Documento gerado automaticamente pelo Exportador M8
+
+</footer>
+
+</body>
+
+</html>

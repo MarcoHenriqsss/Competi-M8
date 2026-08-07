@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Falha na Validação do xml da NF-e (Campo_Descrição)</title>
+
+
+
+    <link rel="stylesheet" href="/templates/estilo.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo-area">
+
+        <img src="/assets/competi.jpg" class="logo">
+
+        <div>
+
+            <div class="empresa">
+
+                COMPETI SISTEMAS
+
+            </div>
+
+            <div class="erp">
+
+                Documentação Oficial do M8 ERP
+
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+<div class="titulo">
+
+Falha na Validação do xml da NF-e (Campo_Descrição)
+
+</div>
+
+<div class="categoria">
+
+Demais Assuntos
+
+</div>
+
+<div class="conteudo">
+
+<h2>Mensagem de rejeição devido ao uso de caracteres especiais</h2>
+<div class="callout callout-info">Faturamento &gt; MOVIMENTO &gt; NOTAS FISCAIS &gt; Emitir Nota Fiscal de Venda</div>
+<h2>Erro</h2>
+<p>Em sua Nota Fiscal de Venda, apresentando seguinte mensagem ao tentar realizar o faturamento: A rejeição apresentada na imagem abaixo ocorre devido ao uso de caracteres especiais não permitidos pela SEFAZ em campos da NF-e. Entre os exemplos mais comuns estão: @, #, &amp; , %, *, '', ', /, \, entre outros.</p>
+<p><img alt="" height="717" src="/Manuais%20M8/_imagens/50/imagem_001.png" width="1724"/></p>
+<p>Neste caso específico, a rejeição foi causada pelo uso do travessão em um formato não reconhecido como válido, possivelmente por ser copiado de um editor de texto que substitui automaticamente o caractere por uma versão tipograficamente diferente (como o hifen – ). Isso pode ser observado no print a seguir:</p>
+<h2>Como resolver</h2>
+<p><img alt="" height="718" src="/Manuais%20M8/_imagens/50/imagem_002.png" width="1729"/></p>
+<p>Percebe-se que o caractere presente no campo "Observações" da NF-e possui uma codificação diferente do hífen padrão (-), o que pode indicar o uso de um caractere com tamanho ou formatação incompatível com o esperado pela SEFAZ.<br/>Certifique-se de utilizar caracteres simples tanto para as observações da NF, quanto para observação dos itens e também da descrição do produto/serviço, digitados diretamente no sistema emissor, evitando copiar textos de outros editores que possam alterar a codificação dos símbolos.</p>
+<blockquote>Gostou de aprender um pouco sobre uma das Falhas de Validação do XML? Caso restem dúvidas entre em contato com nossa equipe de Suporte.</blockquote>
+
+</div>
+
+<footer>
+
+Documento gerado automaticamente pelo Exportador M8
+
+</footer>
+
+</body>
+
+</html>

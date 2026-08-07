@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Rejeição_ 694 - Não informado o grupo de ICMS para a UF de destino</title>
+
+
+
+    <link rel="stylesheet" href="/templates/estilo.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo-area">
+
+        <img src="/assets/competi.jpg" class="logo">
+
+        <div>
+
+            <div class="empresa">
+
+                COMPETI SISTEMAS
+
+            </div>
+
+            <div class="erp">
+
+                Documentação Oficial do M8 ERP
+
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+<div class="titulo">
+
+Rejeição_ 694 - Não informado o grupo de ICMS para a UF de destino
+
+</div>
+
+<div class="categoria">
+
+Demais Assuntos
+
+</div>
+
+<div class="conteudo">
+
+<h2>O que é a Rejeição: 694 - Não informado o grupo de ICMS para a UF de destino?</h2>
+<p>Essa rejeição ocorre quando o emissor do Documento Fiscal não informa corretamente o grupo de ICMS (Imposto sobre Circulação de Mercadorias e Serviços) correspondente à Unidade Federativa (UF) de destino da mercadoria. No sistema M8, essa rejeição será exibida conforme exemplo abaixo.</p>
+<p><img alt="" height="122" src="/Manuais%20M8/_imagens/63/imagem_001.png" width="620"/></p>
+<h2>Por que ela acontece?</h2>
+<p>Essa rejeição ocorre ao tentar transmitir uma Nota Fiscal de Venda interestadual onde seu cliente seja Não Contribuinte. Para validar essas informações, entre no cadastro do cliente pelo atalho (+) no cabeçalho da Nota Fiscal.</p>
+<p><img alt="" height="960" src="/Manuais%20M8/_imagens/63/imagem_002.png" width="1918"/></p>
+<p>Dentro do Cadastro do Cliente, valide a Situação Tributária Configurada, deverá se atentar aos campos Inscrição Estadual, Tipo Contribuinte e Tipo Consumidor, quando preenchidos conforme imagem abaixo, sua nota deverá ter ICMS Difal. É importante validar com seu cliente as informações corretas para preencher seu cadastro no M8, evitando assim rejeições.</p>
+<p><img alt="" height="960" src="/Manuais%20M8/_imagens/63/imagem_003.png" width="1918"/></p>
+<p>Na aba Produtos da Nota Fiscal, edite o item lançado, e depois entre no Cadastro de Operação Fiscal vinculada a ele, pelo atalho (+).</p>
+<p><img alt="" height="962" src="/Manuais%20M8/_imagens/63/imagem_004.png" width="1919"/></p>
+<p>Ao entrar na Operação Fiscal, verifique na aba Impostos, quais são os impostos inseridos, essa rejeição ocorre quando não há regra do imposto ICMS Difal na operação fiscal informada no item.</p>
+<p><img alt="" height="962" src="/Manuais%20M8/_imagens/63/imagem_005.png" width="1919"/></p>
+<h2>Como Resolver?</h2>
+<p>Nesse caso você terá duas opções, sendo elas:</p>
+<ul><li><strong>Alterar a operação fiscal informada no lançamento do item: </strong>Edite o item na aba Produtos da Nota, retire a Operação Fiscal informada, e insira outra que já tenha configurada para vendas interestaduais para clientes não contribuintes, que tenha regra de ICMS Difal, lembrando que o nome da Operação Fiscal irá variar de empresa para empresa, por ser um campo editável, você poderá filtrar a operação que será inserida por</li></ul>
+<ul><li>nome, CFOP, ou até mesmo o código, caso já tenha essa informação. O ideal é, sempre entrar na Operação Fiscal e conferir os impostos cadastrados. Após isso, confira as alíquotas dos impostos informadas no lançamento do item, e clique em<img alt="" src="/Manuais%20M8/_imagens/63/imagem_006.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/>.</li></ul>
+<p><img alt="" height="960" src="/Manuais%20M8/_imagens/63/imagem_007.png" width="1915"/></p>
+<ul><li><strong>Criar um nova Operação Fiscal: </strong>Caso você ainda não possua uma Operação Fiscal para esse tipo de venda, poderá criar uma, conforme já descrito no artigo <a href="https://sac.m8sistemas.com/portal/pt-br/kb/articles/icms">"ICMS DIFAL para Não Contribuinte"</a>. Após criada a Operação Fiscal, insira a mesma no lançamento da Nota Fiscal e salve o item.</li></ul>
+<p>Após feito ajuste da Operação Fiscal valide se o impostos ICMS Difal foi calculado corretamente.</p>
+<p><img alt="" height="965" src="/Manuais%20M8/_imagens/63/imagem_008.png" width="1915"/></p>
+<p>Se sim, poderá tentar transmitir a nota novamente na opção Ações -&gt; Faturar Documento.</p>
+<p><img alt="" height="966" src="/Manuais%20M8/_imagens/63/imagem_009.png" width="1919"/></p>
+<div class="callout callout-info">Caso o erro persista, confirme com seu contador, a tributação para respectiva NF-e, e entre em contato com nossa equipe de suporte para ajustar as configurações necessárias.</div>
+<blockquote>Gostou de aprender sobre a 694 - Não informado o grupo de ICMS para a UF de destino? Caso restem dúvidas entre em contato com nossa equipe de Suporte.</blockquote>
+
+</div>
+
+<footer>
+
+Documento gerado automaticamente pelo Exportador M8
+
+</footer>
+
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>ICMS DIFAL para Não Contribuinte</title>
+
+
+
+    <link rel="stylesheet" href="/templates/estilo.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo-area">
+
+        <img src="/assets/competi.jpg" class="logo">
+
+        <div>
+
+            <div class="empresa">
+
+                COMPETI SISTEMAS
+
+            </div>
+
+            <div class="erp">
+
+                Documentação Oficial do M8 ERP
+
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+<div class="titulo">
+
+ICMS DIFAL para Não Contribuinte
+
+</div>
+
+<div class="categoria">
+
+Fiscal
+
+</div>
+
+<div class="conteudo">
+
+<h2>Nota Fiscal com ICMS DIFAL para Não Contribuinte</h2>
+<p>O diferencial de alíquota de ICMS, é a diferença entre a alíquota interna do estado de destino e a alíquota interestadual, informada no item do documento fiscal. É utilizado para equilibrar a arrecadação desse imposto entre os estados, onde o destinatário é o consumidor final da compra ou do serviço. O estado de origem da venda e o estado de destino fazem a divisão da carga tributária que deve ser paga. Para calcular o valor do Difal é preciso encontrar a diferença entre a alíquota interestadual e a interna e também a base de cálculo a ser utilizada para o imposto. Existem dois tipos de base cálculo utilizadas atualmente, sendo elas a Base única (por fora) e Base dupla (por dentro), também usada para calcular as operações onde o destinatário é contribuinte de ICMS. Os estados BA, MG, PA, PR, RS, SE, PE, PI, AL, GO, RO e TO, exigem cálculo diferenciado.</p>
+<h2>Configurações Necessárias</h2>
+<p>Para a emissão de uma Nota Fiscal com DIFAL ICMS deverá cadastrar a Operação Fiscal e os impostos observando algumas particularidades nesse cadastro.</p>
+<h2>Cadastrando a Operação Fiscal</h2>
+<div class="callout callout-info">Configurações &gt; CADASTROS &gt; CADASTROS &gt; Lista Cadastro de Operações Fiscais</div>
+<p>Para emissão de uma Nota Fiscal com diferencial de alíquota de ICMS deve criar uma Operação Fiscal específica para esse caso, já que a CST e os valores de impostos são diferentes de operações tributadas integralmente. O cabeçalho da Operação Fiscal deve ser preenchido com as mesmas informações que as Operações Fiscais Tributadas. Caso tenha dúvidas sobre tais informações, você pode consultar nosso artigo sobre Cadastro de Operação Fiscal<br/>O que muda são as definições de impostos na aba Impostos, onde devem informar os impostos do tipo ICMS e ICMS Diferencial conforme exemplo a seguir:</p>
+<h2>Cadastrando os Impostos</h2>
+<div class="callout callout-info">Fiscal &gt; MOVIMENTO &gt; CONFIGURAÇÕES &gt; Configuração de Impostos</div>
+<p>Para a Operação Fiscal de venda com diferencial de alíquota é necessário cadastrar os impostos do tipo ICMS e ICMS Diferencial<br/>Para o cálculo do <strong>Difal por dentro - base dupla</strong>, serão efetuadas as seguintes configurações: O imposto tipo ICMS Diferencial será criado sem informação de CST, com: <strong>Regra Valor do Imposto</strong>:</p>
+<div class="callout callout-info">((ValorTotalItem + ValorFreteRateioItem + ValorFreteItem + ValorAcrescimoRateioItem + ValorAcrescimoItem + ValorSeguroRateioItem - ValorDescontoItem - ValorDescontoRateioItem ) / (1 - ( AliquotaIcmsDiferencialDestinoItem /100 ))) * ( AliquotaIcmsDiferencialDestinoItem / 100) - ValorIcmsItem</div>
+<p><strong>Regra Base de Cálculo</strong>:</p>
+<div class="callout callout-info">(ValorTotalItem + ValorFreteRateioItem + ValorFreteItem + ValorAcrescimoRateioItem + ValorAcrescimoItem + ValorSeguroRateioItem - ValorDescontoItem - ValorDescontoRateioItem ) / (1 - ( AliquotaIcmsDiferencialDestinoItem /100 ))</div>
+<p><img alt="" height="968" src="/Manuais%20M8/_imagens/264/imagem_001.png" width="1916"/></p>
+<p>Para efetuar o cálculo do <strong>Difal por fora</strong> <strong> - base única</strong>, a configuração será a seguinte: O imposto tipo ICMS Diferencial será criado sem informação de CST, com <strong>Regra Valor do Imposto</strong>:</p>
+<div class="callout callout-info">( ValorTotalItem + ValorFreteRateioItem + ValorFreteItem + ValorAcrescimoRateioItem + ValorAcrescimoItem + ValorSeguroRateioItem - ValorDescontoItem - ValorDescontoRateioItem ) * ( AliquotaIcmsItem - AliquotaIcmsDiferencialItem / 100)</div>
+<p>e <strong>Regra Base de Cálculo</strong>: e <strong>Regra Base de Cálculo</strong>:</p>
+<div class="callout callout-info">ValorTotalItem + ValorFreteRateioItem + ValorFreteItem + ValorAcrescimoRateioItem + ValorAcrescimoItem + ValorSeguroRateioItem - ValorDescontoItem - ValorDescontoRateioItem</div>
+<p><img alt="" height="942" src="/Manuais%20M8/_imagens/264/imagem_002.png" width="1921"/></p>
+<h2>Configurando o percentual de DIFAL</h2>
+<p>O percentual do Difal pode variar conforme a alíquota do estado para operações interestaduais. Esse percentual deve ser validado juntos ao contador responsável da empresa. Caso sua empresa utilize Grade de Tributação, o percentual poderá ser informado diretamente nas Grades Tributárias no campo <strong>% Difal Destino</strong>. Juntamente com a alíquota de ICMS do estado de origem, dessa forma o sistema utilizará a diferença entre as duas alíquotas para o calculo de DIFAL.</p>
+<p><img alt="" height="967" src="/Manuais%20M8/_imagens/264/imagem_003.png" width="1920"/></p>
+<p>Caso não utilize a Grade de Tributação, o sistema irá buscar o percentual informado no código-fonte do sistema, conforme previsto em legislação.</p>
+<div class="callout callout-info">Gostou de aprender sobre ICMS Diferencial - DIFAL para Não Contribuinte? Caso restem dúvidas entre em contato com nosso time de Suporte.</div>
+
+</div>
+
+<footer>
+
+Documento gerado automaticamente pelo Exportador M8
+
+</footer>
+
+</body>
+
+</html>

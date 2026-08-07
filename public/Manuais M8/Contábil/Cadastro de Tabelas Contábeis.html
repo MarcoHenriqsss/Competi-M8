@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Cadastro de Tabelas Contábeis</title>
+
+
+
+    <link rel="stylesheet" href="/templates/estilo.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo-area">
+
+        <img src="/assets/competi.jpg" class="logo">
+
+        <div>
+
+            <div class="empresa">
+
+                COMPETI SISTEMAS
+
+            </div>
+
+            <div class="erp">
+
+                Documentação Oficial do M8 ERP
+
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+<div class="titulo">
+
+Cadastro de Tabelas Contábeis
+
+</div>
+
+<div class="categoria">
+
+Contábil
+
+</div>
+
+<div class="conteudo">
+
+<h2>Cadastro de Tabelas Contábeis</h2>
+<p>A Tabela Contábil é responsável pela integração com a contabilidade dos lançamentos realizados nos demais módulos, os lançamentos de entrada, saída, provisões de impostos, retenções na fonte, entre outras situações.</p>
+<div class="callout callout-info">Configurações &gt; CADASTROS &gt; CADASTROS &gt; Lista Cadastro de Tabelas Contábeis</div>
+<div class="callout callout-info">Contábil &gt; CADASTROS &gt; CADASTROS &gt; Lista Cadastro de Tabelas Contábeis</div>
+<p><img alt="" height="960" src="/Manuais%20M8/_imagens/142/imagem_001.png" width="1905"/></p>
+<p><img alt="" height="902" src="/Manuais%20M8/_imagens/142/imagem_002.png" width="1894"/></p>
+<p><img alt="" height="901" src="/Manuais%20M8/_imagens/142/imagem_003.png" width="1903"/></p>
+<h2>Inclusão de Tabela Contábil</h2>
+<p><img alt="" height="965" src="/Manuais%20M8/_imagens/142/imagem_004.png" width="1917"/></p>
+<p>Para incluir uma nova Tabela Contábil clique na opção<img alt="" src="/Manuais%20M8/_imagens/142/imagem_005.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/> no canto superior esquerdo. Para te auxiliar neste cadastro, criamos esse artigo com a descrição detalhada de todos os campos, segue abaixo:</p>
+<h2>Cabeçalho</h2>
+<p><img alt="" height="910" src="/Manuais%20M8/_imagens/142/imagem_006.png" width="1914"/></p>
+<ul><li><strong>Código: </strong>Preenchido de forma automática pelo Sistema, ao salvar.</li><li><strong>Ativo: </strong>Definirá se a tabela está ativa ou inativa para uso nas rotinas do sistema.</li><li><strong>Nome: </strong>Você poderá informar um nome que facilite a identificação dessa tabela contábil.</li><li><strong>Forma de Totalização: </strong>Poderá escolher a forma de totalização entre:<ul><li><strong>Analítica: </strong>Usada para gravar a informação de forma individual.</li><li><strong>Sintética: </strong>Usada para gravar a informação de forma acumulada. Sugerimos usar sempre a Forma Analítica.<ul><li><strong>Exemplo: </strong>ICMS mensal, várias Notas porém um único pagamento.</li></ul></li></ul></li></ul>
+<p><strong>Exemplo:</strong> ICMS mensal, várias Notas porém um único pagamento.</p>
+<p>Após preencher os campos, clique em<img alt="" src="/Manuais%20M8/_imagens/142/imagem_007.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/>, em seguida serão habilitadas outras abas do lado esquerdo da tela para preenchimento.</p>
+<h2>Contabilização</h2>
+<p><img alt="" height="945" src="/Manuais%20M8/_imagens/142/imagem_008.png" width="1893"/></p>
+<p>Nesta aba serão configuradas as regras da contabilização, com base nelas serão feitas as movimentações. Para cada ramificação da contabilização deverá ser informado um lançamento de Item Tabela Contábil.</p>
+<ul><li><strong>Código: </strong>Preenchido de forma automática pelo Sistema, ao salvar.</li><li><strong>Origem: </strong>Você deverá escolher entre:<ul><li><strong>0 - Manual: </strong>Usado quando a Conta Contábil precisar ser informada de forma Manual.</li><li><strong>1 - Cliente: </strong>Deverá usar quando a origem for a conta Cliente.</li><li><strong>2 - Fornecedor: </strong>Deverá usar quando a origem for a conta Fornecedor.</li><li><strong>3 - Item Documento: </strong>Usado somente em Tabelas Contábeis vinculadas a Notas de Compra, quando usado o Débito Direto. O Sistema fará a busca no lançamento do Item da Nota.<ul><li><strong>Exemplo: </strong>Imobilizado e Uso e Consumo. Onde uma única Tabela Contábil pode ser usado para mais de uma Conta Contábil.</li></ul></li><li><strong>4 - Juros: </strong>Deverá usar quando a origem for a conta Juros.</li><li><strong>5 - Multa: </strong>Deverá usar quando a origem for a conta Multa.</li><li><strong>6 - Desconto: </strong>Deverá usar quando a origem for a conta Desconto.</li><li><strong>7 - Variação Cambial: </strong>Deverá usar quando a origem for a conta Variação Cambial.</li><li><strong>9 - Retenção Pis: </strong>Deverá usar quando a origem for a conta Retenção Pis.</li><li><strong>10 - Retenção Cofins: </strong>Deverá usar quando a origem for a conta Retenção Cofins.</li><li><strong>11 - Retenção IRRF: </strong>Deverá usar quando a origem for a conta Retenção IRRF.</li><li><strong>12 - Retenção CSLL: </strong>Deverá usar quando a origem for a conta Retenção CSLL.</li><li><strong>13 - Retenção ISS: </strong>Deverá usar quando a origem for a conta Retenção ISS.</li><li><strong>14 - Retenção INSS: </strong>Deverá usar quando a origem for a conta Retenção INSS.</li><li><strong>15 - Conta Baixa - Banco: </strong>Selecione essa opção quando a contabilização deverá ser feita na conta contábil em que a baixa for realizada.</li><li><strong>16 - Imobilizado: </strong>Deverá usar quando a origem for a conta Imobilizado.</li><li><strong>17 - Operadora Cartão: </strong>Utilizado nos casos em que é utilizado meio de pagamento para cartão, dessa forma gerando valor de taxa de cartão. Quando o cliente quer que esse valor saia destacado,</li></ul></li></ul>
+<p><strong>Exemplo:</strong> Imobilizado e Uso e Consumo. Onde uma única Tabela Contábil pode ser usado para mais de uma Conta Contábil.</p>
+<ul><li>deve criar essa configuração.</li><li><strong>18 - Cadastro Produto - Grupo Empresa: </strong>Quando configuranda essa origem o Sistema irá fazer a busca da Conta Contábil informada no campo Conta Contábil Receita dentro do Cadastro do Produto na aba Grupo Empresas.</li><li><strong>19 - Cadastro Produto - Grupo SPED Fiscal: </strong>Quando configuranda essa origem o Sistema irá fazer a busca da Conta Contábil informada no campo Conta Contábil Receita dentro do Cadastro do Produto na aba SPED Fiscal.</li><li><strong>20 - Adiantamento Cliente: </strong>Quando configuranda essa origem o Sistema irá fazer a busca da Conta Contábil informada no cadastro de Usuários.</li><li><strong>Natureza: </strong>Deverá informar a Natureza da Conta Contábil: Débito ou Crédito.</li><li><strong>Conta Contábil: </strong>Deverá informar a conta para contabilização. Essa campo será exibido conforme a opção selecionar no campo Origem descrito acima. As opções 1 - Cliente e 2 - Fornecedor, por exemplo, não tem necessidade de informar a conta contábil.</li><li><strong>Histórico: </strong>Deverá informar o histórico a ser usado no lançamento contábil.</li><li><strong>Complemento: </strong>Campo de descrição livre para informações complementares referente a movimentação contábil.</li><li><strong>Informar Centro de Custos: </strong>Se deseja informar o Centro de Custos do lançamento, quando marcado como Sim, será habilitado o campo Modelo Rateio, logo abaixo.</li><li><strong>Modelo Rateio: </strong>Deverá informar o Modelo Rateio, conforme configurado.</li><li><strong>Regra Valor Lançamento: </strong>Deverá informar a Regra de Contabilização. Essa regra será montada através de variáveis, conforme destacado abaixo.<ul><li><strong>Exemplo: </strong>ValorTotalItem - ValorDescontoRateioItem + ValorFreteRateioItem + ValorIpiItem + ValorIcmsStItem</li></ul></li></ul>
+<div class="callout callout-info">O Sistema, possuí algumas teclas de atalho: "i" para campos do itens do documento, "d" para campos do documento, "r" para campos da retenção, "a" para campos da apuração, "m" para campos do imobilizado, "p" para campos do PCP, "o" para operadores</div>
+<h2>Histórico</h2>
+<p><img alt="" height="968" src="/Manuais%20M8/_imagens/142/imagem_009.png" width="1917"/></p>
+<p>Apresenta todas as movimentações contábeis feitas por essa tabela.</p>
+<h2>Operações Fiscais</h2>
+<p><img alt="" height="931" src="/Manuais%20M8/_imagens/142/imagem_010.png" width="1908"/></p>
+<p>Apresenta uma lista das Operações Fiscais que tem essa Tabela Contábil vinculada.</p>
+<h2>Ações</h2>
+<p><img alt="" height="949" src="/Manuais%20M8/_imagens/142/imagem_011.png" width="1910"/></p>
+<ul><li><strong>Duplicar Tabela Contábil: </strong>Usado para duplicar a tabela contábil.</li><li><strong>Replicar Empresa: </strong>Ao clicar, será aberto um modal para selecionar a empresa que deseja replicar. Gerando então um novo cadastro nessa empresa, com as mesmas configurações.</li><li><strong>Testar Regra: </strong>Ao clicar, será validado o conteúdo informado no campo de regra <strong>Valor</strong> <strong>Lançamento, </strong>validando se há algo a ser ajustado ou não.</li></ul>
+<h2>Edição de Tabela Contábil</h2>
+<p>Ao acessar a tela, você conseguirá listar todas as Tabelas Contábeis ou filtrá-las segundo os filtros disponíveis na tela, para editá-las clique no botão Editar<img alt="" src="/Manuais%20M8/_imagens/142/imagem_012.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/>. Vale ressaltar que após utilizada essa tabela contábil em alguma rotina, ao editar os lançamentos da aba Contabilização, os lançamentos anteriores não serão afetados, apenas os feitos desse momento em diante.</p>
+<div class="callout callout-info">Atenção, NOME!!! Você está realizando alterações nas tabelas de contabilização do sistema. Essa alteração será válida para os lançamentos novos a partir dessa alteração. O Sistema não altera dados já processados anteriormente. Você realmente confirma a alteração????</div>
+<h2>Exclusão de Tabela Contábil</h2>
+<p>Você também conseguirá fazer a exclusão de uma Tabela Contábil, clicado em Excluir<img alt="" src="/Manuais%20M8/_imagens/142/imagem_013.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/>. Ao excluir a Tabela Contábil, você não conseguirá recuperá-la e também não poderá utilizá-la em nenhuma rotina do sistema.</p>
+<blockquote>Gostou de aprender um pouco sobre Cadastro de Tabelas Contábeis no M8? Caso restem dúvidas entre em contato com nossa equipe de Suporte.</blockquote>
+
+</div>
+
+<footer>
+
+Documento gerado automaticamente pelo Exportador M8
+
+</footer>
+
+</body>
+
+</html>

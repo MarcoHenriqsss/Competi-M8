@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Parametrização do Código de Benefício Fiscal - CBenef</title>
+
+
+
+    <link rel="stylesheet" href="/templates/estilo.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo-area">
+
+        <img src="/assets/competi.jpg" class="logo">
+
+        <div>
+
+            <div class="empresa">
+
+                COMPETI SISTEMAS
+
+            </div>
+
+            <div class="erp">
+
+                Documentação Oficial do M8 ERP
+
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+<div class="titulo">
+
+Parametrização do Código de Benefício Fiscal - CBenef
+
+</div>
+
+<div class="categoria">
+
+Configurações
+
+</div>
+
+<div class="conteudo">
+
+<h2>Parametrização do Código de Benefício Fiscal - CBenef</h2>
+<p>O preenchimento do Código de Benefício Fiscal tornou-se obrigatório a partir de 01/11/2023 para Notas Fiscais Eletrônicas (NF-e), modelo 55, e Notas Fiscais de Consumidor Eletrônica (NFC-e), modelo 65, quando aplicáveis incentivos fiscais, não incidência de tributação, diferimento ou suspensão de exigibilidade de impostos. No M8 esse código pode ser parametrizado em alguns cadastros específicos, dessa forma sendo trazido as Notas Fiscais automaticamente. Vale ressaltar que a ordem de busca do Código de Benefício Fiscal incia pelo Cadastro de Tributações, em seguida Cadastro de Operação Fiscal e por fim Cadastro de NCM.</p>
+<h2>Cadastro de Tributações</h2>
+<div class="callout callout-info">Fiscal &gt; CADASTROS &gt; CADASTROS &gt; Lista Cadastro de Tributações</div>
+<p><img alt="" height="915" src="/Manuais%20M8/_imagens/173/imagem_001.png" width="1915"/></p>
+<p>No Cadastro de Tributações, você poderá incluir o Código de Benefício Fiscal que sua empresa utiliza no campo "Cód. Benefício Fiscal". Importante ressaltar que ao marcar a opção "Buscar cBenef NCM", o sistema trará para a Nota Fiscal o código informado no Cadastro de NCM vinculado ao produto informado no lançamento. Isso é geralmente utilizado quando a empresa possui mais de um Código de Benefício Fiscal, sendo um deles para uma NCM específica. Dessa forma, você poderá parametrizar suas Grades Tributárias e utilizar o código informado no NCM nos casos específicos mencionados.</p>
+<h2>Cadastro de Operação Fiscal</h2>
+<div class="callout callout-info">Fiscal &gt; CADASTROS &gt; CADASTROS &gt; Lista Cadastro de Operações Fiscais</div>
+<p><img alt="" height="918" src="/Manuais%20M8/_imagens/173/imagem_002.png" width="1918"/></p>
+<p>No cabeçalho do Cadastro de Operação Fiscal de Saída é disponibilizado o campo Cód. Benefício Fiscal onde poderá ser preenchido o código referente ao benefício que sua empresa possui. Lembrando que este campo somente será exibido em tela quando o campo 'Operação' estiver preenchido com a opção Saída.</p>
+<h2>Cadastro de NCM</h2>
+<div class="callout callout-info">Estoque &gt; CADASTROS &gt; CADASTROS &gt; Lista Cadastro de Ncm/Ibpt</div>
+<p><img alt="" height="917" src="/Manuais%20M8/_imagens/173/imagem_003.png" width="1918"/></p>
+<p>Por fim, no Cadastro de NCM no campo "Cód. Benefício Fiscal" poderá ser informando o código do benefício da sua empresa.</p>
+<h2>Nota Fiscal</h2>
+<p><img alt="" height="921" src="/Manuais%20M8/_imagens/173/imagem_004.png" width="1916"/></p>
+<p>As parametrizações descritas acima serão aplicadas ao campo de mesmo nome no lançamento dos produtos nas Notas Fiscais, o mesmo poderá ser alterado caso necessário antes do faturamento do Documento Fiscal, a informação contida no campo será enviada para tag cBenef no XML do documento.</p>
+<blockquote>Gostou de aprender sobre Parametrização do Código de Benefício Fiscal no M8? Caso restem dúvidas entre em contato com nossa equipe de Suporte.</blockquote>
+
+</div>
+
+<footer>
+
+Documento gerado automaticamente pelo Exportador M8
+
+</footer>
+
+</body>
+
+</html>

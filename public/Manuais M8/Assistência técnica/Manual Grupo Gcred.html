@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Manual Grupo Gcred</title>
+
+
+
+    <link rel="stylesheet" href="/templates/estilo.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo-area">
+
+        <img src="/assets/competi.jpg" class="logo">
+
+        <div>
+
+            <div class="empresa">
+
+                COMPETI SISTEMAS
+
+            </div>
+
+            <div class="erp">
+
+                Documentação Oficial do M8 ERP
+
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+<div class="titulo">
+
+Manual Grupo Gcred
+
+</div>
+
+<div class="categoria">
+
+Assistência técnica
+
+</div>
+
+<div class="conteudo">
+
+<h2>Manual Gcred</h2>
+<p>Novo Grupo Gcred incluído pelo: Alteração na NFE nota técnica NT 2019.001 V1.62 Embasamento Legal: Incluído pelo Ato Diat 035 2024 Inicio de Vigência em SC 01/10/2024</p>
+<p>Essa alteração traz a Inclusão de um novo grupo de Tributação: gCred (Grupo de informações sobre o Crédito Presumido) dentro do Grupo I. Produtos e Serviços da NF-e Nesse novo Grupo foi criado alguns campos novos na NFE. 104.07 - I05g - gCred - Grupo de informações sobre o Crédito Presumido - Grupo opcional para informações do Crédito Presumido.<br/>104.08 - I05h - cCredPresumido Código de Benefício Fiscal de Crédito Presumido na UF aplicado ao item - Código de Benefício Fiscal de Crédito Presumido utilizado pela UF, aplicado ao item. Obs.: Deve ser utilizado o mesmo código adotado na EFD e outras declarações, nas UF que o exigem. 104.09 - I05i - pCredPresumido Percentual do Crédito Presumido - Informar o percentual do crédito presumido relativo ao código do crédito presumido informado.<br/>104.10 - I05j - vCredPresumido Valor do Crédito Presumido - Informar o valor do crédito presumido relativo ao código do crédito presumido informado.<br/>Essa alteração também traz a Inclusão de um novo Campo dentro do Grupo N07. Grupo Tributação do ICMS= 51 209.01 - N14a - cBenefRBC Código de Benefício Fiscal na UF aplicado ao item quando houver RBC. - Código de Benefício Fiscal utilizado pela UF, aplicado ao item quando houver RBC. Obs.: Deve ser utilizado o mesmo código adotado na EFD e outras declarações, nas UF que o exigem. (Incluído na NT 2019.001)</p>
+<h3>Como configurar: Configuração 1</h3>
+<p>No Caminho:<br/>- Fiscal &gt; CADASTROS &gt; CADASTROS &gt; Lista Cadastro de Operações Fiscais - Na Aba Outras Obrig. Tribut. TTD<br/>Deverá o Cliente configurar Essa Aba para enviar as informações do Crédito Presumido. Para Informar o Grupo Gcred da NFE, deve ser marcado com Sim, a Flag “Crédito Presumido ICMS”; as informações cadastradas, além de ir para a NFe vai também para Registro C197 do SPED Fiscal. Se atentar as Regras do SPED (caso necessário</p>
+<p><img alt="" height="643" src="/Manuais%20M8/_imagens/110/imagem_001.png" width="1025"/></p>
+<p>Observação: O registro C197 para o SPED, para outras Obrigações, deve ser configurado conforme as regras fiscais do seu Benefício (Exemplo acima é de um TTD com crédito Presumido). Definição: REGISTRO C197: OUTRAS OBRIGAÇÕES TRIBUTÁRIAS, AJUSTES E INFORMAÇÕES DE VALORES PROVENIENTES DE DOCUMENTO FISCAL. Este registro tem por objetivo detalhar outras obrigações tributárias, ajustes e informações de valores do documento fiscal do registro C195, que podem ou não alterar o cálculo do valor do imposto.</p>
+<h2>Configuração 2</h2>
+<p>No Caminho:<br/>- Fiscal &gt; CADASTROS &gt; CADASTROS &gt; Lista Cadastro de Operações Fiscais - Na Aba Outras Obrig. Tribut. TTD<br/>Deverá configurar as Seguintes Regras:<br/>- Regra de Base de Cálculo,<br/>- Regra de alíquota<br/>- Regra de Valor</p>
+<p>As Informações Resultante deste cálculo vão ser transmitidas para a NFE no Novo Gruop Gcred nos respectivos campos (104.07 - I05g - gCred, 104.09 - I05i - pCredPresumido Percentual do Crédito Presumido, 104.10 - I05j - vCredPresumido Valor do Crédito Presumido)<br/>**Atenção somente vai ir às informações da Configuração 2, se efetuada a configuração 1) Exemplos de cálculo para as regras. (as informações abaixo, é um exemplo para atender o processo de um cliente, verificar o que atende a sua empresa, não é uma regra Geral)</p>
+<p>Exemplo Regra de Base de Cálculo:</p>
+<p><img alt="" height="524" src="/Manuais%20M8/_imagens/110/imagem_002.png" width="1198"/></p>
+<p>Exemplo Regra de Valor:</p>
+<p><img alt="" height="527" src="/Manuais%20M8/_imagens/110/imagem_003.png" width="1048"/></p>
+<p>Exemplo Regra de alíquota 1: Alíquota fixa quando a mesma não altera.</p>
+<p><img alt="" height="500" src="/Manuais%20M8/_imagens/110/imagem_004.png" width="1005"/></p>
+<p>Exemplo Regra de alíquota 2: Alíquota variável quando a mesma altera, conforme cliente e estado, ai se usa as tabelas Tributárias e regras no Imposto:</p>
+<p><img alt="" height="636" src="/Manuais%20M8/_imagens/110/imagem_005.png" width="1279"/></p>
+<p>Configuração na Grade Tributária:<br/>Caminho: Fiscal &gt; CADASTROS &gt; CADASTROS &gt; Lista Cadastro de Tributações Preencher a % no campo - % Icms TTD</p>
+<p><img alt="" height="817" src="/Manuais%20M8/_imagens/110/imagem_006.png" width="1059"/></p>
+<p>Para o Valor da alíquota ficar vinculada no item, também deverá criar uma regra de imposto e vincular dentro da operação Fiscal:</p>
+<p><img alt="" height="692" src="/Manuais%20M8/_imagens/110/imagem_007.png" width="1335"/></p>
+<p>Exemplo de Configuração do Imposto ICMS TTD:</p>
+<p><img alt="" height="796" src="/Manuais%20M8/_imagens/110/imagem_008.png" width="955"/></p>
+<h2>Configuração 3</h2>
+<p>Para configurar os campos:<br/>- 104.08 - I05h - cCredPresumido Código de Benefício Fiscal de Crédito Presumido - 209.01 - N14a - cBenefRBC Código de Benefício Fiscal na UF aplicado ao item quando houver RBC. Uma vez que efetuada a configuração 1 citada acima, o Sistema irá buscar os campos configurado em um desses 3 lugares: (em caso de necessidade de preenchimento) Na ordem apresentada:</p>
+<p>1 - Grade tributária:</p>
+<p><img alt="" height="738" src="/Manuais%20M8/_imagens/110/imagem_009.png" width="850"/></p>
+<p>2 - NCM: Quando marcado na Grade Tributária para Buscar no Do NCM</p>
+<p><img alt="" height="744" src="/Manuais%20M8/_imagens/110/imagem_010.png" width="746"/></p>
+<p>Configurar nos NCM: Estoque &gt; CADASTROS &gt; CADASTROS &gt; Lista Cadastro de Ncm/Ibpt</p>
+<p><img alt="" height="661" src="/Manuais%20M8/_imagens/110/imagem_011.png" width="960"/></p>
+<p>3 - Operação Fiscal</p>
+<p><img alt="" height="539" src="/Manuais%20M8/_imagens/110/imagem_012.png" width="949"/></p>
+<blockquote>Gostou de conhecer um pouco sobre o Manual Grupo Gcred no M8? Caso ainda restem dúvidas entre em contato com nossa equipe de Suporte</blockquote>
+
+</div>
+
+<footer>
+
+Documento gerado automaticamente pelo Exportador M8
+
+</footer>
+
+</body>
+
+</html>

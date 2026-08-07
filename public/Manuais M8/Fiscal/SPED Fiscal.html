@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>SPED Fiscal</title>
+
+
+
+    <link rel="stylesheet" href="/templates/estilo.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo-area">
+
+        <img src="/assets/competi.jpg" class="logo">
+
+        <div>
+
+            <div class="empresa">
+
+                COMPETI SISTEMAS
+
+            </div>
+
+            <div class="erp">
+
+                Documentação Oficial do M8 ERP
+
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+<div class="titulo">
+
+SPED Fiscal
+
+</div>
+
+<div class="categoria">
+
+Fiscal
+
+</div>
+
+<div class="conteudo">
+
+<h2>SPED Fiscal</h2>
+<p>O SPED Fiscal é transmitido mensalmente, contudo, determinados registros devem ser informados apenas em condições específicas. A seguir, apresenta-se o descritivo de cada registro, com indicação de sua obrigatoriedade conforme o caso.</p>
+<div class="callout callout-info">Fiscal &gt; ARQUIVOS &gt; ARQUIVOS &gt; SPED Fiscal</div>
+<h2>Parâmetros de Geração do Arquivo SPED Fiscal</h2>
+<ul><li><strong>Estabelecimento: </strong>Preenchido automaticamente pelo sistema com o estabelecimento logado.</li><li><strong>Data Inicial: </strong>Define o início do período de apuração a ser considerado na geração do arquivo SPED. O período informado deverá estar dentro do mesmo mês.</li><li><strong>Data Final: </strong>Define o fim do período de apuração a ser considerado na geração do arquivo SPED. O período informado deverá estar dentro do mesmo mês.</li><li><strong>Perfil: </strong>Selecione o perfil do estabelecimento de acordo com a obrigatoriedade fiscal. Os perfis possíveis são:<ul><li>Perfil A – Para empresas de grande porte, com exigência de escrituração detalhada.</li><li>Perfil B – Para empresas de médio porte, com exigência intermediária.</li><li>Perfil C – Para empresas de pequeno porte, com exigência reduzida.</li></ul></li><li><strong>Tipo de Declaração: </strong>Indica se o arquivo gerado será:</li></ul>
+<ul><li>Normal/Original – Primeira entrega do período.</li><li>Retificado/Substituto – Arquivo que substitui uma entrega anterior.</li></ul>
+<h2>Opções Adicionais de Geração</h2>
+<ul><li><strong>Gerar C140: </strong>Habilita a geração do registro C140 (informações complementares do documento fiscal).</li><li><strong>Gerar C170 – Emissão Própria: </strong>Inclui os registros C170 (itens do documento fiscal) das notas fiscais emitidas pelo próprio estabelecimento.</li><li><strong>Gerar C170 – Extensão CFOP: </strong>Ao marcar esta opção, será adicionada a extensão do CFOP no campo Cod_Nat do registro C170.</li><li><strong>Gerar C170/C190 – Notas Canceladas: </strong>Quando habilitado, o sistema irá gerar os registros C170 e C190 com valores zerados para notas fiscais canceladas.</li><li><strong>Exportar Código do Participante – Nota Cancelada: </strong>Habilita a geração do código do participante (campo 04 do registro C100) também para notas fiscais canceladas.</li><li><strong>Gerar C172: </strong>Inclui o registro C172 (informações de combustível), utilizado para documentos fiscais com produtos sujeitos à tributação de combustíveis.</li><li><strong>Gerar Inventário: </strong>Inclui o bloco H (inventário físico) na geração do arquivo SPED.</li><li><strong>Registro 0200 – Alíquota de ICMS: </strong>Quando esta opção está habilitada, será gerado o campo [12 - Aliq. ICMS] no registro 0200 com a alíquota interna conforme o estado do estabelecimento. A informação é obtida na tela: Fiscal &gt; Cadastro &gt; Lista de Cadastro de Alíquotas Estaduais. Observação: Esta funcionalidade é válida exclusivamente para estabelecimentos situados no estado do Rio Grande do Sul (RS).</li></ul>
+<p>Após preencher todas as informações necessárias e selecionar os registros, para gerar o arquivo SPED basta apertar no<img alt="" src="/Manuais%20M8/_imagens/273/imagem_001.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/>.</p>
+<div class="callout callout-info">Gostou de aprender um pouco sobre Sped Fiscal no M8? Caso restem dúvidas entre em contato com nossa equipe de suporte.</div>
+
+</div>
+
+<footer>
+
+Documento gerado automaticamente pelo Exportador M8
+
+</footer>
+
+</body>
+
+</html>

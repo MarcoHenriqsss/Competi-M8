@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Licença e Como utilizar o App ERP M8 - Força de Vendas</title>
+
+
+
+    <link rel="stylesheet" href="/templates/estilo.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo-area">
+
+        <img src="/assets/competi.jpg" class="logo">
+
+        <div>
+
+            <div class="empresa">
+
+                COMPETI SISTEMAS
+
+            </div>
+
+            <div class="erp">
+
+                Documentação Oficial do M8 ERP
+
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+<div class="titulo">
+
+Licença e Como utilizar o App ERP M8 - Força de Vendas
+
+</div>
+
+<div class="categoria">
+
+Demais Módulos
+
+</div>
+
+<div class="conteudo">
+
+<h2>Licença do App ERP M8 - Força de Vendas</h2>
+<p>O aplicativo de Pedidos, o Força de Vendas é exclusivo para clientes do ERP M8 Cloud, para ter acesso será necessário adquirir licença Mobile. No artigo sobre <a href="https://sac.m8sistemas.com/portal/pt-br/kb/articles/configura%C3%A7%C3%A3oappfor%C3%A7avenda">Configurações Iniciais</a> aprendemos sobre como deixar o ERP M8 pronto para o usuário fazer o login no Mobile. Quando o vendedor efetuar o login no aplicativo, e selecionar uma empresa habilitada, o sistema irá gravar uma tentativa de login para o dispositivo (android/ios) do vendedor.</p>
+<h2>Como utilizar o app?</h2>
+<h3>O Início: </h3>
+<p>No primeiro acesso ao aplicativo, você precisará fazer um login com um usuário-vendedor da base desejada. Para isso, é preciso preencher o campo</p>
+<ul><li><strong>Nome do Tenant: </strong>Deverá Informar o nome da sua base, na imagem foi informado o nome da base de treinamento da M8 sistemas como exemplo.</li></ul>
+<p>Após preencher os campos você deverá clicar em continuar para acessar a tela de login.</p>
+<p><img alt="" height="603" src="/Manuais%20M8/_imagens/354/imagem_001.png" width="271"/></p>
+<p>Nessa tela você deverá informar o login e senha do usuário liberado no Mobile, lembrando que são os mesmos dados que o usuário utiliza para acessar o Sistema ERP.</p>
+<ul><li><strong>Login: </strong>Deverá informar o login de acesso ao APP.</li><li><strong>Senha: </strong>Deverá inserir a senha para concluir a autenticação do acesso.</li></ul>
+<p><img alt="" height="598" src="/Manuais%20M8/_imagens/354/imagem_002.png" width="270"/></p>
+<p>Após clicar em entrar o usuário deverá selecionar o Estabelecimento que deseja lançar os pedidos.</p>
+<p><img alt="" height="871" src="/Manuais%20M8/_imagens/354/imagem_003.png" width="434"/></p>
+<p>Com o estabelecimento selecionado, será verificado se a licença para o dispositivo do vendedor está liberada, então, o sistema passará para a criação de sua base de dados, na tela de sincronização. Nesse momento, todas as tabelas serão criadas localmente e seus respectivos dados serão carregados:</p>
+<ul><li>Os produtos carregados serão apenas os que possuem o Grupo Estoque com a flag “Integração Mobile” ativa dentro do M8.</li><li>O saldo estoque será referente aos produtos configurados. (O saldo estoque zerado não limita a venda, será apenas para que o vendedor tenha uma noção do estoque).</li><li>As tabelas de preço dos estados, para qual o vendedor está habilitado a vender, serão carregadas.</li><li>Os pedidos carregados serão apenas os lançados pelo usuário-funcionário respectivo, sendo assim não serão exibidos pedidos de outros vendedores, para o estabelecimento selecionado.</li><li>As condições de pagamento e meios de pagamento carregados serão os que possuem a flag “Integração Mobile” ativa dentro do M8.</li><li>Apenas os clientes e seus respectivos contatos e endereços vinculados ao vendedor serão carregados.</li></ul>
+<p><img alt="" height="603" src="/Manuais%20M8/_imagens/354/imagem_004.png" width="268"/></p>
+<p>Após isso, o usuário-vendedor prosseguirá para a home.</p>
+<h2>Home</h2>
+<p>Nessa tela haverá alguns atalhos para as funcionalidades do sistema:</p>
+<p><img alt="" height="741" src="/Manuais%20M8/_imagens/354/imagem_005.png" width="332"/></p>
+<ul><li><strong>Sincronização:<img alt="" src="/Manuais%20M8/_imagens/354/imagem_006.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/> </strong>No topo da tela, canto direito, antes do botão de usuário, há um botão de “sincronização”. Essa funcionalidade levará para a mesma tela de sincronização mostrada anteriormente, onde sua base de dados será verificada novamente e, além disso, seus pedidos “Pendentes” serão enviados ao sistema M8, além das tarefas, novos clientes e novos endereços. Os dados atualizados na plataforma serão sincronizados novamente (O sistema buscará os dados pela última data de atualização do item no aplicativo).</li><li><strong>Pesquisar Pedidos/ Orçamentos:<img alt="" src="/Manuais%20M8/_imagens/354/imagem_007.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/> </strong>Essa tela permite a pesquisa de pedidos e orçamentos feitos pelo usuário. Para pesquisar, selecione o tipo de busca “Orçamento” ou “Pedido”, e digite o código id ou nome do cliente. Também poderá pesquisar todos, sem filtro, clicando apenas na lupa.</li><li><strong>Usuário:<img alt="" src="/Manuais%20M8/_imagens/354/imagem_008.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/> </strong>Também no canto superior direito da tela, há um botão de “usuário”, clicando nele o usuário- vendedor tem a possibilidade de alterar de estabelecimento ou sair do aplicativo para logar em outra conta.</li><li><strong>Meus Pedidos: </strong>Todos os pedidos que o usuário-vendedor realizar, dessa empresa e grupo empresa, serão carregados e mostrados nessa aba. Há a possibilidade de filtrar por status ou pesquisar pedidos via nome do cliente, cpf/cnpj ou código M8. Os pedidos que não foram enviados ainda aparecerão no início da lista e</li></ul>
+<ul><li>sem código M8. Os status “Em Aberto” e “Pendente Envio”, dentro do app, referem-se única e exclusivamente para pedidos não sincronizados com o M8. A partir do decorrer desse pedido na plataforma, e com os status alterados lá, o retorno para o app ficará marcado com os mesmos status do M8. Também há a funcionalidade de compartilhamento do resumo do pedido via whatsapp clicando no ícone de compartilhamento do pedido.</li></ul>
+<p><img alt="" height="737" src="/Manuais%20M8/_imagens/354/imagem_009.png" width="329"/></p>
+<ul><li><strong>Novo Orçamento: </strong>O app permite a emissão de orçamento através do pedido. Segue exatamente o mesmo fluxo do pedido, e quando integrado com o M8 salva o orçamento em “Faturamento” → Movimento → Orçamento → Emissão de Orçamento. Também integra no app todos os orçamentos já feitos pelo vendedor anteriormente na plataforma M8.</li><li><strong>Novo Cliente: </strong>Essa opção levará diretamente para o cadastro de clientes. O vendedor deverá cadastrar todas as informações necessárias para o cadastro de um cliente na plataforma. Caso esteja online, o sistema puxa as informações automaticamente para uma pessoa jurídica. Uma pessoa física só poderá ser cadastrada caso o cpf seja válido. Ademais, caso esteja online, o sistema trará as informações de um endereço</li></ul>
+<ul><li>automaticamente pelo CEP. O sistema também valida dentro do M8 se o Estado, Cidade, e o Bairro existem.</li></ul>
+<h3>Menu inferior</h3>
+<p>No menu inferior há alguns atalhos para as principais telas:</p>
+<ul><li><strong>Vendas: </strong>É a tela principal, “Home”</li><li><strong>Pedido: </strong>É a tela de cadastro de um novo pedido.</li><li><strong>Clientes: </strong>É a tela de listagem dos clientes.</li><li><strong>Estoque: </strong>É uma listagem de todos os produtos por local estoque carregados no sistema.</li><li><strong>Mais Opções: </strong>Nessa opção será possível ver uma listagem de clientes inadimplentes e as tarefas que o vendedor cadastrou/é participante.</li></ul>
+<h3>Telas adicionais</h3>
+<ul><li><strong>Informações do Produto: </strong>Ao acessar o estoque, o vendedor pode clicar no produto para visualizar o resumo do mesmo. Essa tela trará informações como o depósito, quantidade em estoque, valor de venda, imagem (caso exista), poderá clicar em + Detalhes para visualizar maiores detalhes do Produto, conforme a imagem:</li></ul>
+<p><img alt="" height="730" src="/Manuais%20M8/_imagens/354/imagem_010.png" width="329"/></p>
+<p><img alt="" height="734" src="/Manuais%20M8/_imagens/354/imagem_011.png" width="328"/></p>
+<p><img alt="" height="735" src="/Manuais%20M8/_imagens/354/imagem_012.png" width="331"/></p>
+<ul><li><strong>Cliente: </strong>Ao acessar a listagem de clientes e selecionar, ou cadastrar um novo, o vendedor será direcionado a uma página com informações do mesmo. Há um atalho para a criação de um pedido. Ademais, é possível observar os dados do cliente, endereços, contatos, pedidos realizados para o mesmo (caso tenha sido feito pelo vendedor), Orçamentos. Também é possível cadastrar um novo endereço a partir da aba endereços no resumo do cliente.</li></ul>
+<p><img alt="" height="876" src="/Manuais%20M8/_imagens/354/imagem_013.png" width="437"/></p>
+<ul><li><strong>Resumo Pedido: </strong>Ao clicar em um pedido, será possível observar todas as informações cadastradas para um pedido, como os itens vinculados ao mesmo. Caso o pedido esteja com status “em aberto” ou “pendente”, significa que o mesmo não foi enviado à plataforma M8, portanto ainda é possível alterá-lo.</li></ul>
+<p><img alt="" height="871" src="/Manuais%20M8/_imagens/354/imagem_014.png" width="433"/></p>
+<ul><li><strong>Detalhes da inadimplência: </strong>Quando entrar na tela de listagem de clientes inadimplentes em “mais opções”, será possível ver um resumo de cada inadimplência do cliente clicando em “+ ver mais”.</li></ul>
+<p><img alt="" height="872" src="/Manuais%20M8/_imagens/354/imagem_015.png" width="434"/></p>
+<ul><li><strong>Resumo da Tarefa: </strong>Quando entrar na listagem de tarefas em “mais opções”, será possível ver um resumo de cada tarefa a qual o vendedor é participante/responsável ou criador clicando em cima da tarefa.</li></ul>
+<p><img alt="" height="873" src="/Manuais%20M8/_imagens/354/imagem_016.png" width="433"/></p>
+<ul><li><strong>Nova Tarefa (caso tenha acesso): </strong>Para ter acesso a funcionalidade, o administrador deve configurar no M8 um grupo de acesso ao vendedor com a opção “Lista Cadastro de Tarefas” do módulo “Projetos|Crm” com controle total. Em “Configurações” → “Cadastros” → “Lista Cadastro de Grupos de Acesso” → “Funcionalidades”. Este botão levará o usuário diretamente à tela de criação de uma nova tarefa. O Vendedor poderá cadastrar uma nova tarefa e selecionar o responsável e participantes, da mesma maneira que no M8. As tarefas irão aparecer no M8 no módulo projetos → “Movimento” → “Analises” e “Analise de Tarefas”.</li></ul>
+<h3>Novo Pedido</h3>
+<p>O botão de um novo pedido levará o usuário diretamente para a tela de cadastro de pedidos:</p>
+<p><img alt="" height="871" src="/Manuais%20M8/_imagens/354/imagem_017.png" width="435"/></p>
+<h3>A Tela de Pedido</h3>
+<p>Para gerar um novo pedido será preciso preencher os campos:</p>
+<ul><li><strong>Cliente: </strong>Ao selecionar essa opção, o usuário-vendedor poderá selecionar/pesquisar um cliente existente, ou cadastrar um novo. (Caso seja cadastrado um novo cadastro de cliente, e ele já exista no sistema, os dados registrados no mobile serão atualizados no cliente M8, esse novo cliente será registrado no M8 através da sincronização)</li><li><strong>Forma de Pagamento: </strong>Será necessário selecionar uma forma de pagamento para a venda do pedido.</li><li><strong>Produtos/Serviços: </strong>O vendedor poderá selecionar/pesquisar um produto ou serviço carregado, podendo selecionar a quantidade de itens que será vendida. Também é possível aplicar um desconto em cada item, editando o valor do mesmo.</li><li><strong>Descontos: </strong>Essa opção não é obrigatória, mas de acordo com sua alçada, o vendedor poderá aplicar um desconto geral no pedido. Também é possível aplicar o desconto em cada item (quando habilitado) do pedido, a validação é feita pelas opções de percentual de “desconto máximo” aplicados no grupo estoque do</li></ul>
+<ul><li>produto ou no próprio produto. Caso seja escolhido aplicar o desconto geral, não será possível aplicar por item e vice-versa.</li></ul>
+<p><img alt="" height="868" src="/Manuais%20M8/_imagens/354/imagem_018.png" width="432"/></p>
+<h2>Tela de produto</h2>
+<p>Nessa tela o usuário poderá inserir a tabela de preço clicando<img alt="" src="/Manuais%20M8/_imagens/354/imagem_019.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/> e poderá alterar a unidade padrão do produto. O produto que tiver “Unidade de Conversão” para venda configurado, só poderá ser adicionado ao carrinho depois que vendedor escolher uma das unidades disponíveis. Para produtos que possuem tabela de preço, o fluxo deve ser: Selecionar tabela de preço &gt; Selecionar Unidade de Conversão. Após a seleção da unidade de conversão, será possível alterar quantidade e valores. Nessa tela terá a opção de excluir o produto<img alt="" src="/Manuais%20M8/_imagens/354/imagem_020.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/>. Nessa tela também terá a opção de alterar o valor.<img alt="" src="/Manuais%20M8/_imagens/354/imagem_021.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/></p>
+<p><img alt="" height="735" src="/Manuais%20M8/_imagens/354/imagem_022.png" width="322"/></p>
+<p>Após preencher todos os campos da tela de Produtos, deverá clicar em 'Adicionar produtos' para voltar a tela do pedido.<br/>Poderá visualizar os Detalhes do Pedido e preencher os demais campos:</p>
+<ul><li><strong>Data (DD/MM/AAAA): </strong>Esse campo será preenchido automaticamente com a data atual.</li><li><strong>Entrega: </strong>O campo será preenchido automaticamente conforme o endereço do cadastro do Cliente, mas poderá informar outro caso necessário. Poderá escolher também o tipo de Frete.</li><li><strong>Informações Adicionais: </strong>Campo de texto onde o usuário poderá inserir uma observação referente ao pedido.</li><li><strong>Resumo do Pedido: </strong>Ao clicar na barra com os valores no final da tela, será aberto uma tela com o resumo do pedido.</li></ul>
+<p><img alt="" height="870" src="/Manuais%20M8/_imagens/354/imagem_023.png" width="435"/></p>
+<p>Ao Salvar o usuario/vendedor terá a opção de Fechar ou Enviar o pedido para o Sistema.</p>
+<ul><li><strong>Fechar: </strong>O Pedido ficará com status 'Pendente de envio' e poderá ser enviado em outro momento, geralmente é salvo quando o APP esta sendo operado Off-line.</li><li><strong>Enviar para o Sistema: </strong>Ao selecionar essa opção o usuário/vendedor deverá estar On-line para o Pedido ser Sincronizado para o Sistema no mesmo momento, caso o usuário estiver Off-line o Pedido será sincronizado quando acesar o APP e estiver Online.</li></ul>
+<p><img alt="" height="870" src="/Manuais%20M8/_imagens/354/imagem_024.png" width="436"/></p>
+<h2>Regras do Aplicativo</h2>
+<ul><li>Não é possível utilizar o app caso a licença não seja liberada.</li><li>Um usuário não vinculado à um funcionário não poderá utilizar as funcionalidades do app.</li><li>Caso o usuário não pertença a nenhum estabelecimento, não poderá utilizar o app.</li><li>Após a primeira sincronização, só serão carregados itens atualizados da plataforma (Ex: a busca de pedidos será filtrado pela ultima Data Atualização dentre os pedidos já salvos no app).</li><li>Ao alterar a base no login, os dados predecessores (de outra base previamente utilizada) serão apagados do dispositivo para que não haja conflito entre dados de usuários.</li><li>Um novo cliente só será cadastrado no M8 caso um pedido seja designado a ele.</li><li>Novos endereços serão cadastrados normalmente.</li><li>Um novo cliente será cadastrado no M8 como “bloqueado”, sendo necessário uma revisão do cadastro por parte do responsável.</li></ul>
+<h3>Informações Adicionais</h3>
+<p>O app funciona com base em licenças por usuário. Quando um usuário faz o login, é verificado se há uma licença cadastrada para o mesmo, caso não haja, é registrado a tentativa de login. Para a licença ser liberada, o cliente deve contatar a M8 e indicar qual vendedor/dispositivo deseja o acesso, dentro do limite de licenças contratadas.</p>
+<div class="callout callout-info">Gostou de conhecer um sobre Licença e Como utilizar o App ERP M8 Força de Vendas no M8? Caso ainda restem dúvidas entre em contato com nossa equipe de Suporte.</div>
+
+</div>
+
+<footer>
+
+Documento gerado automaticamente pelo Exportador M8
+
+</footer>
+
+</body>
+
+</html>

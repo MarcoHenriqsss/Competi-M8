@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Lista Cadastro de Meio de Pagamento</title>
+
+
+
+    <link rel="stylesheet" href="/templates/estilo.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo-area">
+
+        <img src="/assets/competi.jpg" class="logo">
+
+        <div>
+
+            <div class="empresa">
+
+                COMPETI SISTEMAS
+
+            </div>
+
+            <div class="erp">
+
+                Documentação Oficial do M8 ERP
+
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+<div class="titulo">
+
+Lista Cadastro de Meio de Pagamento
+
+</div>
+
+<div class="categoria">
+
+Financeiro
+
+</div>
+
+<div class="conteudo">
+
+<h2>Lista Cadastro de Meio de Pagamento</h2>
+<p>O Cadastro de Meio de Pagamento contém informações importantes para vincular em Condição de Pagamento. Para criar novos Meios de Pagamentos, siga os passos a baixo:</p>
+<div class="callout callout-info"><strong>Caminho de Acesso:</strong>  Financeiro &gt; CADASTROS &gt; CADASTROS &gt; Lista Cadastro de Meios de Pagamento</div>
+<p><img alt="" height="932" src="/Manuais%20M8/_imagens/244/imagem_001.png" width="1921"/></p>
+<p><img alt="" height="964" src="/Manuais%20M8/_imagens/244/imagem_002.png" width="1921"/></p>
+<h2>Inclusão de Meio de pagamento</h2>
+<p><img alt="" height="948" src="/Manuais%20M8/_imagens/244/imagem_003.png" width="1919"/></p>
+<p>Para incluir um novo registro de Meio de Pagamento deverá clicar em<img alt="" src="/Manuais%20M8/_imagens/244/imagem_004.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/> no canto superior esquerdo.</p>
+<h2>Cabeçalho</h2>
+<p><img alt="" height="962" src="/Manuais%20M8/_imagens/244/imagem_005.png" width="1918"/></p>
+<ul><li><strong>Código: </strong>Código sequencial, gerado automaticamente pelo sistema.</li><li><strong>Nome: </strong>Informe um nome de identificação para o Meio de Pagamento.</li><li><strong>Código Pagamento: </strong>Poderá inserir um código diferente do que o sistema gera automaticamente.</li><li><strong>Boleto Convênio: </strong>Poderá inserir um convênio bancário, caso esse meio de pagamento seja de boleto bancário.</li></ul>
+<ul><li><strong>Pessoa Transação Eletrônica: </strong>Campo utilizado quando o Meio de Pagamento é cartão, nele deverá ser informada a Operadora de Cartão, dessa forma os títulos com esse Meio serão gerados para a Pessoa Transação Eletrônica como cliente.</li><li><strong>Instituição de Pagamento: </strong>Identificação da Instituição em que foi realizado o recebimento do título. Essa informação será levada para o campo Código do Participante do registro 1601 do SPED Fiscal.</li><li><strong>Operadora Cartão: </strong>Poderá informar a Operadora, caso esse meio de pagamento seja um cartão. Essa informação será utilizada para realizar a integração com (conciliadora) de cartão.</li><li><strong>Tipo: </strong>Informe o tipo para esse Meio de Pagamento, sendo as opções, dinheiro, cartão ou cheque. Quando selecionado ao Tipo Cartão, será obrigatório informar o campo Pessoa Transação Eletrônica.</li><li><strong>Gerar Recibo Baixa: </strong>Nesse campo você definirá se ao efetuar as baixas serão gerados em tela os recibos de pagamento, sendo as opções, 0 - Não Gerar, 1 - Gerar Recibo Agrupado e 2 - Gerar recibo individual.</li><li><strong>Gerar Boleto: </strong>Quando marcado, será permitido gerar boletos bancários nos títulos utilizando esse meio de pagamento, conforme convênio bancário informado no campo Boleto Convênio acima.</li><li><strong>Consultar Safe Check: </strong>Quando marcado, ao lançar um Ordem de Serviço ou Pedidos com esse meio de pagamento, será feita uma consulta safe check para validar restrições e inadimplência do cliente informado.</li><li><strong>Incluir novo cliente: </strong>Você poderá selecionar a quais clientes esse meio de pagamento será vinculado automaticamente ao criar um novo cadastro, sendo as opções, Não, Todos, Pessoas Físicas e Pessoas Jurídicas.</li><li><strong>Exibir PDV: </strong>Quando marcada, esse Meio de Pagamento poderá ser utilizada na emissão de cupons pelo NFC-e, também será habilitado o campo Descrição PDV, detalhado abaixo.</li><li><strong>Ignorar Taxa Cartão Compras: </strong>Quando marcado o valor de taxa de administração da máquina de cartão será ignorada ao lançar um nota de compra.</li><li><strong>Notificação Financeira: </strong>Configuração válida para envio de e-mails de notificação de títulos vencidos ou a vencer para seus clientes. Para o envio destas é necessária também o cadastro de uma Notificação Financeira no módulo Worflow.</li><li><strong>Descrição PDV: </strong>Informe a descrição desse meio de pagamento que será exibida no NFC-e.</li><li><strong>Gerar Saída de Caixa: </strong>Quando marcada, habilitará os campos Operação Financeira, Conta Origem, Conta Destino, Histórico Contábil e Espécie com essas informações, o sistema irá gerar um lançamento de saída de caixa automaticamente referente a taxa de cartão.</li></ul>
+<p><img alt="" height="925" src="/Manuais%20M8/_imagens/244/imagem_006.png" width="1920"/></p>
+<ul><li><strong>Integração Mobile: </strong>Deverá ser marcada esta opção nos meios de pagamentos vinculados nas Condições de Pagamentos que você usará no Aplicativo de Vendas M8.</li><li><strong>Operação Financeira: </strong>Informa a conta do plano de contas financeiro relativo à movimentação de saída de caixa referente as taxas de cartão.</li><li><strong>Conta Origem: </strong>Será a conta contábil do cliente.</li><li><strong>Conta Destino: </strong>Deverá inserir a Conta Contábil Vinculada no Plano de Contas Financeiro referente a contabilização de taxas e tarifas de cartão.</li><li><strong>Histórico Contábil: </strong>Campo para informar o histórico da contabilização, esse será exibido em relatórios e movimentações quando gerar contabilização de taxas/ tarifas de cartão.</li><li><strong>Espécie: </strong>Qual a espécie do documento que está sendo lançado.</li></ul>
+<p>Após preencher todos os campos, clique em<img alt="" src="/Manuais%20M8/_imagens/244/imagem_007.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/>, para que o cadastro seja finalizado. Com isso, você poderá vincular esse Meio de Pagamento a uma Condição de Pagamento para gerar as movimentações financeiras no M8.</p>
+<h2>Edição de Cadastro de Meio de Pagamentos</h2>
+<p><img alt="" height="922" src="/Manuais%20M8/_imagens/244/imagem_008.png" width="1919"/></p>
+<p>Ao acessar a tela, você conseguirá listar todos os Cadastros de Meio de Pagamento ou pesquisar traves dos filtros disponíveis na tela, para editá-los clique no botão Editar.<img alt="" src="/Manuais%20M8/_imagens/244/imagem_009.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/></p>
+<h2>Exclusão de Cadastro de Meio de Pagamento</h2>
+<p>Você também conseguirá fazer a exclusão de um Cadastro de Meio de Pagamento, clicando em Excluir. Ao excluir esse Cadastro ele não poderá ser utilizado nas rotinas do sistema. Caso necessário, e possua as permissões necessárias, poderá restaurar o registro<img alt="" src="/Manuais%20M8/_imagens/244/imagem_010.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/> excluído, clicando em Restaurar Registro na lista de Meio de Pagamentos, lembrando que essa opção é exibida para usuários configurados como Administrador.<img alt="" src="/Manuais%20M8/_imagens/244/imagem_011.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/></p>
+<div class="callout callout-info">Gostou de aprender sobre o processo de Cadastro de Meio de Pagamento no M8? Caso ainda restem dúvidas entre em contato com nossa equipe de Suporte.</div>
+
+</div>
+
+<footer>
+
+Documento gerado automaticamente pelo Exportador M8
+
+</footer>
+
+</body>
+
+</html>

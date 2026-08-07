@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Cadastro de Tipo de Compra</title>
+
+
+
+    <link rel="stylesheet" href="/templates/estilo.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo-area">
+
+        <img src="/assets/competi.jpg" class="logo">
+
+        <div>
+
+            <div class="empresa">
+
+                COMPETI SISTEMAS
+
+            </div>
+
+            <div class="erp">
+
+                Documentação Oficial do M8 ERP
+
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+<div class="titulo">
+
+Cadastro de Tipo de Compra
+
+</div>
+
+<div class="categoria">
+
+Compras
+
+</div>
+
+<div class="conteudo">
+
+<h2>Cadastro de Tipo de Compra</h2>
+<p>Nesse cadastro serão feitas as parametrizações necessárias para lançamento ou importação de Notas de Compra ou outras notas emitidas contra CNPJ da sua empresa. Nele, serão configuradas informações como a origem do documento, validação de desconto, obrigatoriedades ao importar uma nota, entre outras informações.</p>
+<div class="callout callout-info">Compras &gt; CADASTROS &gt; CADASTROS &gt; Lista Cadastro de Tipos de Compra</div>
+<p><img alt="" height="932" src="/Manuais%20M8/_imagens/140/imagem_001.png" width="1914"/></p>
+<p><img alt="" height="961" src="/Manuais%20M8/_imagens/140/imagem_002.png" width="1913"/></p>
+<p><img alt="" height="960" src="/Manuais%20M8/_imagens/140/imagem_003.png" width="1914"/></p>
+<h2>Inclusão de Tipo de Compra</h2>
+<p>Para adicionar uma novo Tipo de Compra, clique em<img alt="" src="/Manuais%20M8/_imagens/140/imagem_004.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/> no canto superior esquerdo da tela, para te auxiliar, descrevemos neste artigo a função de cada um dos campos do cadastro.</p>
+<h2>Cabeçalho</h2>
+<p><img alt="" height="933" src="/Manuais%20M8/_imagens/140/imagem_005.png" width="1920"/></p>
+<ul><li><strong>Código: </strong>Código sequencial de identificação gerado automaticamente pelo sistema.</li><li><strong>Nome: </strong>Nesse campo você informará o nome desse Tipo de Compra.</li></ul>
+<ul><li><strong>Origem: </strong>Neste campo selecione uma das opções abaixo para definir qual será a origem da Nota.<ul><li><strong>Ordem de Compra: </strong>Quando marcado, ao adicionar um nova <a href="https://sac.m8sistemas.com/portal/pt-br/kb/articles/lan%C3%A7amento-manual-de-nota-fiscal-de-compra">Nota de Compra manualmente</a> ou importar o XML será obrigatório vincular este lançamento a uma <a href="https://sac.m8sistemas.com/portal/pt-br/kb/articles/ordem-de-compra-28-12-2022">Ordem de Compra.</a></li><li><strong>Pré-fatura de Terceiros: </strong>Campo utilizado por empresas que fazem uso do módulo Florestal, será utilizado para fazer lançamento de fatura de terceiros.</li><li><strong>Contrato: </strong>Quando utilizada esta opção opção ao lançar um nota manualmente será necessário vincular um Contrato ao incluir o Tipo Compra no lançamento.</li><li><strong>Importar XML: </strong>Essa opção deverá ser utilizada para Notas Fiscais que serão importadas pelo <a href="https://sac.m8sistemas.com/portal/pt-br/kb/articles/monitor-nf-e-12-12-2022">Monitor NF-e</a> ou com o XML da Nota Fiscal no módulo Compras.</li><li><strong>Manifesto: </strong>Essa opção deverá ser utilizada para importação de Manifestos de Notas Fiscais.</li><li><strong>Devolução Nota Venda/Outras: </strong>Utilize essa opção para fazer a importação de Notas de devolução que não forem de emissão própria.</li><li><strong>Autorização por Alçada: </strong>Esta opção será utilizada nos lançamentos de Pré Recebimento, onde ao encerrar o lançamento será validada aprovação dos itens através de uma <a href="https://sac.m8sistemas.com/portal/pt-br/kb/articles/cadastro-de-al%C3%A7ada">alçada de aprovação.</a></li><li><strong>Romaneios: </strong>Essa opção deverá ser utilizada por empresas que fazem uso do módulo Florestal, será utilizada para o lançamento de Romaneios no sistema.</li></ul></li><li><strong>Situação Documento: </strong>Definirá como será registrada a informação da Nota lançada.<ul><li><strong>00 - Documento Regular: </strong>Utilize essa opção pra lançamento de Documentos Regulares, que são os Documentos Fiscais emitidos e transmitidos sem nenhum tipo de particularidade ou divergência em sua transmissão;</li><li><strong>01 - Escrituração extemporânea de documento regular: </strong>Utilize essa opção para lançamento para escrituração extemporânea de documentos regulares. De acordo com o manual de orientações do SPED, a escrituração extemporânea é feita quando os documentos deveriam ter sido escriturados em períodos anteriores;</li><li><strong>04 - NF-e, NFC-e ou CT-e - denegado: </strong>Utilize essa opção para lançamento de Documentos Denegados, a situação de documento denegado é definitiva, o retorno da SEFAZ como denegada acontece quando esse órgão identifica alguma irregularidade fiscal por parte do emitente ou do destinatário da nota;</li><li><strong>05 - NF-e, NFC-e ou CT-e: Numeração inutilizada: </strong>Deverá ser utilizada para lançamento de numeração inutilizada, a inutilização de NF-e tem como principal finalidade permitir que o emissor comunique à SEFAZ os números de NF-e que não serão utilizados em razão de ter ocorrido uma quebra de sequência da numeração da nota fiscal eletrônica ou uma rejeição que não é possível ser corrigida;</li><li><strong>06 - Documento Fiscal Complementar: </strong>Utilize essa opção para importação ou lançamento manual de uma NF-e Complementar, ela é utilizada para acrescentar dados e valores que não foram informados na NF-e original;</li><li><strong>07 - Escrituração extemporânea de documento complementar: </strong>Utilize essa opção para lançamento para escrituração extemporânea de documentos complementares, assim como no tipo de situação código "01 - escrituração extemporânea", esse código é utilizado para escriturar documentos que deveriam ter sido escriturados em períodos anteriores, porém na situação complementar;</li><li><strong>08 - Documento Fiscal emitido com base em Regime Especial ou Norma Específica: </strong>Essa opção deverá ser utilizada quando a situação do Documento Fiscal for emitido com base em Regime Especial</li></ul></li></ul>
+<ul><li>ou Norma Específica, não guardando pertinência ao emitente ou ao destinatário.</li><li><strong>Tipo Integração API: </strong>Neste campo você definirá o tipo de integração com a API para esse Tipo de Compra, sendo as opções: NF-e, NFC-e, NFS-e, CF-e e CT-e.</li><li><strong>Habilita Aba Serviços: </strong>Quando marcado, irá habilitar a aba Serviços no lançamento do documento.</li><li><strong>Habilita Aba Produtos: </strong>Quando marcado, irá habilitar a aba Produtos no lançamento do documento.</li><li><strong>Habilita Aba Financeiro: </strong>Quando marcado, irá habilitar a aba Financeiro no lançamento do documento.</li><li><strong>Habilita Aba Retidos: </strong>Quando marcado, irá habilitar a aba Retidos no lançamento do documento.</li><li><strong>Pré-Recebimento Compra: </strong>Quando marcado, esse Tipo Compra, poderá ser utilizado em lançamentos de Pré Recebimento.</li><li><strong>Importar Itens Ordem Compra: </strong>Quando marcado, no wizard de importação da Ordem de Compra, no Pré pecebimento serão importados apenas os produtos (sem as quantidades).</li><li><strong>Obrig. Nota Venda: </strong>Quando marcado, será obrigatório vincular uma Nota Fiscal de Venda ao lançamento.</li><li><strong>Atualizar Custo Eng: </strong>Quando marcado, ao processar a Nota o sistema irá atualizar o custo das matérias primas das das Engenharias do produto lançado na Nota.</li><li><strong>Obrig. Centro de Custo: </strong>Quando marcado, ao processar a Nota Fiscal será validado se foi desdobrado 100% do custo dos itens.</li><li><strong>Obrig. Número Série: </strong>Quando marcado, será validado ao Processar a Nota se foram informados os números de série/ou a quantidade correta, para os itens configurados com a opção Controla Número Série.</li><li><strong>Estoque Terceiro: </strong>Quando marcado, ao processar a Nota, o sistema irá gerar uma transferência de estoque automática se informado o destino estoque de terceiros.</li><li><strong>Obrig. Vincular O.C: </strong>Quando marcado, se tornará obrigatório vincular uma Ordem de Compra a Nota.</li><li><strong>Retorno Produto: </strong>É utilizado para controle de retorno de itens informados em Notas de Remessa, esse controle pode ser feito pela rotina de Controle Notas Fiscais de Remessa, no módulo Fiscal do M8.</li></ul>
+<p><img alt="" height="933" src="/Manuais%20M8/_imagens/140/imagem_006.png" width="1905"/></p>
+<ul><li><strong>Validar Devolução: </strong>Quando marcado, será validado se existe divergência entre o documento vinculado e a devolução.</li></ul>
+<ul><li><strong>Atualizar Cancelar NF: </strong>Quando marcado, ao cancelar a Nota Fiscal, o sistema irá atualizar os dados do produto de acordo com a última Nota processada.</li><li><strong>Observ. Contas Pagar: </strong>Quando marcado, será levada a observação do cabeçalho da Nota de entrada para a observação do cabeçalho do título gerado.</li><li><strong>Obrigatório Vincular OS: </strong>Quando marcado, será obrigatório vincular uma Ordem de Serviço ao lançamento da Nota.</li><li><strong>Validar Docs. Fiscais: </strong>Quando marcado esta opção, será validado ao processar o documento, se os documentos vinculados aba Docs.Fiscais estão lançados no sistema.</li><li><strong>Código Importação: </strong>Será o código deste mesmo Tipo utilizado em outro sistema.</li></ul>
+<p><strong>Gerar Ordem de Serviço</strong></p>
+<ul><li><strong>Gerar Ordem Serviço: </strong>Quando Marcado, será gerada a partir desta Nota uma Ordem de Serviço.</li><li><strong>Destino: </strong>Neste campo você definirá se a Ordem de Serviço gerada será do módulo Faturamento, marcando a opção 01 - Ordem Serviço, ou Assistência Técnica marcando a opção 02 - Assistência Técnica.</li><li><strong>Método Gerar: </strong>Ira definir como será gerada a Ordem de Serviço nas seguintes formas:<ul><li><strong>01 - Agrupado: </strong>Será gerada apenas uma Ordem de Serviço;</li><li><strong>02 - Individual: </strong>Será gerado uma Ordem de Serviço para cada produto/serviço;</li><li><strong>03 - Individual/Quantidade: </strong>Será gerado uma Ordem de Serviço para cada produto/serviço conforme quantidade de produto/serviço;</li><li><strong>04 - Individual/Quant/Equipamento: </strong>Será gerado uma Ordem de Serviço para cada equipamento conforme quantidade, levando os mesmos para aba Equipamento;</li></ul></li><li><strong>Tipo Ordem Serviço: </strong>Informe o Tipo Ordem de Serviço que será utilizado para criar o lançamento.</li><li><strong>Status Fluxo: </strong>Informe em qual status fluxo a Ordem de Serviço ficará ao ser criada.</li><li><strong>Operação Fiscal Saída: </strong>Informe a operação fiscal que será vinculada aos itens na Ordem de Serviço gerada.</li></ul>
+<h2>Edição de Tipo de Compra</h2>
+<p>Ao acessar a tela, você conseguirá listar todos os Tipos de Compra ou filtrá-los conforme os filtros disponíveis na tela, para editá-los clique no botão Editar.<img alt="" src="/Manuais%20M8/_imagens/140/imagem_007.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/></p>
+<h2>Exclusão de Tipo de Compra</h2>
+<p>Você também conseguirá fazer a exclusão de Tipo de Compra clicando em Excluir. Ao excluir esse Tipo de Compra você poderá encontra-lo na lista apenas quando clicar em<img alt="" src="/Manuais%20M8/_imagens/140/imagem_008.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/> para listar todos os itens incluindo os excluidos e<img alt="" src="/Manuais%20M8/_imagens/140/imagem_009.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/> para exibir apenas os exlcuidos para recuperá-lo basta clicar em Restaurar<img alt="" src="/Manuais%20M8/_imagens/140/imagem_010.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/>. Lembrando que a opção de restaurar registros excluídos está disponível apenas para usuários configurados como Administradores.<img alt="" src="/Manuais%20M8/_imagens/140/imagem_011.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/></p>
+<blockquote>Gostou de conhecer um pouco sobre Cadastro de Tipo de Pedido no M8? Caso ainda restem dúvidas pode entrar em contato com nossa equipe de Suporte.</blockquote>
+
+</div>
+
+<footer>
+
+Documento gerado automaticamente pelo Exportador M8
+
+</footer>
+
+</body>
+
+</html>

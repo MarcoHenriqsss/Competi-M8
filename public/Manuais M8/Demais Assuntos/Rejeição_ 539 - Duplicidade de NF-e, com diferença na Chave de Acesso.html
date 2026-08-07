@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Rejeição_ 539 - Duplicidade de NF-e, com diferença na Chave de Acesso</title>
+
+
+
+    <link rel="stylesheet" href="/templates/estilo.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo-area">
+
+        <img src="/assets/competi.jpg" class="logo">
+
+        <div>
+
+            <div class="empresa">
+
+                COMPETI SISTEMAS
+
+            </div>
+
+            <div class="erp">
+
+                Documentação Oficial do M8 ERP
+
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+<div class="titulo">
+
+Rejeição_ 539 - Duplicidade de NF-e, com diferença na Chave de Acesso
+
+</div>
+
+<div class="categoria">
+
+Demais Assuntos
+
+</div>
+
+<div class="conteudo">
+
+<h2>O que é a Rejeição: 539 - Duplicidade de NF-e, com diferença na Chave de Acesso ao faturar uma nota fiscal?</h2>
+<p>Essa rejeição ocorre quando uma NF-e foi emitida com uma determinada numeração sendo autorizada, porém, foi reenviado para a Sefaz um outro documento que possui a mesma numeração. Neste caso, a Sefaz rejeitará a nota, informando duplicidade e também a chave correta que já foi transmitida ao Sefaz com a determinada numeração.</p>
+<p>No sistema M8, essa rejeição será exibida conforme exemplo abaixo.</p>
+<p><img alt="" height="155" src="/Manuais%20M8/_imagens/58/imagem_001.png" width="706"/></p>
+<h2>Como Resolver?</h2>
+<p>Primeiramente, verifique no cabeçalho da Nota Fiscal, o Documento e a Chave NF-e gerados.</p>
+<p><img alt="" height="966" src="/Manuais%20M8/_imagens/58/imagem_002.png" width="1917"/></p>
+<p>Copie a Chave NF-e gerada e no site da Sefaz ( <a href="https://www.nfe.fazenda.gov.br/portal/principal.aspx" rel="noopener noreferrer" target="_blank">https://www.nfe.fazenda.gov.br/portal/principal.aspx</a>, ), em Consultar NF-e faça a consulta desta chave. Na consulta poderá retornar que a chave informada não consta na base do Sefaz ou poderá ser exibido o documento emitido com a numeração e chave no Sefaz, onde verificarão as informações conferindo com os dados do documento pendente no M8. Em seguida, volte ao lançamento que apresentou o erro e clique no Menu Ações, na opção Atualizar Protocolo NF-e. Essa opção deve ser usada quando há no SEFAZ o documento e esse se refere ao mesmo que esta pendente no M8. Essa ação trará os dados de protocolo da NF-e que esta no SEFAZ, atualizando o Status NF-e da Nota.</p>
+<p><img alt="" height="966" src="/Manuais%20M8/_imagens/58/imagem_003.png" width="1920"/></p>
+<p>Com o processo de Atualizar Protocolo NF-e, o sistema irá fazer a busca de informações na base do Sefaz e atualizar os dados no lançamento do documento pendente. Após esse processo, ainda no lançamento da nota fiscal, clique em Ações, na opção Faturar Documento.</p>
+<p><img alt="" height="968" src="/Manuais%20M8/_imagens/58/imagem_004.png" width="1919"/></p>
+<p>Desta forma sua nota será atualizada para o status de processada, com as informações de chave NF-e e número de documento de acordo com o transmitido.</p>
+<div class="callout callout-info">Caso ao efetuar esse processo ocorra outro erro, ou os dados que estão no Sefaz forem diferentes das informações do documento pendente, acione o Suporte da M8 para auxiliar na verificação.</div>
+<blockquote>Gostou de aprender sobre a Rejeição 539 - Duplicidade de NF-e ao faturar uma nota fiscal? Caso restem dúvidas entre em contato com nossa equipe de Suporte.</blockquote>
+
+</div>
+
+<footer>
+
+Documento gerado automaticamente pelo Exportador M8
+
+</footer>
+
+</body>
+
+</html>

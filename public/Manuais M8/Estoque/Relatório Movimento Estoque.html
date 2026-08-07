@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Relatório Movimento Estoque</title>
+
+
+
+    <link rel="stylesheet" href="/templates/estilo.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo-area">
+
+        <img src="/assets/competi.jpg" class="logo">
+
+        <div>
+
+            <div class="empresa">
+
+                COMPETI SISTEMAS
+
+            </div>
+
+            <div class="erp">
+
+                Documentação Oficial do M8 ERP
+
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+<div class="titulo">
+
+Relatório Movimento Estoque
+
+</div>
+
+<div class="categoria">
+
+Estoque
+
+</div>
+
+<div class="conteudo">
+
+<h2>Relatório Movimento Estoque</h2>
+<p>O Kardex, ou relatório de movimentação de estoque, é um relatório para fins de conferência, que relata toda movimentação de um produto em específico dentro de seu estoque junto com seu saldo inicial e saldo final. Hoje o sistema possui quatro grupos de relatórios de movimentações de estoque sendo eles, almoxarifado, depósito, lote e produto, a última opção traz tipos de agrupamentos diferentes.</p>
+<div class="callout callout-info">Caminho no sistema: Estoque &gt; RELATÓRIOS &gt; MOVIMENTO ESTOQUE</div>
+<p><img alt="" height="974" src="/Manuais%20M8/_imagens/327/imagem_001.png" width="1919"/></p>
+<p><img alt="" height="969" src="/Manuais%20M8/_imagens/327/imagem_002.png" width="1915"/></p>
+<h3>Filtros</h3>
+<p><img alt="" height="966" src="/Manuais%20M8/_imagens/327/imagem_003.png" width="1917"/></p>
+<ul><li><strong>Formato impressão: </strong>Definirá qual a forma de exibição do relatório.</li><li><strong>Filtrar data: </strong>Definirá qual a origem da data filtrada, estando disponível a opção Data Movimento.</li><li><strong>Data de: </strong>Período que será utilizado para filtrar as informações.</li><li><strong>Modelo: </strong>Estabelecerá o layout de exibição do relatório, se completo ou simplificado.</li><li><strong>Exibir filtros utilizados: </strong>Quando marcado, exibirá os filtros utilizados, na impressão do relatório.</li><li><strong>Estabelecimento: </strong>Estabelecimento que serão buscadas as informações.</li><li><strong>Ordem Produção: </strong>Utilize esse campo para filtrar ordens de produção específicas.</li><li><strong>Produto/Serviço: </strong>O filtro deverá ser utilizado para buscar as movimentações de um ou alguns produtos específicos.</li><li><strong>Pessoa: </strong>Informe nesse campo uma pessoa e filtre todas as suas movimentações.</li><li><strong>Família: </strong>Utilize esse campo para filtrar as movimentações pela família informada no produto.</li><li><strong>Grupo estoque: </strong>Inclua aqui um Grupo de Estoque para filtrar as movimentações.</li><li><strong>Marca: </strong>Utilize esse campo para filtrar os lançamentos com uma marca de produto específica.</li><li><strong>Montadora: </strong>Use esse campo para filtrar os lançamentos com uma montadora de produto específica.</li><li><strong>Local Estoque: </strong>Esse campo permite filtrar os lançamentos de um local de estoque específico</li><li><strong>Operação Fiscal: </strong>Utilize esse campo para filtrar pelos lançamentos vinculados a uma operação fiscal.</li><li><strong>Origem Lançamento: </strong>Será possível filtrar pela origem do lançamento.<ul><li><strong>Exemplo: </strong>Ordem de produção, Nota Fiscal de Venda, Nota de Compra</li></ul></li><li><strong>Requisição: </strong>Use esse campo para filtrar pelas movimentações de uma requisição específica.</li><li><strong>Ordem Serviço: </strong>Informe nesse campo uma Ordem de Serviço para filtrar as sua movimentações.</li><li><strong>Documento Fiscal: </strong>Utilize esse campo para filtrar pelas movimentações de um documento fiscal específico.</li><li><strong>Linha Produto: </strong>Nesse campo você pode filtrar pelos lançamentos que utilizam uma linha de produto especifico.</li><li><strong>Tipo Movimentação: </strong>O filtro deverá ser utilizado para buscar as movimentações por tipo de movimentação.</li></ul>
+<h3>Impressão Relatório</h3>
+<p>Os relatórios de Movimentação de Estoque no M8 exibirão as mesmas informações porém com agrupamentos diferentes. Ficando a sua escolha qual agrupamento utilizar. Na impressão do relatório serão exibidas colunas com detalhamento das movimentações.</p>
+<p><img alt="" height="913" src="/Manuais%20M8/_imagens/327/imagem_004.png" width="1918"/></p>
+<ul><li><strong>Empresa: </strong>Será exibido a Empresa que o lançamento foi feito.</li><li><strong>Origem: </strong>Exibirá uma abreviatura da origem da movimentação.<ul><li><strong>Exemplo: </strong>CPM Compra, ONE Outras Notas Entrada, NFV Nota fiscal de Saída, IMP Implantação de Estoque.</li></ul></li><li><strong>Oper: </strong>Exibirá a Operação Fiscal informada no lançamento.</li><li><strong>Cód. Lcto: </strong>Mostrará o código do lançamento.</li><li><strong>Doc: </strong>Exibirá o número de documento, quando a movimentação for de uma Nota Fiscal. Quando oriunda de outros tipos de lançamento, nesse campo será exibida a mesma informação da coluna Cód. Lcto.</li><li><strong>Data: </strong>Mostrará a data de movimentação do lançamento.</li><li><strong>Valor Unitário: </strong>Apresentará o valor unitário do produto nesse lançamento.</li><li><strong>Custo Operação: </strong>Será apresentado o valor de custo operação do produto nesse lançamento.</li><li><strong>Custo Médio: </strong>Exibirá o valor de custo médio do produto nesse lançamento.</li><li><strong>Quantidade: </strong>Nessa coluna serão exibidas as quantidades que foram movimentadas, quando o lançamento for uma saída de estoque o valor será exibido com um sinal negativo, indicando a diminuição do saldo.</li><li><strong>Saldo: </strong>Nessa coluna o sistema calculará o saldo após cada lançamento, buscando o valor de saldo anterior e somando ou subtraindo a quantidade movimentada.</li><li><strong>Saldo Total Disponível: </strong>Nesse campo será exibido o saldo final de estoque do item, levando em consideração todas as movimentações feitas no período filtrado.</li></ul>
+<h3>Movimento Estoque - Produto</h3>
+<p><img alt="" height="971" src="/Manuais%20M8/_imagens/327/imagem_005.png" width="1920"/></p>
+<h3>Movimento estoque - Lote</h3>
+<p>Esse tipo de Relatório de Movimentação deverá ser utilizado quando os produtos pertencem a lotes.</p>
+<p><img alt="" height="973" src="/Manuais%20M8/_imagens/327/imagem_006.png" width="1921"/></p>
+<h3>Movimento Estoque - Depósito</h3>
+<p>Esse tipo de Relatório de Movimentação deverá ser utilizado quando os produtos estão localizados em depósitos específicos.</p>
+<p><img alt="" height="970" src="/Manuais%20M8/_imagens/327/imagem_007.png" width="1920"/></p>
+<h3>Movimento Estoque - Almoxarifado</h3>
+<p>Esse tipo de Relatório de Movimentação deverá ser utilizado quando a empresa controla seu estoque por meio de almoxarifados.</p>
+<p><img alt="" height="970" src="/Manuais%20M8/_imagens/327/imagem_008.png" width="1920"/></p>
+<blockquote>Gostou de aprender um pouco sobre movimentação de estoque no M8? Caso restem dúvidas entre em contato com nossa equipe de Suporte.</blockquote>
+
+</div>
+
+<footer>
+
+Documento gerado automaticamente pelo Exportador M8
+
+</footer>
+
+</body>
+
+</html>

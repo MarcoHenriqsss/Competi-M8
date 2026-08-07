@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Exportar FCI</title>
+
+
+
+    <link rel="stylesheet" href="/templates/estilo.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo-area">
+
+        <img src="/assets/competi.jpg" class="logo">
+
+        <div>
+
+            <div class="empresa">
+
+                COMPETI SISTEMAS
+
+            </div>
+
+            <div class="erp">
+
+                Documentação Oficial do M8 ERP
+
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+<div class="titulo">
+
+Exportar FCI
+
+</div>
+
+<div class="categoria">
+
+PCP Produção
+
+</div>
+
+<div class="conteudo">
+
+<h2>Exportar FCI</h2>
+<p>Essa rotina permitirá que seja gerado um arquivo com as informações referente a porcentagem de FCI dos itens produzidos na sua empresa.</p>
+<div class="callout callout-info">PCP Produção &gt; MOVIMENTO &gt; ORDEM DE PRODUÇÃO &gt; Exportar FCI</div>
+<p><img alt="" height="920" src="/Manuais%20M8/_imagens/76/imagem_001.png" width="1916"/></p>
+<p><img alt="" height="912" src="/Manuais%20M8/_imagens/76/imagem_002.png" width="1916"/></p>
+<h2>Filtros</h2>
+<p><img alt="" height="915" src="/Manuais%20M8/_imagens/76/imagem_003.png" width="1916"/></p>
+<ul><li><strong>Empresa: </strong>Será sugerida a Empresa logada, porém, poderá ser alterada caso necessário.</li><li><strong>Estabelecimento: </strong>Será sugerida o Estabelecimento logado, porém, poderá ser alterado caso necessário.</li><li><strong>Estabelecimento Venda: </strong>Neste campo você poderá informar o Estabelecimento em que os produtos são vendidos, caso a produção seja feita em um estabelecimento e a venda em outro.</li><li><strong>Data Encerrando: </strong>Informe um período referente a data de encerramento das Ordens de Produção dos itens.</li><li><strong>Produto: </strong>Poderá filtrar por um produto específico.</li><li><strong>Grupo Estoque: </strong>Nesse campo poderá informar um Grupo de Estoque específico para filtrar os Produtos vinculados a este.</li></ul>
+<ul><li><strong>Família: </strong>Nesse campo poderá informar uma Família específica para filtrar os Produtos vinculados a esta.</li><li><strong>Marca: </strong>Nesse campo poderá informar uma Marca específica para filtrar os Produtos vinculados a esta.</li><li><strong>%FCI Zerado: </strong>Quando marcado serão exibidos itens onde a porcentagem de FCI esteja zerada.</li></ul>
+<p>Após inseridos os filtros desejados, clique em<img alt="" src="/Manuais%20M8/_imagens/76/imagem_004.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/> para que os produtos sejam listados abaixo:</p>
+<h2>Exportar</h2>
+<p><img alt="" height="916" src="/Manuais%20M8/_imagens/76/imagem_005.png" width="1910"/></p>
+<ul><li><strong>Código: </strong>Será exibido o código do produto.</li><li><strong>Produto: </strong>Será exibido o nome do produto.</li><li><strong>Cód. Ident. Interno: </strong>Será exibido o código interno do produto, caso possua.</li><li><strong>Qtde. Consumo: </strong>Nesta coluna será exibida a quantidade consumida 'Materiais Importados' deste produto nas Ordens de Produção encerradas.</li><li><strong>Qtde. Venda: </strong>Nesta coluna será exibida a quantidade vendida deste produto, lembrando que são consideradas apenas vendas interestaduais.</li><li><strong>% Valor Import: </strong>Nesta coluna será exibida porcentagem desse produto que é importada.</li><li><strong>Vl. Vendas: </strong>Nesta coluna será exibido o valor de venda deste item, lembrando que são consideradas apenas vendas interestaduais.</li><li><strong>% FCI: </strong>Nesta coluna será exibida a % de FCI (Ficha de Conteúdo de Importação) para esse produto, o cálculo deste valor é feito a partir do custo dos materiais importados dividido pela média do valor unitário de vendas interestaduais.</li></ul>
+<p>Após conferidas as informações exibidas, poderá clicar em<img alt="" src="/Manuais%20M8/_imagens/76/imagem_006.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/> para gerar um arquivo em.txt</p>
+<p><img alt="" height="993" src="/Manuais%20M8/_imagens/76/imagem_007.png" width="1914"/></p>
+<p>O arquivo segue o layout padrão conforme manual FCI, separados em blocos, sendo:</p>
+<p>Bloco 0 (zero): Abertura de Arquivo. Dados de abertura e de identificação do contribuinte. Bloco 5 (cinco): Dados da Mercadoria. Dados de identificação do bem ou mercadoria e do percentual do Conteúdo de Importação.<br/>Bloco 9 (nove): Totalização de Registros. Totalizador de registros anteriores.</p>
+<p>A transmissão é realizada mediante um aplicativo denominado Validador/Transmissor que deve ser obtido por download no site da FCI ( www.fazenda.sp.gov.br/fci). Sendo necessário ter na mesma máquina o certificado e- CNPJ (A1 ou A3) instalado.</p>
+<blockquote>Gostou de aprender sobre Exportar FCI no M8? Caso restem dúvidas entre em contato com nossa equipe de Suporte.</blockquote>
+
+</div>
+
+<footer>
+
+Documento gerado automaticamente pelo Exportador M8
+
+</footer>
+
+</body>
+
+</html>

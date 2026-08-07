@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Importar NF-e Wizard</title>
+
+
+
+    <link rel="stylesheet" href="/templates/estilo.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo-area">
+
+        <img src="/assets/competi.jpg" class="logo">
+
+        <div>
+
+            <div class="empresa">
+
+                COMPETI SISTEMAS
+
+            </div>
+
+            <div class="erp">
+
+                Documentação Oficial do M8 ERP
+
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+<div class="titulo">
+
+Importar NF-e Wizard
+
+</div>
+
+<div class="categoria">
+
+Compras
+
+</div>
+
+<div class="conteudo">
+
+<h2>Importar NF-e Wizard</h2>
+<p>Essa rotina poderá ser utilizada para incluir Notas fiscais de Compra pela importação do XML.</p>
+<div class="callout callout-info">Compras &gt; MOVIMENTO &gt; ENTRADAS &gt; Importar NF-e Wizard</div>
+<p><img alt="" height="921" src="/Manuais%20M8/_imagens/129/imagem_001.png" width="1916"/></p>
+<p><img alt="" height="921" src="/Manuais%20M8/_imagens/129/imagem_002.png" width="1919"/></p>
+<h3>Selecionar XML</h3>
+<p><img alt="" height="921" src="/Manuais%20M8/_imagens/129/imagem_003.png" width="1916"/></p>
+<p>Nessa tela deverá buscar o XML da Nota Fiscal de Entrada Compra no campo "Selecione um Arquivo" após inserir o arquivo deverá clicar em "Pesquisar".</p>
+<h3>Nota Fiscal</h3>
+<p>Nesta aba serão exibidas informações referente a nota que está sendo importada. Para seguir com o processo precisará clicar em "Próximo".</p>
+<p><img alt="" height="923" src="/Manuais%20M8/_imagens/129/imagem_004.png" width="1919"/></p>
+<h3>Pré-Recebimento</h3>
+<p><img alt="" height="919" src="/Manuais%20M8/_imagens/129/imagem_005.png" width="1919"/></p>
+<p>Essa rotina é opcional, se utiliza a rotina de Pré-Recebimento, será possível vincular o cadastro a nota nesta aba, clicando em<img alt="" src="/Manuais%20M8/_imagens/129/imagem_006.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/>, será exibido na tela um modal onde você conseguirá filtrar os Pré-Recebimentos, bem como selecionar o cadastrado desejado. Para fazer o vínculo entre os itens selecione o produto da coluna esquerda, em seguida clique em Vincular<img alt="" src="/Manuais%20M8/_imagens/129/imagem_007.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/> no produto correspondente da coluna direita. Esse processo funciona como uma conferência dos itens recebidos de fato com os produtos esperados, cadastrados previamente no Pré-Recebimento. Quando realizado esse processo, a etapa 5 se tornará dispensável e a etapa 6 opcional, pois será realizado o vinculado entre os itens da nota e da sua base. Após clique em<img alt="" src="/Manuais%20M8/_imagens/129/imagem_008.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/> para avançar a etapa de importação.</p>
+<h3>Ordem Compra</h3>
+<p><img alt="" height="968" src="/Manuais%20M8/_imagens/129/imagem_009.png" width="1917"/></p>
+<p>Caso sua empresa utilize a rotina de Ordem de Compra, será possível vincular o cadastro a nota nesta aba, clicando em<img alt="" src="/Manuais%20M8/_imagens/129/imagem_010.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/>, será exibido na tela um modal onde você conseguirá filtrar as Ordens de Compra, bem como selecionar o cadastrado desejado. Para fazer o vínculo entre os itens selecione o produto da coluna esquerda, em seguida clique em Vincular<img alt="" src="/Manuais%20M8/_imagens/129/imagem_011.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/> no produto correspondente da coluna direita. A Ordem de Compra possui controle em saldos, ao fazer o vínculo o saldo será deduzido conforme a quantidade da Nota. Quando realizado esse processo, a etapa 5 se tornará dispensável e a etapa 6 opcional, pois será realizado o vinculado entre os itens da nota e da sua base. Após clique em<img alt="" src="/Manuais%20M8/_imagens/129/imagem_012.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/> para avançar a etapa de importação.</p>
+<h3>Importar Produtos</h3>
+<p><img alt="" height="969" src="/Manuais%20M8/_imagens/129/imagem_013.png" width="1918"/></p>
+<p>Quando você não possuir os itens da nota cadastrados em sua lista de Produtos, deverá ser feita a importação dos produtos, dessa forma o M8 criará automaticamente o cadastro dos produtos.</p>
+<ul><li><strong>Código SPED: </strong>Definirá qual a finalidade deste produto.<ul><li><strong>Exemplo: </strong>00- Mercadoria para revenda, 01- Matéria Prima, 07-Material de uso e consumo,</li></ul></li><li><strong>Grupo Estoque: </strong>Definirá qual Grupo de Estoque este item fará parte. Sendo este um subgrupo da Família.</li><li><strong>Família: </strong>Definirá qual Família esse item fará parte.</li><li><strong>Unidade: </strong>Aqui você informará a unidade desse item.<ul><li><strong>Exemplo: </strong>Unidade, Quilo, Pacote, Peça.</li></ul></li><li><strong>Grupo Tributação: </strong>Definirá qual o Grupo de Tributação dos itens, essa informação será utilizada no cadastro de Tributação Fiscal.</li><li><strong>Operação Fiscal de Entrada: </strong>Nesse campo você informará a operação fiscal de entrada que ficará vinculada a esse item, será utilizada nas rotinas de compra desse item.</li><li><strong>Operação Fiscal Saída: </strong>Nesse campo você informará a operação fiscal de saída que ficará vinculada a esse item, será utilizada nas rotinas de venda desse item.</li><li><strong>Plano Financeiro Entrada: </strong>Informe aqui a conta do Plano Financeiro em que serão feitas as movimentações financeiras para entradas desse item.</li><li><strong>Plano Financeiro Saída: </strong>Informe aqui a conta do Plano Financeiro em que serão feitas as movimentações financeiras para saídas desse item.</li><li><strong>Configuração PDV: </strong>Os campos devem ser preenchidos quando o item será utilizado em vendas pelo Emissor de cupons NFC-e.</li><li><strong>Tributação: </strong>Definirá qual a tributação do item.</li><li><strong>Alíquota: </strong>Defina aqui qual será a alíquota referente a tributação informada.</li><li><strong>Operação Fiscal Saída: </strong>Campo destinado à operação fiscal de saída que será utilizada nos rotins de venda pelo NFC-e.</li></ul>
+<p>Após preencher os campos, selecione o item ou os itens da nota que receberão essa configuração e clique em<img alt="" src="/Manuais%20M8/_imagens/129/imagem_014.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/></p>
+<p>para efetuar a importação dos produtos, os mesmos serão exibidos na listagem abaixo dos campos. Após clique em<img alt="" src="/Manuais%20M8/_imagens/129/imagem_015.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/> para avançar a etapa de importação.</p>
+<h3>Vincular Produtos</h3>
+<p><img alt="" height="967" src="/Manuais%20M8/_imagens/129/imagem_016.png" width="1918"/></p>
+<p>Nesta aba é possível vincular os itens da nota de compra com itens que você possui cadastrados em sua base. Para isso utilize esse campo, para filtrar os produtos, tendo várias opções de filtro. Após encontrar o item desejado, clique no produto cadastrado e selecione o item do XML da nota, por fim clique em<img alt="" src="/Manuais%20M8/_imagens/129/imagem_017.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/> para finalizar o processo. Dessa forma será exibida na coluna Vínculo o símbolo<img alt="" src="/Manuais%20M8/_imagens/129/imagem_018.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/>, significando que o item está vinculado da forma correta. Clicando em</p>
+<p><img alt="" height="34" src="/Manuais%20M8/_imagens/129/imagem_019.png" width="433"/></p>
+<p>, esse fornecedor ficará vinculado na aba Fornecedores, dentro do cadastro do produto. Nessa etapa, ainda poderá ser definida a Operação Fiscal de cada produto, bem como a Conta Contábil, Centro de Custo e o Local de Estoque, principalmente quando esses dados serão diferentes por produto. Após clique em<img alt="" src="/Manuais%20M8/_imagens/129/imagem_020.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/> para avançar a etapa de importação.<img alt="" src="/Manuais%20M8/_imagens/129/imagem_021.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/></p>
+<h3>Auditoria</h3>
+<p><img alt="" height="968" src="/Manuais%20M8/_imagens/129/imagem_022.png" width="1917"/></p>
+<p>Nessa aba serão exibidos duas colunas com as listagens das informações dos itens do XML da nota e outra com as informações dos itens cadastrados no M8. Quando houver alguma divergência de informações, o M8 apresentará o item com cores diferentes, sendo a legenda das cores<img alt="" src="/Manuais%20M8/_imagens/129/imagem_023.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/>. Essas divergências não impedem que você finalize a importação do documento, porém caso prefira deixar as informações iguais, clique em<img alt="" src="/Manuais%20M8/_imagens/129/imagem_024.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/> para atualizar o código de barras conforme a informação do XML e/ou em<img alt="" src="/Manuais%20M8/_imagens/129/imagem_025.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/> para atualizar o NCM conforme a informação do XML da nota. Clicando em você conseguirá igualar as informações para todos os produtos listados de uma única vez. Após clique em para avançar a etapa de importação.<img alt="" src="/Manuais%20M8/_imagens/129/imagem_026.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/><img alt="" src="/Manuais%20M8/_imagens/129/imagem_027.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/></p>
+<h3>Finalizar</h3>
+<p><img alt="" height="967" src="/Manuais%20M8/_imagens/129/imagem_028.png" width="1920"/></p>
+<ul><li><strong>Destino: </strong>Definirá se a nota será de entrada ou saída. Sendo que a Entrada gera uma Nota Fiscal no módulo de Compras enquanto a Saída gera uma Nota Fiscal no módulo de Faturamento.</li><li><strong>Operação Fiscal: </strong>Nesse campo você deverá informar a operação fiscal da nota, não sendo um campo obrigatório, pois cada item informado anteriormente pode ter uma operação fiscal diferente.</li><li><strong>Local Estoque: </strong>Definirá em qual local de Estoque serão feitas as movimentações referentes essa nota.</li><li><strong>Vendedor: </strong>Informe o vendedor da nota.</li><li><strong>Pagamento: </strong>Nesse campo será informado a condição de pagamento da nota, como será gerado o financeiro dessa nota.</li><li><strong>Tipo Compra: </strong>Quando o lançamento for de compra, defina aqui o tipo de compra desta nota.</li><li><strong>Espécie Financeiro: </strong>Definirá o tipo financeiro do documento de cobrança.</li></ul>
+<p>Após conferir as informações preenchidas, clique em<img alt="" src="/Manuais%20M8/_imagens/129/imagem_029.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/> para concretizar o lançamento do documento eletrônico.</p>
+<blockquote>Gostou de aprender um pouco sobre Importar NF-e Wizard no M8? Caso restem dúvidas entre em contato com nossa equipe de Suporte.</blockquote>
+
+</div>
+
+<footer>
+
+Documento gerado automaticamente pelo Exportador M8
+
+</footer>
+
+</body>
+
+</html>

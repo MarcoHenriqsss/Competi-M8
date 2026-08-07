@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Importação de Tabela Preço</title>
+
+
+
+    <link rel="stylesheet" href="/templates/estilo.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo-area">
+
+        <img src="/assets/competi.jpg" class="logo">
+
+        <div>
+
+            <div class="empresa">
+
+                COMPETI SISTEMAS
+
+            </div>
+
+            <div class="erp">
+
+                Documentação Oficial do M8 ERP
+
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+<div class="titulo">
+
+Importação de Tabela Preço
+
+</div>
+
+<div class="categoria">
+
+Demais Módulos
+
+</div>
+
+<div class="conteudo">
+
+<h2>Importação de Tabela Preço</h2>
+<p>A tela de Importação de Tabela Preço permite que seja feito o lançamento de vários tabelas de preço, bem como diversos itens vinculados as tabelas no sistema de uma vez. Nesse artigo, lhe mostraremos o passo a passo parar executar essa importação.</p>
+<div class="callout callout-info">Utilitários &gt; MOVIMENTO &gt; IMPORTAÇÕES &gt; Importação de Tabela Preço</div>
+<p><img alt="" height="913" src="/Manuais%20M8/_imagens/363/imagem_001.png" width="1919"/></p>
+<p><img alt="" height="915" src="/Manuais%20M8/_imagens/363/imagem_002.png" width="1918"/></p>
+<h3>Layout Modelo</h3>
+<p><img alt="" height="817" src="/Manuais%20M8/_imagens/363/imagem_003.png" width="1862"/></p>
+<p>O layout padrão, o qual pode ser preenchido com os dados desejados para posterior importação, pode ser baixado clicando na opção Ações, em seguida em Baixar Layout. Será gerado um arquivo.xlsx com o modelo para preenchimento.</p>
+<h3>Campos do Layout de Importação de Tabela Preço</h3>
+<p>A planilha para importação de Tabela Preço é composta por duas abas e cada uma com colunas específicas, cada uma com seu papel na criação/importação dos Tabela Preço. Abaixo, listamos campos e suas descrições:</p>
+<h3>Tabela</h3>
+<p><img alt="" height="912" src="/Manuais%20M8/_imagens/363/imagem_004.png" width="1913"/></p>
+<p>A primeira aba da planilha representa o cabeçalho da Tabela de preço</p>
+<p><img alt="" height="1031" src="/Manuais%20M8/_imagens/363/imagem_005.png" width="1920"/></p>
+<ul><li><strong>Código Tabela: </strong>Campo onde ira inserir o código da tabela de Preço que será importada no sistema (Campo único de cada tabela);</li><li><strong>Nome: </strong>Aqui irá inserir o nome de sua tabela de preço que será importada ao sistema;</li><li><strong>Percentual de Comissão: </strong>Neste campo ira preencher qual percentual de comissão será vinculado a esta tabela de preço (o percentual de 1% será inserido como 1 na planilha );</li><li><strong>Percentual de Acréscimo: </strong>Neste campo ira preencher qual percentual de Acréscimo será vinculado a esta tabela de preço (o percentual de 1% será inserido como 1 na planilha );</li><li><strong>Percentual de Desconto: </strong>Neste campo ira preencher qual percentual de Desconto será vinculado a esta tabela de preço (o percentual de 1% será inserido como 1 na planilha );</li><li><strong>Calcula Peso Liquido: </strong>Neste campo definirá se está tabela irá calcular Peso Liquido ou não (S para Sim, e N para Não) (O valor do preço será calculado: (preço tabela x peso líquido));</li><li><strong>Observação: </strong>Campo onde poderá inserir uma Observação para esta tabela de preço.</li></ul>
+<h3>Item</h3>
+<p>A segunda aba da planilha representa os produtos vinculados a uma tabela de preço</p>
+<p><img alt="" height="1031" src="/Manuais%20M8/_imagens/363/imagem_006.png" width="1917"/></p>
+<ul><li><strong>Código Tabela: </strong>Campo onde irá inserir o código de qual tabela de preço este produto será vinculada.</li><li><strong>Código do Produto: </strong>Insira qual o código no sistema do produto que deve se enquadrar na tabela.</li><li><strong>Código Interno: </strong>Poderá inserir neste campo um código interno do produto.</li><li><strong>Nome do Produto: </strong>Insira o nome do produto que será vinculado a tabela.</li><li><strong>Valor Mínimo Venda: </strong>Preencha aqui qual o Valor mínimo de venda deste produto quando vinculado a tabela.</li><li><strong>Valor Venda: </strong>Preencha aqui qual o Valor unitário de venda deste produto quando vinculado a tabela (Este será o valor sugerido nos lançamentos de notas, pedidos...).</li><li><strong>Código Categoria: </strong>Insira o código da categoria no sistema que será vinculada ao produto na tabela de preço (Categoria esta presente no caminho: Estoque &gt; CADASTROS &gt; cadastros Realize os cadastros &gt; Lista Cadastro de Categorias).</li><li><strong>Código Condição de Pagamento: </strong>Insira o código da condição de pagamento que deverá ser vinculada ao produto na tabela de preço.</li><li><strong>Percentual Comissão Mínimo: </strong>Neste campo ira preencher qual percentual de comissão Mínimo que será permitido utilizar no produto vinculado a esta tabela de preço ( o percentual de 1% será inserido como 1 na planilha ).</li><li><strong>Percentual Comissão Máximo: </strong>Neste campo ira preencher qual percentual de comissão Máximo que será permitido utilizar no produto vinculado a esta tabela de preço ( o percentual de 1% será inserido como 1 na planilha ).</li><li><strong>Percentual Desconto Máximo: </strong>Neste campo ira preencher qual percentual de Desconto Máximo que será permitido utilizar no produto vinculado a esta tabela de preço ( o percentual de 1% será inserido como 1 na planilha ).</li></ul>
+<h3>Etapas da Importação</h3>
+<p><img alt="" height="815" src="/Manuais%20M8/_imagens/363/imagem_007.png" width="1861"/></p>
+<p>Passo 1: Acesse a tela de Importação de Tabela de Preço no sistema. Passo 2: Clique em Selecionar Arquivo e escolha a planilha preenchida com os dados. Passo 3: Clique em Pesquisar. O sistema validará os dados e apresentará o conteúdo da planilha.</p>
+<p><img alt="" height="818" src="/Manuais%20M8/_imagens/363/imagem_008.png" width="1860"/></p>
+<p>Após validar, clique em Processar para realizar a importação das Tabelas de Preço. Caso tenha alguma informação divergente, ela será exibida em vermelho na listagem, dessa forma você conseguirá fazer os ajustes necessários na planilha de importação.</p>
+<blockquote>Gostou de aprender sobre a Importação da Tabela Preço? Caso restem dúvidas entre em contato com nossa equipe de Suporte.</blockquote>
+
+</div>
+
+<footer>
+
+Documento gerado automaticamente pelo Exportador M8
+
+</footer>
+
+</body>
+
+</html>

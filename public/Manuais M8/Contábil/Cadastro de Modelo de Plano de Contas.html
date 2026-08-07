@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Cadastro de Modelo de Plano de Contas</title>
+
+
+
+    <link rel="stylesheet" href="/templates/estilo.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo-area">
+
+        <img src="/assets/competi.jpg" class="logo">
+
+        <div>
+
+            <div class="empresa">
+
+                COMPETI SISTEMAS
+
+            </div>
+
+            <div class="erp">
+
+                Documentação Oficial do M8 ERP
+
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+<div class="titulo">
+
+Cadastro de Modelo de Plano de Contas
+
+</div>
+
+<div class="categoria">
+
+Contábil
+
+</div>
+
+<div class="conteudo">
+
+<ul><li>Exclusão de Modelo de Plano de Contas</li></ul>
+<h2>Cadastro de Modelo de Plano de Contas</h2>
+<p>As Contas Contábeis de uma empresa são classificadas em ativos, passivos, receitas e despesas. Elas são utilizadas justamente para organizar os registros, dando nome a cada movimentação realiza. Nessa tela será cadastrado um modelo para os planos de contas de sua empresa com a estrutura, totalizadores e classificações definidas em cada conta. Esse modelo poderá ser aproveitado em todas as empresas do grupo empresa.</p>
+<div class="callout callout-info">Configurações &gt; CADASTROS &gt; CADASTROS &gt; Lista Cadastro de Modelo de Plano de Contas</div>
+<p><img alt="" height="960" src="/Manuais%20M8/_imagens/144/imagem_001.png" width="1917"/></p>
+<p><img alt="" height="961" src="/Manuais%20M8/_imagens/144/imagem_002.png" width="1917"/></p>
+<h3>Inclusão de Modelo de Plano de Conta</h3>
+<p><img alt="" height="960" src="/Manuais%20M8/_imagens/144/imagem_003.png" width="1918"/></p>
+<p>Para incluir um novo Modelo de Conta Contábil clique na opção<img alt="" src="/Manuais%20M8/_imagens/144/imagem_004.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/> no canto superior esquerdo. Para te auxiliar neste cadastro, criamos esse artigo com a descrição detalhada de todos os campos, segue abaixo:</p>
+<h3>Cabeçalho</h3>
+<p><img alt="" height="963" src="/Manuais%20M8/_imagens/144/imagem_005.png" width="1918"/></p>
+<ul><li><strong>Código: </strong>O código será criado de forma automática, ao salvar o Modelo de Plano de Conta.</li><li><strong>Nome: </strong>Nome do Modelo de Plano de Conta.</li><li><strong>Ativo: </strong>Definirá se o Modelo está ativo para utilização nas rotinas do sistema.</li></ul>
+<p>Após preenchidos os campos acima, clique em<img alt="" src="/Manuais%20M8/_imagens/144/imagem_006.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/> para que sejam habilitadas as demais abas do cadastro.</p>
+<h3>Contas</h3>
+<p><img alt="" height="964" src="/Manuais%20M8/_imagens/144/imagem_007.png" width="1918"/></p>
+<p>Nesta aba você informará as Contas Contábeis que farão parte desse Modelo, é importante lembrar que deverão ser informadas apenas contas que podem ser utilizadas por todas as empresas, as contas de banco por exemplo, que são específicas de cada empresa, ou seja, pertence a um CNPJ específico, não devem ser informadas no Modelo. Para incluir uma nova Conta clique na opção<img alt="" src="/Manuais%20M8/_imagens/144/imagem_008.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/> no canto superior direito.</p>
+<ul><li><strong>Código: </strong>O código será criado de forma automática, ao salvar a Conta Contábil.</li><li><strong>Ativo: </strong>Definirá se a conta está ativa ou não para utilização nas rotinas do sistema.</li><li><strong>Tipo: </strong>Aqui, você informará se a conta é Sintética ou Analítica, sendo:<ul><li><strong>Analíticas: </strong>Contas onde serão feitos os lançamentos.</li><li><strong>Sintéticas: </strong>Contas totalizadoras dos lançamentos de determinado agrupamento de contas analíticas.</li></ul></li><li><strong>Modalidade Conta: </strong>Deverá escolher uma modalidade, entre:<ul><li><strong>Plano de Conta: </strong>Permitirá que a conta seja exibida apenas no módulo contábil, sendo assim, não poderá ser utilizada em movimentações financeiras.</li><li><strong>Conta Caixa: </strong>Marque essa opção para utilizar a conta em lançamentos financeiros, como baixas de títulos e movimentações de caixa.</li><li><strong>Conta Caixa/Plano de Contas: </strong>Marcando essa opção você poderá utilizar a conta tanto nos lançamentos contábeis quanto nos lançamentos financeiros.</li><li><strong>Conta Caixa/Transferência: </strong>Marcando essa opção você poderá utilizar a conta nos lançamentos de transferência de caixa, assim com nos demais lançamentos financeiros, como baixa de títulos.</li></ul></li><li><strong>Natureza: </strong>Você poderá informar se essa conta é de débito ou crédito.</li></ul>
+<ul><li><strong>Gerar E.D.I: </strong>Quando marcado, permitirá gerar o processo de borderô de pagamentos com essa conta vinculada.</li><li><strong>Utilizada Absorção Custos: </strong>Quando marcado como sim, será possível fazer absorção de custo das contas contábeis por hora trabalhada ou por quantidade produzida no módulo PCP Produção.</li><li><strong>Tipo SPED: </strong>Informe o tipo SPED dessa conta conforme registro I050 do Manual de Orientação da ECD.<ul><li><strong>Nenhum: </strong>Quando preenchido será levado em consideração o primeiro número da classificação da conta para enviar o código de natureza da conta, conforme Manual de Orientação ECD, sendo:<ul><li>01 - Contas de Ativo</li><li>02 - Contas de Passivo</li><li>04 - Contas de Resultado</li></ul></li><li><strong>Patrimônio Líquido: </strong>Definirá a natureza da conta como 03 - Patrimônio Líquido.</li><li><strong>Contas de Compensação: </strong>Definirá a natureza da conta como 05 - Contas de Compensação.</li><li><strong>Outras Contas: </strong>Definirá a natureza da conta como 09 - Outras.</li></ul></li><li><strong>Classificação: </strong>Esse campo deverá ser preenchido apenas com números e pontos, nele será informada a classificação dessa conta, onde o primeiro número definirá se as contas são do grupo ativo, passivo ou contas de resultado, os demais números serão sequenciais que definirão a ordem das contas, assim como a hierarquia e os totalizadores de cada grupo de contas. As contas do topo de cada agrupamento serão totalizadoras das contas abaixo, os valores serão deduzidos ou somados ao totalizador de acordo com a opção marcada no campo natureza. Vale ressaltar que a classificação é de extrema importância para a estrutura adequada do planos de conta, por isso é indicado ter o acompanhamento de um Contador, profissional especializado na área, para montar o plano de contas, segue exemplo:<ul><li><strong>Exemplo: "</strong>1" - Totalizador (conta de ativo)</li><li>"1.01" Segundo Totalizador</li><li>"1.01.01" Conta Analítica</li><li>"1.01.02" Conta Analítica</li></ul></li><li><strong>Nome: </strong>Informe o nome dessa conta contábil.</li><li><strong>Estabelecimento: </strong>Informa a qual estabelecimento essa conta pertence.</li><li><strong>Instituição Pagamento: </strong>Identificação da pessoa/instituição que efetuou o pagamento.</li><li><strong>Exibe Dashboard Financeiro: </strong>Quando marcada a conta será exibida no Dashboard financeiro da sua empresa, assim como seu valor de saldo.</li><li><strong>Exibe Fluxo Caixa: </strong>Deverá marcar se a conta será exibida no fluxo de caixa.</li><li><strong>Não Exibir Conta DRE: </strong>Quando marcado esta opção, não será exibido na DRE por regime de caixa a baixa do título vinculado a esta conta.</li><li><strong>Código Importação: </strong>Campo para informar o código da conta utilizada em outro sistema, caso seja utilizada a mesma estrutura de Plano de Contas.</li></ul>
+<p>01 - Contas de Ativo 02 - Contas de Passivo 04 - Contas de Resultado</p>
+<p>Após preencher os campos, clique em para que a conta seja lançada na listagem, dessa forma você poderá lançar uma nova conta, assim como editar, excluir ou filtra-la pelo nome.<img alt="" src="/Manuais%20M8/_imagens/144/imagem_009.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/></p>
+<h3>Empresas</h3>
+<p><img alt="" height="962" src="/Manuais%20M8/_imagens/144/imagem_010.png" width="1918"/></p>
+<p>Para incluir uma nova Empresa clique na opção<img alt="" src="/Manuais%20M8/_imagens/144/imagem_011.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/> no canto superior direito.</p>
+<ul><li><strong>Código: </strong>O código será criado de forma automática, ao salvar o registro.</li><li><strong>Empresa: </strong>Empresa que deseja vincular esse Modelo de Plano de Contas.</li></ul>
+<p>Após preencher os campos, clique em para que a conta seja lançada na listagem, dessa forma você poderá lançar uma nova conta, assim como editar, excluir ou filtra-la pelo nome.<img alt="" src="/Manuais%20M8/_imagens/144/imagem_012.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/></p>
+<h3>Ações</h3>
+<p><img alt="" height="960" src="/Manuais%20M8/_imagens/144/imagem_013.png" width="1919"/></p>
+<ul><li><strong>Gerar Contas: </strong>Ao clicar nessa opção as contas informadas na aba de Contas, serão listadas no <a href="https://sac.m8sistemas.com/portal/pt-br/kb/articles/cadastro-de-plano-de-contas">Cadastro de Plano de Contas</a> em todas as empresas vinculadas na aba Empresas.</li></ul>
+<h3>Edição de Modelo de Plano de Contas</h3>
+<p>Ao acessar a tela, você conseguirá listar todos os Cadastro de Modelo de Plano de Contas ou filtrá-los de acordo com os filtros disponíveis na tela, para editá-los clique no botão Editar<img alt="" src="/Manuais%20M8/_imagens/144/imagem_014.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/>.</p>
+<h3>Exclusão de Modelo de Plano de Contas</h3>
+<p>Você também conseguirá fazer a exclusão de um de Modelo de Plano de Contas, clicando em Excluir<img alt="" src="/Manuais%20M8/_imagens/144/imagem_015.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/>, só será permito fazer a exclusão de um de Modelo de Plano de Contas, quando as Contas Contábeis criadas nele não tiverem nenhuma movimentação vinculada. Ao excluir esse Modelo de Plano de Contas, apenas um usuário Administrador conseguirá recuperá-lo, clicando em Restaurar Registro.<img alt="" src="/Manuais%20M8/_imagens/144/imagem_016.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/></p>
+<blockquote>Gostou de aprender um pouco sobre Modelo de Plano de Contas, no Contábil do M8? Caso restem dúvidas entre em contato com nossa equipe de Suporte.</blockquote>
+
+</div>
+
+<footer>
+
+Documento gerado automaticamente pelo Exportador M8
+
+</footer>
+
+</body>
+
+</html>

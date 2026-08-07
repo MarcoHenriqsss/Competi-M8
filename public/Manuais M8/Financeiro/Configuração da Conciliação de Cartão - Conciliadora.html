@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Configuração da Conciliação de Cartão - Conciliadora</title>
+
+
+
+    <link rel="stylesheet" href="/templates/estilo.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo-area">
+
+        <img src="/assets/competi.jpg" class="logo">
+
+        <div>
+
+            <div class="empresa">
+
+                COMPETI SISTEMAS
+
+            </div>
+
+            <div class="erp">
+
+                Documentação Oficial do M8 ERP
+
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+<div class="titulo">
+
+Configuração da Conciliação de Cartão - Conciliadora
+
+</div>
+
+<div class="categoria">
+
+Financeiro
+
+</div>
+
+<div class="conteudo">
+
+<li>3. Integração via API - Adiantamento de Cliente<ul><li>Dados do Cartão no Adiantamento</li></ul></li><li>4.Conciliação de Cartão</li>
+<h3>Como funciona a Conciliação de Cartão</h3>
+<p>A funcionalidade de Conciliação de Cartão permite integrar as vendas realizadas via cartão com a conciliadora, possibilitando o acompanhamento dos pagamentos e a baixa automática dos títulos conforme a confirmação recebida. Para te auxiliar neste cadastro, criamos esse artigo com a descrição detalhada de todos os campos, segue abaixo, o processo funciona em 4 etapas:</p>
+<h3>1. Configuração da integração</h3>
+<p>Para realizar a integração da Conciliadora de Cartões, deverá acessar:</p>
+<div class="callout callout-info">CAMINHO: Configurações &gt; Cadastros &gt; Cadastro de Estabelecimentos &gt; Configuração Conciliadora Cartão</div>
+<p><img alt="" height="934" src="/Manuais%20M8/_imagens/219/imagem_001.png" width="1909"/></p>
+<p><img alt="" height="942" src="/Manuais%20M8/_imagens/219/imagem_002.png" width="1901"/></p>
+<p>Para fazer a configuração da conciliadora clique na opção<img alt="" src="/Manuais%20M8/_imagens/219/imagem_003.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/> no canto direito.</p>
+<p><img alt="" height="941" src="/Manuais%20M8/_imagens/219/imagem_004.png" width="1908"/></p>
+<ul><li><strong>Integradora: </strong>Conciliadora</li><li><strong>Token de acesso: </strong>Chave de autenticação utilizada na integração</li><li><strong>Código da empresa: </strong>Identificador da empresa na Conciliadora</li><li><strong>Senha de acesso: </strong>Senha utilizada para comunicação com a integradora</li></ul>
+<p>Essa configuração é obrigatória para permitir o envio e retorno das informações entre o sistema e a Conciliadora.</p>
+<h3>2. Cadastros para realizar na Integração com a Conciliadora</h3>
+<p><strong>Cadastro de Bandeiras de Cartão</strong></p>
+<div class="callout callout-info">CAMINHO: Financeiro &gt; CADASTROS &gt; CADASTROS &gt; Lista Cadastro de Bandeiras de Cartão</div>
+<p><img alt="" height="940" src="/Manuais%20M8/_imagens/219/imagem_005.png" width="1899"/></p>
+<p><img alt="" height="376" src="/Manuais%20M8/_imagens/219/imagem_006.png" width="1136"/></p>
+<p>Para incluir uma nova Cadastro de Bandeiras de Cartão clique na opção<img alt="" src="/Manuais%20M8/_imagens/219/imagem_007.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/> no canto direito.</p>
+<p><img alt="" height="400" src="/Manuais%20M8/_imagens/219/imagem_008.png" width="1065"/></p>
+<p>deverá ser informado:</p>
+<ul><li><strong>Código Integração: </strong>Código utilizado para identificar as bandeiras de cartões utilizadas na integração.</li></ul>
+<p>Após preencher os campos, clique em<img alt="" src="/Manuais%20M8/_imagens/219/imagem_009.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/> para que novo Cadastro de Bandeiras de Cartão seja salvo com sucesso.</p>
+<p><strong>Cadastro de Operadoras de Cartão</strong><br/>Acessando:</p>
+<div class="callout callout-info">CAMINHO: Financeiro &gt; Cadastros &gt; Cadastro de Operadoras de Cartão</div>
+<p><img alt="" height="793" src="/Manuais%20M8/_imagens/219/imagem_010.png" width="1903"/></p>
+<p>Para incluir um novo cadastro das Operadoras de Cartões clique na opção<img alt="" src="/Manuais%20M8/_imagens/219/imagem_011.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/> no canto direito.</p>
+<p><img alt="" height="498" src="/Manuais%20M8/_imagens/219/imagem_012.png" width="1207"/></p>
+<p>deverá ser informado:</p>
+<ul><li><strong>Código Integração: </strong>Código utilizado para identificar as bandeiras de cartões utilizadas na integração.</li></ul>
+<p>Após preencher os campos, clique em<img alt="" src="/Manuais%20M8/_imagens/219/imagem_013.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/> para que novo cadastro das Operadoras de Cartões seja salvo com sucesso.</p>
+<h3>Cadastro de Meios de Captura</h3>
+<p>Acessando:</p>
+<div class="callout callout-info"><strong>CAMINHO: </strong> <strong> Financeiro &gt; Cadastros &gt; Cadastro de Meios Captura Cartão</strong></div>
+<p><img alt="" height="535" src="/Manuais%20M8/_imagens/219/imagem_014.png" width="1906"/></p>
+<p>Para incluir um novo cadastro Meios Captura Cartão de clique na opção<img alt="" src="/Manuais%20M8/_imagens/219/imagem_015.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/> no canto direito.</p>
+<p><img alt="" height="395" src="/Manuais%20M8/_imagens/219/imagem_016.png" width="1084"/></p>
+<p>deverá ser informado:</p>
+<ul><li><strong>Código Integração: </strong>Código utilizado para identificar os meios de captura das transações de cartão.</li></ul>
+<p>Após preencher os campos, clique em<img alt="" src="/Manuais%20M8/_imagens/219/imagem_017.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/> para que o novo cadastro Meios Captura Cartão seja salvo com sucesso.</p>
+<h3>Cadastro de Condições de Pagamento</h3>
+<p>Acessando:</p>
+<div class="callout callout-info">CAMINHO Financeiro &gt; Cadastros &gt; Cadastro de Condições de Pagamento</div>
+<p><img alt="" height="735" src="/Manuais%20M8/_imagens/219/imagem_018.png" width="1891"/></p>
+<p>Para incluir um novo Cadastro de Meios de Pagamento clique na opção<img alt="" src="/Manuais%20M8/_imagens/219/imagem_019.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/> no canto direito.</p>
+<p><img alt="" height="943" src="/Manuais%20M8/_imagens/219/imagem_020.png" width="985"/></p>
+<p>foram adicionados os campos:</p>
+<ul><li><strong>Bandeira Cartão: </strong> Identifica a bandeira utilizada na transação.</li><li><strong>Meio Captura Cartão: </strong> Identifica o meio de captura utilizado na transação.</li></ul>
+<p>Esses campos serão utilizados para geração das parcelas integradas à Conciliadora.</p>
+<p>Após preencher os campos, clique em<img alt="" src="/Manuais%20M8/_imagens/219/imagem_021.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/> para que o novo cadastro Meios de pagamento seja salvo com sucesso.</p>
+<h2>3. Integração via API - Adiantamento de Cliente</h2>
+<p><strong>Integração via API - Adiantamento de Cliente</strong></p>
+<div class="callout callout-info">CAMINHO: Financeiro &gt; CADASTROS &gt; CADASTROS &gt; Lista Cadastro de Condições de Pagamento</div>
+<p>Adicionados os campos de Bandeira Cartão e Meios Captura Cartão, para realizar a vinculação para geração das parcelas que serão integradas na Conciliadora.</p>
+<p><img alt="" height="937" src="/Manuais%20M8/_imagens/219/imagem_022.png" width="1913"/></p>
+<p><img alt="" height="671" src="/Manuais%20M8/_imagens/219/imagem_023.png" width="1887"/></p>
+<p>Para realizar a vinculação clique na opção<img alt="" src="/Manuais%20M8/_imagens/219/imagem_024.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/> no canto direito.</p>
+<p><img alt="" height="945" src="/Manuais%20M8/_imagens/219/imagem_025.png" width="1891"/></p>
+<p><strong>EndPoint: </strong>Adiantamento de Cliente. Responsável pelo envio e integração das informações de adiantamento de cliente no módulo financeiro.<br/><strong>URL da API: </strong> <a href="https://api.integra.m8sistemas.com.br/v1/financeiro/adiantamentocliente">https://api.integra.m8sistemas.com.br/v1/financeiro/adiantamentocliente</a><br/><strong>Campos utilizados na integração: </strong><br/><strong>pessoaCartaoId: </strong>Identificador do cadastro da operadora/cartão vinculado à transação. <strong>condicaoPagamentoId: </strong>Identificador da condição de pagamento utilizada na transação. <strong>autenticacao: </strong>Código de autenticação retornado pela operadora do cartão. <strong>autorizacaoCartao: </strong>Código de autorização da transação do cartão. <strong>nsu: </strong>Número Sequencial Único da transação.<br/><strong>nsuHost: </strong>Número identificador da transação gerado pela adquirente/host. <strong>dataTransacao: </strong>Data em que a transação foi realizada. <strong>numeroParcelas</strong>: Quantidade de parcelas da transação<strong>.</strong></p>
+<p>Após preencher os campos, clique em<img alt="" src="/Manuais%20M8/_imagens/219/imagem_026.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/> para que a vinculação seja salva com sucesso.</p>
+<h3>Dados do Cartão no Adiantamento</h3>
+<p><strong>No cadastro: </strong></p>
+<div class="callout callout-info">CAMINHO: Financeiro &gt; Movimento &gt; Adiantamento &gt; Adiantamento de Clientes</div>
+<p>No cadastro de Adiantamento de Cliente, adicionamos a aba de Dados Cartão, onde irá armazenar as informações da transação do cartão vinda pela API.</p>
+<p><img alt="" height="721" src="/Manuais%20M8/_imagens/219/imagem_027.png" width="1904"/></p>
+<p><img alt="" height="695" src="/Manuais%20M8/_imagens/219/imagem_028.png" width="1826"/></p>
+<p>Para realizar a edição clique na opção<img alt="" src="/Manuais%20M8/_imagens/219/imagem_029.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/> no canto direito.</p>
+<p><img alt="" height="614" src="/Manuais%20M8/_imagens/219/imagem_030.png" width="1876"/></p>
+<p><strong>Dados Cartão: </strong>Essa aba é responsável por armazenar as informações da transação recebidas pela API.</p>
+<p>Informações utilizadas<br/>Pessoa Cartão<br/>Condição de Pagamento<br/>Autorização Cartão<br/>NSU<br/>Data Transação</p>
+<p>Ao processar o adiantamento, será gerado automaticamente um lançamento no Contas a Receber, criando as parcelas conforme os Dados do Cartão informados.</p>
+<p><img alt="" height="657" src="/Manuais%20M8/_imagens/219/imagem_031.png" width="1262"/></p>
+<p><img alt="" height="395" src="/Manuais%20M8/_imagens/219/imagem_032.png" width="1259"/></p>
+<h3>4.Conciliação de Cartão</h3>
+<p>Para efetuar a integração com a Conciliadora, realizando o envio das vendas e a baixa dos pagamentos recebidos, foram criadas as seguintes telas:<br/><strong>Enviar Vendas</strong><br/><strong>Buscar Pagamentos Confirmados</strong></p>
+<p><strong>Enviar Vendas</strong><br/>Acesse:</p>
+<div class="callout callout-info">CAMINHO: Financeiro &gt; Movimento &gt; Conciliação Cartão &gt; Enviar Ven das</div>
+<p><img alt="" height="545" src="/Manuais%20M8/_imagens/219/imagem_033.png" width="997"/></p>
+<p><img alt="" height="372" src="/Manuais%20M8/_imagens/219/imagem_034.png" width="948"/></p>
+<p>Nesta tela serão listadas somente as parcelas que possuírem:</p>
+<ul><li><strong>NSU preenchido</strong></li><li><strong>Autorização do Cartão preenchida</strong></li></ul>
+<div class="callout callout-info">Após o envio dos títulos, as informações poderão levar até 24 horas para serem exibidas no painel da Conciliadora.</div>
+<p><strong>Buscar Pagamentos Confirmados</strong><br/>Acesse:</p>
+<div class="callout callout-info">CAMINHO: Financeiro &gt; Movimento &gt; Conciliação Cartão &gt; Buscar Pagamentos Confirmados</div>
+<p><img alt="" height="394" src="/Manuais%20M8/_imagens/219/imagem_035.png" width="943"/></p>
+<p>Nesta tela o sistema irá consultar os lançamentos de vendas realizadas no cartão e integradas à Conciliadora.</p>
+<p>A localização dos registros poderá ocorrer através de:</p>
+<ul><li><strong>Autorização do Cartão</strong></li><li><strong>NSU</strong></li><li><strong>ID da parcela</strong></li></ul>
+<p>Caso os lançamentos sejam identificados, através da opção:</p>
+<ul><li><strong>Baixar Títulos</strong></li></ul>
+<p>será possível efetuar a baixa automática do lançamento no sistema.</p>
+<div class="callout callout-info">O artigo não foi validado em ambiente de testes. As informações foram elaboradas com base em manuais e em tarefas já executadas, servindo como referência para este artigo.</div>
+<blockquote>Gostou de aprender sobre a Configuração da Conciliação de Cartão? Caso restem duvidas, não hesite em acionar nossa equipe de Suporte!</blockquote>
+
+</div>
+
+<footer>
+
+Documento gerado automaticamente pelo Exportador M8
+
+</footer>
+
+</body>
+
+</html>

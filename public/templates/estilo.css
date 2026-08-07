@@ -1,0 +1,248 @@
+/* =====================================================
+   COMPETI SISTEMAS - M8 ERP
+   Tema Corporativo
+===================================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#111827;
+    color:#F3F4F6;
+    font-family:"Segoe UI",Arial,sans-serif;
+    font-size:16px;
+    line-height:1.8;
+    max-width:1200px;
+    margin:auto;
+    padding:40px;
+}
+
+/* ================= HEADER ================= */
+
+header{
+    background:linear-gradient(135deg,#111827,#1F2937);
+    border:1px solid #374151;
+    border-radius:14px;
+    padding:25px;
+    margin-bottom:40px;
+    box-shadow:0 8px 30px rgba(0,0,0,.35);
+}
+
+.logo-area{
+    display:flex;
+    align-items:center;
+    gap:25px;
+}
+
+.logo{
+    width:90px;
+    height:90px;
+    object-fit:contain;
+}
+
+.empresa{
+    font-size:30px;
+    font-weight:bold;
+    color:#3B82F6;
+}
+
+.erp{
+    font-size:17px;
+    color:#9CA3AF;
+    margin-top:5px;
+}
+
+/* ================= TITULOS ================= */
+
+.titulo{
+    font-size:36px;
+    color:#3B82F6;
+    font-weight:bold;
+    margin-bottom:12px;
+    border-bottom:3px solid #3B82F6;
+    padding-bottom:10px;
+}
+
+.categoria{
+    display:inline-block;
+    background:#7C3AED;
+    color:white;
+    padding:8px 18px;
+    border-radius:40px;
+    margin-bottom:35px;
+    font-weight:bold;
+}
+
+/* ================= CONTEUDO ================= */
+
+.conteudo h1,
+.conteudo h2,
+.conteudo h3{
+    color:#60A5FA;
+    margin-top:35px;
+    margin-bottom:15px;
+}
+
+.conteudo p{
+    margin-bottom:18px;
+}
+
+.conteudo ul,
+.conteudo ol{
+    margin-left:25px;
+    margin-bottom:20px;
+}
+
+.conteudo li{
+    margin-bottom:8px;
+}
+
+/* ================= TABELAS ================= */
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin:25px 0;
+}
+
+table th{
+    background:#2563EB;
+    color:white;
+    padding:12px;
+}
+
+table td{
+    border:1px solid #374151;
+    padding:10px;
+}
+
+table tr:nth-child(even){
+    background:#1F2937;
+}
+
+/* ================= IMAGENS ================= */
+
+img{
+    max-width:100%;
+    border-radius:10px;
+    margin:20px 0;
+}
+
+/* ================= CALLOUTS ================= */
+
+.callout{
+    padding:20px;
+    border-radius:10px;
+    margin:25px 0;
+}
+
+.callout-info{
+    background:#0F3A5D;
+    border-left:6px solid #3B82F6;
+}
+
+.callout-success{
+    background:#0E4D34;
+    border-left:6px solid #22C55E;
+}
+
+.callout-warning{
+    background:#4C1D95;
+    border-left:6px solid #A855F7;
+}
+
+/* ================= LINKS ================= */
+
+a{
+    color:#60A5FA;
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+/* ================= RODAPÉ ================= */
+
+footer{
+    margin-top:60px;
+    padding-top:20px;
+    border-top:1px solid #374151;
+    text-align:center;
+    color:#9CA3AF;
+    font-size:14px;
+}
+/* ============================
+   TAMANHO DAS IMAGENS
+============================ */
+
+/* =========================================
+   IMAGENS DOS MANUAIS
+========================================= */
+
+/* =========================================
+   AJUSTE DE IMAGENS DOS MANUAIS
+========================================= */
+
+.conteudo {
+    overflow-x: hidden;
+}
+
+.conteudo img {
+    display: block !important;
+
+    width: auto !important;
+    max-width: 80% !important;
+
+    height: auto !important;
+    max-height: 650px !important;
+
+    object-fit: contain;
+
+    margin: 12px auto !important;
+
+    border-radius: 8px;
+}
+
+/* Reduz espaço entre textos e imagens */
+.conteudo p {
+    margin-top: 8px !important;
+    margin-bottom: 8px !important;
+}
+
+/* Parágrafo que contém imagem */
+.conteudo p:has(img) {
+    margin: 10px 0 !important;
+    padding: 0 !important;
+
+    line-height: 0 !important;
+}
+
+/* Div que contém diretamente uma imagem */
+.conteudo div:has(> img) {
+    height: auto !important;
+    min-height: 0 !important;
+
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+
+/* =========================================
+   CELULAR
+========================================= */
+
+@media (max-width: 800px) {
+
+    .conteudo img {
+        max-width: 100% !important;
+        max-height: none !important;
+    }
+
+}

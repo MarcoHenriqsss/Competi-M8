@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Configurações Bloco K</title>
+
+
+
+    <link rel="stylesheet" href="/templates/estilo.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo-area">
+
+        <img src="/assets/competi.jpg" class="logo">
+
+        <div>
+
+            <div class="empresa">
+
+                COMPETI SISTEMAS
+
+            </div>
+
+            <div class="erp">
+
+                Documentação Oficial do M8 ERP
+
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+<div class="titulo">
+
+Configurações Bloco K
+
+</div>
+
+<div class="categoria">
+
+PCP Produção
+
+</div>
+
+<div class="conteudo">
+
+<h2>Configurações Bloco K</h2>
+<p>O Bloco K tem como objetivo principal fornecer à Receita Federal informações detalhadas sobre os registros de produção e estoque das empresas, possibilitando um controle mais efetivo sobre a movimentação e utilização dos insumos. Essa medida visa combater a sonegação fiscal e assegurar uma maior conformidade com as obrigações tributárias. Nessa rotina, a empresa irá configurar quais registros serão enviados ao Fisco. (K100, K200, K230 e K235).</p>
+<div class="callout callout-info">PCP Produção &gt; MOVIMENTO &gt; CONFIGURAÇÕES &gt; Lista Configurações Bloco K</div>
+<p><img alt="" height="940" src="/Manuais%20M8/_imagens/72/imagem_001.png" width="1917"/></p>
+<p><img alt="" height="940" src="/Manuais%20M8/_imagens/72/imagem_002.png" width="1919"/></p>
+<p><strong>Lista cadastro Bloco K</strong></p>
+<p><img alt="" height="936" src="/Manuais%20M8/_imagens/72/imagem_003.png" width="1915"/></p>
+<p>Nessa tela, serão listados os estabelecimentos que fazem parte do Grupo Empresa, para configurar os registros do Bloco K, basta clicar no botão<img alt="" src="/Manuais%20M8/_imagens/72/imagem_004.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/>.</p>
+<p><strong>Filtros</strong></p>
+<p><img alt="" height="940" src="/Manuais%20M8/_imagens/72/imagem_005.png" width="1920"/></p>
+<p><strong>Estabelecimento: </strong> Campo bloqueado para edição, apenas listará o estabelecimento selecionado para configuração. <strong>Gerar Bloco K: </strong> Nesse campo você informará se esse estabelecimento gera ou não o bloco K, selecionando a opção Sim, serão habilitados os campos abaixo.<br/><strong>Registro K100: </strong> O Registro K100 é parte do Bloco K do SPED Fiscal e é utilizado para informar período de apuração. Os períodos informados neste registro deverão abranger todo o período da escrituração, conforme informado no Registro 0000".<br/><strong>Registro K200: </strong> O Registro K200 é um dos registros presentes no Bloco K do SPED Fiscal, e ste Registro tem o objetivo de informar o estoque final escriturado do período de apuração informado no Registro K100, por tipo de estoque e por participante, nos casos em que couber, das mercadorias de tipos 00 - Mercadoria para revenda, 01 - Matéria-Prima, 02 - Embalagem, 03 - Produtos em Processo, 04 - Produto Acabado, 05 - Subproduto, 06 - Produto Intermediário e 10 - Outros Insumos - campo"TIPO_ITEM" do Registro 0200. <strong>Registro K230: </strong> O Registro K230 é utilizado para registrar as informações sobre a produção em terceiros. Este Registro tem o objetivo de informar a produção acabada de produto em processo (tipo 03 - campo TIPO_ITEM do Registro 0200 ) e produto acabado (tipo 04 - campo TIPO_ITEM do Registro 0200 ), exceto produção conjunta, inclusive daquele industrializado para terceiro por encomenda. O produto resultante é classificado como tipo 03 – produto em processo, quando não estiver pronto para ser comercializado, mas estiver pronto para ser consumido em outra fase de produção. O produto resultante é classificado como tipo 04 – produto acabado, quando estiver pronto para ser comercializado. Deverá existir mesmo que a quantidade de produção acabada seja igual a zero, nas situações em que exista o consumo de item componente/insumo no registro filho K235.<br/><strong>Registro K235: </strong> O Registro K235 é utilizado para informar as perdas ocorridas no processo produtivo. Este registro tem o objetivo de informar o consumo de mercadoria no processo produtivo, vinculado ao produto resultante informado no campo COD_ITEM do Registro K230 - Itens Produzidos. Na industrialização efetuada para terceiro por encomenda devem ser considerados os insumos recebidos do encomendante e os insumos próprios do industrializador.</p>
+<p>Este registro é obrigatório quando existir o registro pai K230 e:</p>
+<ol><li>a informação da quantidade produzida (K230) for por período de apuração(K100); ou</li><li>a ordem de produção (K230) se iniciar e concluir no período de apuração (K100); ou</li><li>a ordem de produção (K230) se iniciar no período de apuração (K100) e não for concluída no mesmo período.</li></ol>
+<blockquote>Gostou de conhecer um pouco sobre Configuração Bloco K? Caso ainda restem dúvidas pode entrar em contato com nossa equipe de Suporte.</blockquote>
+<p>Embasamento Técnico: Guia prático da escrituração fiscal digital - EFD-ICMS/IPI</p>
+
+</div>
+
+<footer>
+
+Documento gerado automaticamente pelo Exportador M8
+
+</footer>
+
+</body>
+
+</html>

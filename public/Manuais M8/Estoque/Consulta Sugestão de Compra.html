@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Consulta Sugestão de Compra</title>
+
+
+
+    <link rel="stylesheet" href="/templates/estilo.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo-area">
+
+        <img src="/assets/competi.jpg" class="logo">
+
+        <div>
+
+            <div class="empresa">
+
+                COMPETI SISTEMAS
+
+            </div>
+
+            <div class="erp">
+
+                Documentação Oficial do M8 ERP
+
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+<div class="titulo">
+
+Consulta Sugestão de Compra
+
+</div>
+
+<div class="categoria">
+
+Estoque
+
+</div>
+
+<div class="conteudo">
+
+<h2>Consulta Sugestão de Compra</h2>
+<p>Nessa rotina, poderá verificar de forma prática e rápida uma sugestão de quantidades a serem compradas para os produtos cadastrados no sistema, essa sugestão é feita com base na quantidade vendida de cada produto em determinado período.</p>
+<div class="callout callout-info">Estoque &gt; MOVIMENTO &gt; CONSULTA &gt; Consulta Sugestão de Compra</div>
+<p><img alt="" height="927" src="/Manuais%20M8/_imagens/319/imagem_001.png" width="1919"/></p>
+<p><img alt="" height="962" src="/Manuais%20M8/_imagens/319/imagem_002.png" width="1918"/></p>
+<h3>Filtros</h3>
+<p><img alt="" height="934" src="/Manuais%20M8/_imagens/319/imagem_003.png" width="1917"/></p>
+<ul><li><strong>Calcular Com Base</strong>: Campo que permite escolher como a sugestão será calculada, podendo ser com base em "Dias" ou "Período".<ul><li><strong>Dias</strong>: Quando a opção "Dias" é selecionada, aparecerá o campo "Calcular com base nos últimos (dias)" no qual você deve inserir a quantidade de dias desejada.<ul><li><strong>Exemplo: </strong>120 dias.</li></ul></li><li><strong>Período</strong>: Ao escolher a opção "Período", você deverá preencher o campo "Período" com a faixa de datas que será considerada.<ul><li><strong>Exemplo: </strong>01/09/2023 a 26/09/2023.</li></ul></li></ul></li></ul>
+<p><strong>Exemplo:</strong> 120 dias.</p>
+<p><strong>Exemplo:</strong> 01/09/2023 a 26/09/2023.</p>
+<ul><li><strong>Estoque para (dias): </strong>Campo onde você informará para quantos dias futuros deseja calcular o estoque a ser comprado.</li><li><strong>Estabelecimento Gerar: </strong>Campo para indicar em qual estabelecimento será gerada a Solicitação/Ordem de Compra.</li><li><strong>Estabelecimento Filtrar: </strong>Campo para informar o estabelecimento que será usado para filtrar os dados na Sugestão de Solicitação/Ordem de Compra.</li><li><strong>Fornecedor: </strong>Campo para filtrar um fornecedor específico, será considerado fornecedor vinculado ao cadastro no produto.</li><li><strong>Família: </strong>Campo onde você poderá filtrar os produtos por família.</li><li><strong>Grupo Estoque: </strong>Campo onde você poderá filtrar os produtos por seu Grupo de Estoque.</li><li><strong>Marca: </strong>Campo onde você poderá filtrar os produtos por sua Marca.</li><li><strong>Produto: </strong>Campo de seleção múltipla para informar um ou mais produtos que deseja filtrar.</li><li><strong>Código Identificação Interno: </strong>Campo para filtrar os produtos pelo código interno deles.</li><li><strong>Ocultar Itens Sem Sugestão: </strong>Permite escolher se deseja ocultar ou não os itens que não possuem sugestão de compra.</li><li><strong>Considerar Requisição Estoque: </strong>Campo que permite considerar as requisições processadas e/ou pendentes para os itens filtrados. Essas requisições serão tratadas como "Saídas" e influenciarão o cálculo das compras.</li><li><strong>Considerar Estoque Mínimo: </strong>Campo que permite considerar o estoque mínimo na Sugestão de Compra.</li><li><strong>Considerar Pedidos Pendentes: </strong>Campo que considerar os pedidos pendentes, como reserva de estoque.</li><li><strong>Considerar Orçamento CRM: </strong>Campo que permite considerar a reserva de estoque dos produtos alocados em Orçamentos (CRM).</li><li><strong>Considerar OS Pendentes: </strong>Campo que permite considerar a reserva de estoque dos produtos alocados em Ordens de Serviço pendentes.</li><li><strong>Considerar OC Pendentes: </strong>Campo que permite considerar a reserva de estoque dos produtos alocados em Ordens de Compra pendentes.</li><li><strong>Considerar OP Pendentes: </strong>Campo que permite considerar a reserva de estoque dos produtos alocados em Ordem de Produção pendentes.</li><li><strong>Filtrar Datas Lançamentos Pendentes: </strong>Campo que permite filtrar ou não os lançamentos pendentes (Pedidos, Ordens de Compra, Ordens de Serviço) para gerar a Sugestão de Compra.</li><li><strong>Listar sem Vendas: </strong>Opção que permite escolher listar ou não os itens que não têm vendas registradas no momento em que a sugestão é exibida.</li></ul>
+<p>Para realizar a pesquisa da sugestão, após utilizar um dos filtros acima, basta clicar em<img alt="" src="/Manuais%20M8/_imagens/319/imagem_004.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/>.</p>
+<p><img alt="" height="964" src="/Manuais%20M8/_imagens/319/imagem_005.png" width="1916"/></p>
+<p>Ao realizar a pesquisa, serão listados na grid abaixo as informações dos respectivos produtos filtrados.</p>
+<p><img alt="" height="962" src="/Manuais%20M8/_imagens/319/imagem_006.png" width="1918"/></p>
+<p>Na Grid em questão, você pode facilmente verificar a quantidade de saída de um produto na coluna "Saída" e avaliar o estoque atual, considerando as reservas, nas colunas "Estoque" e "Est. Atual (Disp)". Com base nessas informações, o sistema realiza o cálculo da Sugestão de Compra, que pode ser encontrada nas colunas "Sug Compra" e "Sug Compra 2". É importante destacar que as quantidades sugeridas para compra são editáveis pelo usuário, oferecendo flexibilidade total no processo de tomada de decisão.</p>
+<p>O processo de Sugestão de Compra inclui um recurso facilitador que permite a geração de Solicitações de Compra ou Ordens de Compra a partir dela. Para acessar essa funcionalidade, disponibilizamos dois botões de ação: "Gerar Solicitação de Compra" e "Gerar Ordem de Compra"</p>
+<p><img alt="" height="963" src="/Manuais%20M8/_imagens/319/imagem_007.png" width="1917"/></p>
+<p>Disponibilizamos em tela, o botão para realizar o cadastro da sugestão de compra, através do botão<img alt="" src="/Manuais%20M8/_imagens/319/imagem_008.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/></p>
+<p>, na qual, lhe permite realizar a impressão em PDF, aprovar e reprovar itens para gerar Ordem de Compra e Solicitação de Compra.</p>
+<p><img alt="" height="962" src="/Manuais%20M8/_imagens/319/imagem_009.png" width="1918"/></p>
+<blockquote>Gostou de conhecer um pouco sobre Consulta Sugestão de Compra? Caso ainda restem dúvidas pode entrar em contato com nossa equipe de Suporte.</blockquote>
+
+</div>
+
+<footer>
+
+Documento gerado automaticamente pelo Exportador M8
+
+</footer>
+
+</body>
+
+</html>

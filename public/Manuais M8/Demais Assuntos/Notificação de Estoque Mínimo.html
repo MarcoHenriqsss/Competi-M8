@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Notificação de Estoque Mínimo</title>
+
+
+
+    <link rel="stylesheet" href="/templates/estilo.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo-area">
+
+        <img src="/assets/competi.jpg" class="logo">
+
+        <div>
+
+            <div class="empresa">
+
+                COMPETI SISTEMAS
+
+            </div>
+
+            <div class="erp">
+
+                Documentação Oficial do M8 ERP
+
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+<div class="titulo">
+
+Notificação de Estoque Mínimo
+
+</div>
+
+<div class="categoria">
+
+Demais Assuntos
+
+</div>
+
+<div class="conteudo">
+
+<h2>Notificação Estoque Mínimo</h2>
+<p>Este processo tem como objetivo auxiliar os usuários na identificação dos níveis de estoque quando estes se aproximam do mínimo. Em outras palavras, ele envia notificações por e-mail aos usuários responsáveis, desde que estejam devidamente.</p>
+<div class="callout callout-info">Workflow &gt; CADASTROS &gt; NOTIFICAÇÕES &gt; Configuração das Notificações.</div>
+<p><img alt="" height="962" src="/Manuais%20M8/_imagens/51/imagem_001.png" width="1919"/></p>
+<p><img alt="" height="964" src="/Manuais%20M8/_imagens/51/imagem_002.png" width="1918"/></p>
+<h2>Inclusão de Notificação</h2>
+<p><img alt="" height="896" src="/Manuais%20M8/_imagens/51/imagem_003.png" width="1919"/></p>
+<p>Para incluir uma nova Notificação clique na opção<img alt="" src="/Manuais%20M8/_imagens/51/imagem_004.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/> no canto superior esquerdo. Para te auxiliar neste cadastro, criamos esse artigo com a descrição detalhada de todos os campos, segue abaixo:</p>
+<h2>Cabeçalho</h2>
+<p><img alt="" height="964" src="/Manuais%20M8/_imagens/51/imagem_005.png" width="1920"/></p>
+<ul><li><strong>Código</strong>: Código de identificação interna do registro de notificação.</li><li><strong>Tipo</strong>: Tipo de envio de notificação.<ul><li><strong>Estoque Mínimo</strong>: Quando utilizado, irá disparar e-mails de notificação para os contatos do Cadastro de Estabelecimento que estiverem configurados com o tipo Compra ou Supervisor, com os produtos que estiverem com quantidade mínima de estoque.</li></ul></li></ul>
+<ul><li><strong>Descrição</strong>: Descrição do registro de notificação.</li><li><strong>Modelo Documento</strong>: <a href="https://sac.m8sistemas.com/portal/pt-br/kb/articles/cadastro-de-modelo-de-documento">Modelo de documento</a> que será utilizado para enviar o e-mail.</li></ul>
+<p><strong>Execução</strong></p>
+<ul><li><strong>Periodicidade</strong>: Periodicidade de envio das notificações.<ul><li><strong>Semanal</strong>: Quando utilizado, serão habilitados sete campos correspondentes a cada dia da semana, assim como o campo Hora Execução.<ul><li><strong>Hora Execução</strong>: Você deverá informar o horário de disparo do e-mail.</li><li><strong>Dias da semana</strong>: Selecionará de acordo com os dias da semana que deseja que seja feito o envio dos e-mails, respeitando o horário informado no campo anterior.</li></ul></li><li><strong>Mensal</strong>: Quando utilizado, habilitará o campo Dia do Mês.<ul><li><strong>Hora Execução</strong>: Você deverá informar o horário de disparo do e-mail.</li><li><strong>Dia do Mês</strong>: Informe o dia do mês que serão enviadas as notificações.</li></ul></li></ul></li></ul>
+<p><strong>Hora</strong> <strong>Execução</strong>: Você deverá informar o horário de disparo do e-mail. <strong>Dias</strong> <strong>da</strong> <strong>semana</strong>: Selecionará de acordo com os dias da semana que deseja que seja feito o envio dos e-mails, respeitando o horário informado no campo anterior.</p>
+<p><strong>Hora</strong> <strong>Execução</strong>: Você deverá informar o horário de disparo do e-mail. <strong>Dia do</strong> <strong>Mês</strong>: Informe o d ia do mês que serão enviadas as notificações.</p>
+<h2>Inclusão de Modelo de Documento</h2>
+<div class="callout callout-info">Workflow &gt; CADASTROS &gt; CADASTROS &gt; Lista Cadastro de Modelos de Documentos.</div>
+<p><img alt="" height="966" src="/Manuais%20M8/_imagens/51/imagem_006.png" width="1919"/></p>
+<p>Nesta tela estará disponível a opção para definir o Modelo de e-mail para a notificação do estoque mínimo, onde você deverá selecionar o Tipo 61 - E-mail de Notificação Estoque Mínimo. Para personalizar o Modelo de Documento, temos à disposição as seguintes variáveis: Código do Estabelecimento, Razão Social do Estabelecimento e URL de Notificação de Estoque Mínimo.</p>
+<h2>Configuração Cadastro de Usuário</h2>
+<div class="callout callout-info">Configurações &gt; CADASTROS &gt; CADASTROS &gt; Lista Cadastro de Usuário</div>
+<p><img alt="" height="781" src="/Manuais%20M8/_imagens/51/imagem_007.png" width="1672"/></p>
+<p>Dentro do Cadastro de Usuários você definirá quais usuários receberam os e-mails de Notificação de Estoque Mínimo, marcando a opção Notifica Estoque Mínimo.</p>
+<p>Após a configuração das opções mencionadas acima, os usuários selecionados receberão as notificações por e- mail. Essas notificações incluirão um link que permitirá visualizar os produtos com estoques abaixo da quantidade mínima configurada.<br/>Ao clicar no link associado ao nome do produto, os usuários terão acesso às informações sobre as últimas compras realizadas e as Ordens de Compras pendentes relacionadas ao produto em questão.</p>
+<p><img alt="" height="944" src="/Manuais%20M8/_imagens/51/imagem_008.png" width="1847"/></p>
+<p>Clicando no nome do produto, será exibida uma nova tela com detalhamento deste item, assim como as últimos Notas de Compra lançadas no sistema e também Ordens de Compra pendentes para esse produto.</p>
+<p><img alt="" height="963" src="/Manuais%20M8/_imagens/51/imagem_009.png" width="1870"/></p>
+<blockquote>Gostou de aprender sobre a Notificação de Estoque Mínimo? Caso restem dúvidas entre em contato com nossa equipe de Suporte.</blockquote>
+
+</div>
+
+<footer>
+
+Documento gerado automaticamente pelo Exportador M8
+
+</footer>
+
+</body>
+
+</html>

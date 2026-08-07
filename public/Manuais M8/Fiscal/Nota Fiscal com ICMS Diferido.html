@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Nota Fiscal com ICMS Diferido</title>
+
+
+
+    <link rel="stylesheet" href="/templates/estilo.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo-area">
+
+        <img src="/assets/competi.jpg" class="logo">
+
+        <div>
+
+            <div class="empresa">
+
+                COMPETI SISTEMAS
+
+            </div>
+
+            <div class="erp">
+
+                Documentação Oficial do M8 ERP
+
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+<div class="titulo">
+
+Nota Fiscal com ICMS Diferido
+
+</div>
+
+<div class="categoria">
+
+Fiscal
+
+</div>
+
+<div class="conteudo">
+
+<h2>Nota Fiscal com ICMS Diferido</h2>
+<p>O diferimento de ICMS é um benefício fiscal que permite postergar a cobrança ou recolhimento do tributo. T rata- se de transferir o lançamento e o pagamento do ICMS para etapa posterior à ocorrência do fato gerador da obrigação tributária. A definição e regulamentação desse tributo é de competência estadual, devendo ser observada a legislação de cada estado.</p>
+<h2>Configurações Necessárias</h2>
+<p>Para a emissão de uma Nota Fiscal com Diferimento de ICMS você deve primeiramente cadastrar a Operação Fiscal e os impostos observando algumas particularidades nesse cadastro.</p>
+<h2>Cadastrando a Operação Fiscal</h2>
+<div class="callout callout-info">Configurações &gt; CADASTROS &gt; CADASTROS &gt; Lista Cadastro de Operações Fiscais</div>
+<p>Para emissão de uma Nota Fiscal com diferimento de ICMS deve ser criada uma Operação Fiscal específica para esse caso, já que a CST e os valores de impostos são diferentes de operações tributadas integralmente. O cabeçalho da Operação Fiscal deve ser preenchido com as mesmas informações que as Operações Fiscais Tributadas. Caso tenha dúvidas sobre tais informações, você pode consultar nosso artigo sobre Cadastro de Operação Fiscal</p>
+<p>O que muda são as definições de impostos na aba Impostos. Nessa aba devem ser informados os impostos do tipo <strong>ICMS</strong> e <strong>ICMS Diferimento</strong> conforme exemplo a seguir:</p>
+<p><img alt="" height="936" src="/Manuais%20M8/_imagens/265/imagem_001.png" width="1919"/></p>
+<h2>Cadastrando os Impostos</h2>
+<div class="callout callout-info">Fiscal &gt; MOVIMENTO &gt; CONFIGURAÇÕES &gt; Configuração de Impostos</div>
+<p>Para a Operação Fiscal de venda com diferimento é necessário cadastrar os impostos do tipo ICMS e ICMS Diferimento.<br/>O imposto tipo ICMS deve ser criado usando a CST 51 com Regra Valor do Imposto:</p>
+<div class="callout callout-info">(( ValorTotalItem + ValorFreteRateioItem - ValorDescontoRateioItem + ValorAcrescimoRateioItem + ValorIpiItem ) * (AliquotaIcmsItem/100)) * (1-(AliquotaIcmsDiferimentoItem/100))</div>
+<p>e Regra Base de Cálculo:</p>
+<div class="callout callout-info">( ValorTotalItem + ValorFreteRateioItem - ValorDescontoRateioItem + ValorAcrescimoRateioItem + ValorIpiItem )</div>
+<p><img alt="" height="931" src="/Manuais%20M8/_imagens/265/imagem_002.png" width="1918"/></p>
+<p>O imposto tipo ICMS Diferimento deve ser criado sem informação de CST, com Regra Valor do Imposto:</p>
+<div class="callout callout-info">(( ValorTotalItem + ValorFreteRateioItem - ValorDescontoRateioItem + ValorAcrescimoRateioItem + ValorIpiItem ) * (AliquotaIcmsDiferimentoItem/100)) * (AliquotaIcmsItem/100)</div>
+<p>e Regra Base de Cálculo:</p>
+<div class="callout callout-info">(( ValorTotalItem + ValorFreteRateioItem - ValorDescontoRateioItem + ValorAcrescimoRateioItem + ValorIpiItem ) * (AliquotaIcmsDiferimentoItem/100))</div>
+<p><img alt="" height="938" src="/Manuais%20M8/_imagens/265/imagem_003.png" width="1917"/></p>
+<h2>Configurando o percentual de diferimento</h2>
+<p>O percentual de diferimento pode variar de acordo com o produto ou natureza de operação. Esse percentual deve ser validado juntos ao contador responsável da empresa. Também deve ser avaliado se a empresa utiliza Grade Tributária (Lista Cadastro de Tributações). Caso utilize, o percentual deve ser informado diretamente nas Grades Tributárias no campo % ICMS Diferimento.</p>
+<p><img alt="" height="933" src="/Manuais%20M8/_imagens/265/imagem_004.png" width="1918"/></p>
+<p>Caso a empresa não utilize Grade Tributária o percentual de diferimento deve ser informado no cadastro do item.</p>
+<p><img alt="" height="922" src="/Manuais%20M8/_imagens/265/imagem_005.png" width="1915"/></p>
+<p>Dessa forma a nota Fiscal será transmitida com sucesso e os valores de ICMS e ICMS Diferido serão enviados no XML conforme segue:</p>
+<p><img alt="" height="1016" src="/Manuais%20M8/_imagens/265/imagem_006.png" width="1915"/></p>
+<div class="callout callout-info">Gostou de aprender sobre ICMS Diferido? Caso restem dúvidas entre em contato com nosso time de Suporte.</div>
+
+</div>
+
+<footer>
+
+Documento gerado automaticamente pelo Exportador M8
+
+</footer>
+
+</body>
+
+</html>

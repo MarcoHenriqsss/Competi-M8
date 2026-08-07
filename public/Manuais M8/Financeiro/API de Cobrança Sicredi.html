@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>API de Cobrança Sicredi</title>
+
+
+
+    <link rel="stylesheet" href="/templates/estilo.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo-area">
+
+        <img src="/assets/competi.jpg" class="logo">
+
+        <div>
+
+            <div class="empresa">
+
+                COMPETI SISTEMAS
+
+            </div>
+
+            <div class="erp">
+
+                Documentação Oficial do M8 ERP
+
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+<div class="titulo">
+
+API de Cobrança Sicredi
+
+</div>
+
+<div class="categoria">
+
+Financeiro
+
+</div>
+
+<div class="conteudo">
+
+<h2>Integração API de Cobrança Sicredi</h2>
+<p>Neste artigo te mostraremos o passo a passo para habilitar no M8 a integração com API de cobrança do Sicredi, esse processo permitirá que uma maior agilidade no processo de cobrança, assim como um maior controle das movimentações financeiras da sua empresa.</p>
+<div class="callout callout-info">Financeiro &gt; CADASTROS &gt; CADASTROS &gt; Lista Cadastro de Convênios Bancários para Boletos</div>
+<p><img alt="" height="921" src="/Manuais%20M8/_imagens/233/imagem_001.png" width="1915"/></p>
+<p><img alt="" height="915" src="/Manuais%20M8/_imagens/233/imagem_002.png" width="1917"/></p>
+<p><img alt="" height="914" src="/Manuais%20M8/_imagens/233/imagem_003.png" width="1917"/></p>
+<p>Após aberta a lista de Convênios, edite o convênio Sicredi configurado e siga as seguinte etapas:</p>
+<p>1 - Para iniciar o processo de integração da API da Cobrança Sicredi, o cliente deve contratar o produto "Cobrança" com a pessoa Gerente de conta e optar pela modalidade API (Cobrança Online). 2 - Após obter dados acesso, entrar em <a href="https://developer.sicredi.com.br/api-portal/pt-br" rel="noopener noreferrer" target="_blank">https://developer.sicredi.com.br/api-portal/pt-br</a> 3 - No portal desenvolvedor Sicredi, obter as informações para preencher os dados de Configuração Boleto Eletrônico no cadastro Convênio Bancário.<br/>4 - Seguir padrão (nome=valor; ) na mesma linha sem espaçamentos conforme exemplo abaixo:</p>
+<p><img alt="" height="89" src="/Manuais%20M8/_imagens/233/imagem_004.png" width="800"/></p>
+<ul><li><strong>Username: </strong>Beneficiário + Cooperativa.</li><li><strong>Password: </strong>Código de acesso gerado no Internet Banking (gerente de conta deve auxiliar na geração desse campo).</li><li><strong>Cooperativa: </strong>Código da cooperativa.</li><li><strong>Posto: </strong>Código da agência.</li><li><strong>X-api-key: </strong>Token de acesso criado no chamado do portal.</li></ul>
+<p>Após feita essa configuração, quando faturadas as Notas Fiscais com geração de boleto, este boleto será gerado pelo Banco Sicredi e pela comunicação com a API poderá ser feita a impressão no sistema, assim como ao regerar os boletos. Outro ponto importante, é que esta integração dispensa a importação de arquivos retorno de pagamento para efetuar a baixa de títulos, pois essa integração também é feita diretamente pela API.</p>
+<blockquote>Gostou de aprender um pouco sobre Integração API de Pagamentos Sicredi no M8? Caso restem dúvidas entre em contato com nossa equipe de Suporte.</blockquote>
+
+</div>
+
+<footer>
+
+Documento gerado automaticamente pelo Exportador M8
+
+</footer>
+
+</body>
+
+</html>

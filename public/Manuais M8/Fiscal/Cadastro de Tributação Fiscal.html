@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Cadastro de Tributação Fiscal</title>
+
+
+
+    <link rel="stylesheet" href="/templates/estilo.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo-area">
+
+        <img src="/assets/competi.jpg" class="logo">
+
+        <div>
+
+            <div class="empresa">
+
+                COMPETI SISTEMAS
+
+            </div>
+
+            <div class="erp">
+
+                Documentação Oficial do M8 ERP
+
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+<div class="titulo">
+
+Cadastro de Tributação Fiscal
+
+</div>
+
+<div class="categoria">
+
+Fiscal
+
+</div>
+
+<div class="conteudo">
+
+<h2>Lista de Tributação Fiscal</h2>
+<p>O Cadastro de Tributação Fiscal, também conhecido como Grade Tributária, define o percentual de alíquota e os impostos que serão aplicados ao documento fiscal. Essa definição é baseada na exigência legal para cada tipo de transação fiscal e varia de acordo com o estado dos destinatários, classificações de pessoas, grupo de tributação do cadastro do produto ou pelo NCM do produto. Ao utilizar o cadastro da Grade Tributária para fins de faturamento, é importante configurar todos os cenários possíveis a fim de abranger todo o processo de faturamento.</p>
+<div class="callout callout-info">Configurações &gt; CADASTROS &gt; CADASTROS &gt; Lista Cadastro de Tributações</div>
+<h2>Filtros</h2>
+<ul><li><strong>Código</strong>: Filtrará a grade tributária pelo código do cadastro.</li><li><strong>Estabelecimento</strong>: Filtrará os cadastros de grades tributárias por estabelecimento.</li><li><strong>Estado</strong>: Filtrará os cadastros de grades tributárias por estado.</li><li><strong>Ncm</strong>: Filtrará os cadastros de grades tributárias por Ncm.</li><li><strong>Classificação Pessoa</strong>: Filtrará os cadastros de grades tributárias por Classificação de Pessoa.</li><li><strong>Operação Fiscal Saída</strong>: Filtrará os cadastros de grades tributárias por Operação Fiscal de Saída.</li><li><strong>Grupo</strong>: Filtrará as grades tributárias pelos Grupos de Tributação.</li><li><strong>Origem</strong>: Filtrará os cadastros de grades tributárias pela Origem de Produto informada na grade.</li><li><strong>Tipo Documento Entrada</strong>: Filtrará os cadastros de grades tributárias por tipo de documento de entrada.</li><li><strong>Tipo Documento Saída</strong>: Filtrará os cadastros de grades tributárias por tipo de documento de saída.</li><li><strong>% Icms</strong>: Filtrará os cadastros de grades tributárias por percentual de alíquota de ICMS.</li><li><strong>% Icms ST</strong>: Filtrará os cadastros de grades tributárias por percentual de alíquota de ICMS de Substituição Tributária.</li><li><strong>% MVA</strong>: Filtrará os cadastros de grades tributárias por percentual de alíquota de Margem de Valor Agregado.</li><li><strong>% Redução Icms</strong>: Filtrará os cadastros de grades tributárias por percentual de alíquota de Redução de ICMS.</li><li><strong>% Redução Icms ST</strong>: Filtrará os cadastros de grades tributárias por percentual de alíquota de Redução de ICMS de Substituição Tributária.</li><li><strong>% Icms Diferimento</strong>: Filtrará os cadastros de grades tributárias por percentual de alíquota de ICMS de Diferimento.</li><li><strong>% Difal Destino</strong>: Filtrará os cadastros de grades tributárias por percentual de alíquota de Diferencial de Alíquota.</li><li><strong>% Lucro Estimado</strong>: Filtrará os cadastros de grades tributárias por percentual de Lucro Estimado para formação do preço de venda.</li><li><strong>Cód. Benefício Fiscal</strong>: Filtrará os cadastros de grades tributárias por Código de Benefício Fiscal.</li></ul>
+<p>Após preenchidos os campos desejados, clique em<img alt="" src="/Manuais%20M8/_imagens/258/imagem_001.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/> para que sejam listadas as grades tributárias na listagem abaixo.</p>
+<h2>Incluir Cadastro de Tributação Fiscal</h2>
+<p>Para incluir um novo Cadastro de Tributação Fiscal, clique na opção<img alt="" src="/Manuais%20M8/_imagens/258/imagem_002.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/>.</p>
+<h2>Cabeçalho</h2>
+<p><strong>Filtros Buscar Tributação: </strong> As informações inseridas nos campos a seguir serão utilizadas para definir a Grade Tributária para determinado lançamento de saída/entrada. Vale ressaltar que o sistema respeita a ordem dos</p>
+<p>campos e a ordem de cadastro das Grades, ou seja, caso você tenha dois cadastros com os mesmos filtros porém com alíquotas de impostos diferentes para aplicação na saída/entrada, será levada em consideração a com código menor, que foi cadastrada antes.</p>
+<ul><li><strong>Estado</strong>: Selecione o estado destino para configuração da Grade Tributária.</li><li><strong>Ncm</strong>: Poderá informar o Ncm do produto que validará essa Grade Tributária.</li><li><strong>Estabelecimento</strong>: Informará o estabelecimento que esse cadastro pertence e será utilizado.</li><li><strong>Classificação Pessoa</strong>: Poderá informar qual a classificação de pessoa que validará essa Grade Tributária.</li><li><strong>Grupo</strong>: Poderá informar o Grupo de Tributação informado no cadastro do produto para validar essa Grade Tributária.</li><li><strong>Origem</strong>: Poderá informar a origem do produto que será validado para essa Grade Tributária.</li></ul>
+<p><strong>Cadastros Retorno Consulta: </strong> As informações a seguir serão aplicadas ao lançamento de saída/entrada compra com base nos critérios acima, ou seja, quando o documento lançado seguir os critérios informados acima será aplicado automaticamente um Tipo de Documento, Operação Fiscal dos itens e observação NF para esse lançamento.</p>
+<ul><li><strong>Operação Fiscal Entrada</strong>: Definirá a Operação Fiscal de entrada para a emissão do documento fiscal de entrada.</li><li><strong>Operação Fiscal Saída</strong>: Definirá a Operação Fiscal de saída para a emissão do documento fiscal com base nas informações inseridas.</li><li><strong>Tipo Documento Entrada</strong>: Definirá o Tipo de Documento para a emissão do documento fiscal de entrada nesta grade tributária.</li><li><strong>Tipo Documento Saída</strong>: Definirá o Tipo de Documento para a emissão do documento fiscal de saída nesta grade tributária.</li><li><strong>Observação NF</strong>: Incluirá a mensagem no campo de observações no documento fiscal quando utilizada essa grade tributária.</li></ul>
+<p><strong>Alíquotas Retorno Consulta: </strong> As alíquotas informadas a seguir serão aplicadas aos lançamentos de saída/entrada com base nas regras de calculo dos impostos pré estabelecidas nas Operações Fiscais.</p>
+<ul><li><strong>% Icms</strong>: Informará a alíquota de ICMS que tributará a venda.</li><li><strong>% Icms ST</strong>: Se houver tributação para esse destino, deverá informar a alíquota de ICMS de Substituição Tributária.</li><li><strong>% Icms TTD</strong>: Se houver tributação para esse destino, deverá informar a alíquota de ICMS de Tratamento Tributário Diferenciado para essa Grade Tributária.</li><li><strong>% MVA</strong>: Se houver tributação para esse destino, deverá informar a alíquota de Margem de Valor Agregado para essa Grade Tributária.</li><li><strong>% Redução Icms</strong>: Se houver tributação para esse destino, deverá informar a alíquota de Redução de ICMS para essa Grade Tributária.</li><li><strong>% Redução Icms ST</strong>: Se houver tributação para esse destino, deverá informar a alíquota de Redução de ICMS de Substituição Tributária para esta Grade Tributária.</li><li><strong>% Icms Diferimento</strong>: Se houver tributação para esse destino, deverá informar a alíquota de ICMS com Diferimento para esta Grade Tributária.</li></ul>
+<ul><li><strong>% Difal Destino</strong>: Poderá ser informada a alíquota de ICMS Diferencial do estado destino do lançamento.</li><li><strong>% Ipi</strong>: Se houver tributação para esse destino, deverá informar a alíquota de IPI para esta Grade Tributária.</li><li><strong>% Lucro Estimado</strong>: Caso utilizar a tabela dinâmica de preços de vendas, deverá informar o percentual de lucro para formação no preço de venda do item para esta Grade Tributária.</li><li><strong>Cód. Benefício Fiscal</strong>: Informará o Código do Benefício Fiscal para a emissão do documento fiscal utilizando essa Grade Tributária.</li><li><strong>Informações</strong>: Campo de descrição livre, onde poderá incluir informações sobre esse cadastro. Essa informação não irá para o documento fiscal.</li></ul>
+<h2>Manutenção dos Cadastros de Tributação Fiscal</h2>
+<p>Em poderá filtrar cadastros que deseja alterar e em<img alt="" src="/Manuais%20M8/_imagens/258/imagem_003.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/> irá lista-los, dessa forma poderá selecionar os registros desejados clicando no checkbox<img alt="" src="/Manuais%20M8/_imagens/258/imagem_004.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/> ao lado do cadastro. Após selecionados clique em manutenção<img alt="" src="/Manuais%20M8/_imagens/258/imagem_005.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/>, essa opção permite efetuar alterações em múltiplos cadastros de uma vez.</p>
+<ul><li><strong>Campo Atualizar</strong>: Você selecionará o campo que deseja efetuar alteração do Cadastro de Tributação Fiscal<img alt="" src="/Manuais%20M8/_imagens/258/imagem_006.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/>. Conforme a opção selecionada, logo abaixo será habilitado o campo da informação que deseja substituir. Para efetuar a manutenção destes cadastros selecionados, clique na opção Atualizar Tributação Fiscal.</li></ul>
+<h2>Copiar</h2>
+<p>Em copiar<img alt="" src="/Manuais%20M8/_imagens/258/imagem_007.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/>, duplicará o cadastro da tributação fiscal selecionado. Em<img alt="" src="/Manuais%20M8/_imagens/258/imagem_008.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/> poderá filtrar cadastros que deseja copiar e em<img alt="" src="/Manuais%20M8/_imagens/258/imagem_009.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/>, irá listar esses cadastros filtrados.</p>
+<ul><li><strong>Ncm Destino</strong>: Informe o Ncm que será aplicada ao novo cadastro.</li><li><strong>Estabelecimento Destino</strong>: Informe para qual estabelecimento será duplicada a Grade de Tributação.</li></ul>
+<p>Para confirmará a cópia do cadastro, clique na opção Copiar Tributação Fiscal<img alt="" src="/Manuais%20M8/_imagens/258/imagem_010.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/>.</p>
+<h2>Limpar</h2>
+<p>Em limpar<img alt="" src="/Manuais%20M8/_imagens/258/imagem_011.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/>, limpará a pesquisa de informações filtradas.</p>
+<h2>Edição de Cadastro de Tributação Fiscal</h2>
+<p>Ao acessar a tela, você conseguirá listar os Cadastrados de Tributações Fiscais ou filtrá-las conforme os filtros disponíveis na tela, para editá-las clique no botão Editar<img alt="" src="/Manuais%20M8/_imagens/258/imagem_012.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/>.</p>
+<h2>Exclusão de Cadastro de Tributação Fiscal</h2>
+<p>Conseguirá efetuar a exclusão de um Cadastro de Tributação Fiscal, clicado em Excluir<img alt="" src="/Manuais%20M8/_imagens/258/imagem_013.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/>. Ao excluir um cadastro, não conseguirá recuperá-lo e também não poderá utilizá-lo em nenhum outro cadastro do sistema.</p>
+<blockquote>Gostou de aprender sobre o Cadastro de Tributação Fiscal no M8? Caso restem dúvidas entre em contato com nossa equipe de Suporte.</blockquote>
+
+</div>
+
+<footer>
+
+Documento gerado automaticamente pelo Exportador M8
+
+</footer>
+
+</body>
+
+</html>

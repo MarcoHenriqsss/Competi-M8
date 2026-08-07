@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Cadastro Regra</title>
+
+
+
+    <link rel="stylesheet" href="/templates/estilo.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo-area">
+
+        <img src="/assets/competi.jpg" class="logo">
+
+        <div>
+
+            <div class="empresa">
+
+                COMPETI SISTEMAS
+
+            </div>
+
+            <div class="erp">
+
+                Documentação Oficial do M8 ERP
+
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+<div class="titulo">
+
+Cadastro Regra
+
+</div>
+
+<div class="categoria">
+
+Configurações
+
+</div>
+
+<div class="conteudo">
+
+<p><strong>Edição de Cadastro</strong></p>
+<h2>Cadastro Regra</h2>
+<p>A singularidade desta funcionalidade está na sua capacidade de registrar regras personalizadas para aplicação em Notas Fiscais, proporcionando uma abordagem minuciosa e específica para cada cenário. Isso vai além das informações convencionais. Esta abordagem personalizada assegura uma adaptação precisa e detalhada às exigências particulares de cada situação, conferindo flexibilidade e controle aos usuários. A incorporação sistemática das regras selecionadas nas Notas Fiscais simplifica e otimiza o processo, garantindo consistência e conformidade.</p>
+<div class="callout callout-info">Configurações &gt; CADASTROS &gt; CADASTROS &gt; Lista Regras de Cálculo</div>
+<p><img alt="" height="918" src="/Manuais%20M8/_imagens/171/imagem_001.png" width="1916"/></p>
+<p><img alt="" height="919" src="/Manuais%20M8/_imagens/171/imagem_002.png" width="1920"/></p>
+<p><strong>Inclusão de</strong> <strong> Cadastro Regra</strong></p>
+<p><img alt="" height="920" src="/Manuais%20M8/_imagens/171/imagem_003.png" width="1918"/></p>
+<p>Para adicionar uma nova Regra clique em no canto superior esquerdo da tela.<img alt="" src="/Manuais%20M8/_imagens/171/imagem_004.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/></p>
+<p><strong>Cabeçalho</strong></p>
+<p><img alt="" height="918" src="/Manuais%20M8/_imagens/171/imagem_005.png" width="1920"/></p>
+<ul><li><strong>Código: </strong>Código sequencial gerado automaticamente pelo sistema.</li><li><strong>Tipo Retorno: </strong>Neste campo ira definir se a expressão vai ser utilizada no formato de texto ou se em formato de numero/calculo numérico<ul><li><strong>Numero: </strong>Deverá marcar essa opção para utilização da regra como calculo, de custo operação ou custo gerencial por exemplo.</li><li><strong>Texto: </strong>Essa opção deverá ser marcada quando a regra que está configurando será de texto para observação de Notas Fiscais.</li></ul></li></ul>
+<ul><li><strong>Limpar Texto: </strong>Essa opção será exibidando marcada opção Texto no campo Tipo Retorno, citado acima, quando marcado irá limpar texto atual (dados que já estão salvos) ao processar regra.</li></ul>
+<p><strong>Limpar Texto:</strong> Essa opção será exibidando marcada opção Texto no campo Tipo Retorno, citado acima, quando marcado irá limpar texto atual (dados que já estão salvos) ao processar</p>
+<ul><li><strong>Nome: </strong>Nesse campo você deverá informar um nome de identificação desta Regra.</li><li><strong>Expressão: </strong>Aqui será onde irá definir oque ira ser validado como expressão, o que será utilizado para o calculo, aliquota, valor ou informação que precisa.</li></ul>
+<p>Para facilitar no processo da criação de Regras, disponibilizamos algumas teclas de Atalho:</p>
+<ul><li><strong>"d": </strong>para campos do documento fiscal (Como por exemplo ValorAcrescimo, ValorDesconto, TotalProdutosDocumento, TotalDocumento, dentre outros )</li><li><strong>"i": </strong>para campos do itens do documento (Como por exemplo ProdutoId, PercentualDescontoItem, AliquotaIcmsItem, ValorIpiItem, dentre outros )</li><li><strong>"f": </strong>campos de configuração impostos estabelecimento (Como por exemplo AliquotaIrrfConfiguracaoImposto, AliquotaCofinsConfiguracaoImposto, AliquotaPisConfiguracaoImposto, dentre outros )</li><li><strong>"k": </strong>para campos do cálculo peso (Como por exemplo Altura, Largura, PesoBruto, PesoLiquido, dentre outros )</li><li><strong>"p": </strong>para campos do produto (Como por exemplo ValorUltimaCompra, LucroEstimadoAlocadoProduto, DespesasFixasCategoriaProduto, dentre outros )</li><li><strong>"s": </strong>para campos do cálculo sugestão compra (Como por exemplo EstoqueDisponivel, Estoque, EstoqueDias, dentre outros )</li><li><strong>"o": </strong>para operadores (Como por exemplo +, -, *, /, dentre outros)</li></ul>
+<h2>Utilização da Regra em Notas Fiscais</h2>
+<p>Nas Operações Fiscais, na aba Mensagens Nota Fiscal, outras Obrig. Tribut. e Regras poderá selecionar a regra cadastrada, sendo assim sempre que utilizada esta Operação Fiscal irá puxar esta informação no campo que preencheu na Operação para o lançamento da Nota ou do item.</p>
+<p><img alt="" height="919" src="/Manuais%20M8/_imagens/171/imagem_006.png" width="1919"/></p>
+<p>Para que seja utilizada uma Regra nas observações da nota ou item.</p>
+<p><img alt="" height="919" src="/Manuais%20M8/_imagens/171/imagem_007.png" width="1917"/></p>
+<p>Para o lançamento em outras obrigações tributarias.</p>
+<p><img alt="" height="920" src="/Manuais%20M8/_imagens/171/imagem_008.png" width="1916"/></p>
+<p>Para demais regras utilizadas, de custo ou desconto por exemplo.</p>
+<h2>Edição de Cadastro Regra</h2>
+<p>Ao acessar a tela, você conseguirá listar todas as Regras de calculo ou filtrá-las de acordo com os filtros disponíveis na tela, para editá-los clique no botão Editar.<img alt="" src="/Manuais%20M8/_imagens/171/imagem_009.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/></p>
+<h2>Exclusão de Cadastro Regra</h2>
+<p>Você também conseguirá fazer a exclusão de uma Regra clicando em Excluir. Caso necessário poderá restaurar o registro excluído, clicando em Restaurar Registro<img alt="" src="/Manuais%20M8/_imagens/171/imagem_010.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/>, na lista Cadastro de Regra, lembrando que essa opção está disponível apenas para usuários configurados como Administradores.<img alt="" src="/Manuais%20M8/_imagens/171/imagem_011.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/></p>
+<blockquote>Gostou de aprender sobre o processo de Cadastro de Regra no M8? Caso ainda restem dúvidas entre em contato com nossa equipe de Suporte.</blockquote>
+
+</div>
+
+<footer>
+
+Documento gerado automaticamente pelo Exportador M8
+
+</footer>
+
+</body>
+
+</html>

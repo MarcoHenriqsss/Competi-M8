@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Cadastro de usuário</title>
+
+
+
+    <link rel="stylesheet" href="/templates/estilo.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo-area">
+
+        <img src="/assets/competi.jpg" class="logo">
+
+        <div>
+
+            <div class="empresa">
+
+                COMPETI SISTEMAS
+
+            </div>
+
+            <div class="erp">
+
+                Documentação Oficial do M8 ERP
+
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+<div class="titulo">
+
+Cadastro de usuário
+
+</div>
+
+<div class="categoria">
+
+Configurações
+
+</div>
+
+<div class="conteudo">
+
+<ul><li>Exclusão de</li></ul>
+<p><strong>Serviço API:</strong> Deverá selecionar os EndPoints disponibilizados para consultas via API.</p>
+<h2>Cadastro de usuário</h2>
+<p>Essa rotina permite que sejam cadastrados os usuários que terão acesso ao M8. O número de usuários permitidos é pré estabelecido em contrato.</p>
+<div class="callout callout-info"><strong>Caminho no Sistema: </strong> Configurações &gt; CADASTROS &gt; CADASTROS &gt; Lista Cadastro de Usuários</div>
+<p><img alt="" height="970" src="/Manuais%20M8/_imagens/169/imagem_001.png" width="1917"/></p>
+<p><img alt="" height="969" src="/Manuais%20M8/_imagens/169/imagem_002.png" width="1919"/></p>
+<h2>Inclusão de Cadastro de Usuário</h2>
+<p><img alt="" height="969" src="/Manuais%20M8/_imagens/169/imagem_003.png" width="1917"/></p>
+<p>Para incluir um novo usuário clique na opção<img alt="" src="/Manuais%20M8/_imagens/169/imagem_004.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/> no canto superior esquerdo. Para te auxiliar neste cadastro, criamos esse artigo com a descrição detalhada de todos os campos, segue abaixo:</p>
+<h2>Cabeçalho</h2>
+<p><img alt="" height="969" src="/Manuais%20M8/_imagens/169/imagem_005.png" width="1916"/></p>
+<ul><li><strong>Código: </strong>Código sequencial gerado pelo M8.</li><li><strong>Ativo: </strong>Definirá se o usuário estará ativo para realizar qualquer operação dentro do sistema, quando inativo o mesmo não será exibido nos campos de busca dentro das rotinas do M8, apenas na Lista Cadastro de Usuários.</li><li><strong>Nome: </strong>Nome de identificação do usuário.</li><li><strong>Funcionário: </strong>Quando houver um cadastro de funcionário deste usuário, ele pode ser vinculado neste campo.</li><li><strong>Escala Horas: </strong>Nesse campo você conseguirá estabelecer a escala de horas em que o usuário terá acesso ao M8.</li><li><strong>Tempo Adicional: </strong>Esse campo deverá ser utilizado em conjunto com Escala de Horas, ele definirá o tempo extra que o usuário poderá permanecer no sistema caso esteja logado, se o mesmo sair do M8 e tentar logar novamente será bloqueado por conta da escala de horas.</li><li><strong>Login: </strong>Definirá qual o login de acesso do usuário.</li><li><strong>Senha: </strong>Definirá a senha de acesso do usuário.</li><li><strong>Confirmar senha: </strong>A informação preenchida deverá ser exatamente a mesma do campo Senha.</li><li><strong>% Desconto: </strong>Este campo definirá a porcentagem máxima de desconto que o usuário pode conceder em rotinas de faturamento.</li><li><strong>% Mínimo margem líquida: </strong>Este campo definirá a porcentagem mínima de margem de lucro em uma venda, quando o valor informado não atingir esta margem o sistema gerará uma restrição para esta venda.</li><li><strong>Senha expira: </strong>Esse campo definirá se a senha cadastrada terá data de expiração.</li><li><strong>Administrador: </strong>Quando marcado o usuário terá acesso total ao M8, sem nenhuma restrição.</li><li><strong>Tempo de inatividade: </strong>Informe o tempo limite que o usuário poderá ficar inativo na tela, após esse tempo o sistema fechará as abas abertas automaticamente.</li><li><strong>Data expiração senha: </strong>Estabelecerá a data limite do uso da senha cadastrada, após esse prazo o usuário será bloqueado de acessar o sistema caso não seja configurada uma nova senha.</li></ul>
+<ul><li><strong>Exibir aviso de expiração de senha: </strong>Quando marcado o sistema notificará o usuário quando a senha estiver prestes a expirar.</li><li><strong>Atualiza data de expiração senha: </strong>Definirá se a data da expiração da senha será atualizada automaticamente ou não após a expiração.</li><li><strong>Alterar senha primeiro acesso: </strong>Determinará se o usuário redefinirá a senha no primeiro acesso ou não.</li><li><strong>Desabilita Empresa: </strong>Quando marcado desabilita o campo Empresa nas telas de Consulta e Relatórios para não permitir edição. Trará por padrão a Empresa logada.</li></ul>
+<p><img alt="" height="818" src="/Manuais%20M8/_imagens/169/imagem_006.png" width="1917"/></p>
+<ul><li><strong>Desabilita Estabelecimento: </strong>Quando marcado desabilita o campo Estabelecimento nas telas de Consulta e Relatórios para não permitir edição. Trará por padrão o Estabelecimento logado.</li><li><strong>Notificação Estoque Mínimo: </strong>Quando marcado, usuario ira receber E-mail de notificação estoque mínimo, se configurado <a href="https://sac.m8sistemas.com/portal/pt-br/kb/articles/notificacao-estoque-minimo">Estoque Mínimo</a>.</li><li><strong>Primeiro acesso: </strong>Neste campo será informada a data do primeiro acesso do usuário ao sistema.</li><li><strong>SMTP e Porta: </strong>Campo destinado a e-mail que utilize servidor próprio.</li><li><strong>SSL: </strong>O SSL protege informações importantes dos usuários que navegam em sites onde ele está instalado.</li><li><strong>Email: </strong>Informe neste campo o e-mail do usuário.</li><li><strong>Email cópia oculta: </strong>Informe neste campo um segundo e-mail como cópia oculta.</li><li><strong>Senha: </strong>Informe a senha do e-mail cadastrado acima.</li><li><strong>Assinatura: </strong>A assinatura digital tem a função de reproduzir a assinatura da pessoa em um documento eletrônico, e para ser válida ela tem que estar cadastrada em uma URL pública, esse campo é destinado a essa URL da assinatura do usuário.</li><li><strong>Versão layout: </strong>Deve ser utilizado exclusivamente o 1.01 as demais versões estão sendo homologados e não apresentam todas as rotinas do sistema.</li></ul>
+<h2>Grupos de Acesso</h2>
+<p><img alt="" height="966" src="/Manuais%20M8/_imagens/169/imagem_007.png" width="1917"/></p>
+<ul><li><strong>Grupo de Acesso: </strong>Nesse campo você informará os grupos de acesso que esse usuário fará parte.</li></ul>
+<p>C lique na opção<img alt="" src="/Manuais%20M8/_imagens/169/imagem_008.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/>, as informações preenchidas serão exibidas na listagem abaixo do cadastro, você conseguirá editar os registros existentes e também informar mais de um cadastro.</p>
+<h2>Estabelecimentos</h2>
+<p><img alt="" height="966" src="/Manuais%20M8/_imagens/169/imagem_009.png" width="1916"/></p>
+<ul><li><strong>Estabelecimento: </strong>Informe os estabelecimentos que o usuário terá acesso.</li></ul>
+<p>C lique na opção<img alt="" src="/Manuais%20M8/_imagens/169/imagem_010.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/>, as informações preenchidas serão exibidas na listagem abaixo do cadastro, você conseguirá editar os registros existentes e também informar mais de um cadastro.</p>
+<p>Marque a opção Preferencial<img alt="" src="/Manuais%20M8/_imagens/169/imagem_011.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/>, para que o usuário seja redirecionado diretamente para este estabelecimento ao logar no M8.</p>
+<h2>Estabelecimentos Consulta Estoque</h2>
+<p><img alt="" height="837" src="/Manuais%20M8/_imagens/169/imagem_012.png" width="1918"/></p>
+<ul><li><strong>Estabelecimento Consulta Estoque: </strong>Informe quais estabelecimentos que o usuário terá acesso na tela de Consulta Estoque.</li></ul>
+<p>C lique na opção<img alt="" src="/Manuais%20M8/_imagens/169/imagem_013.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/>, as informações preenchidas serão exibidas na listagem abaixo do cadastro, você conseguirá editar os registros existentes e também informar mais de um cadastro.</p>
+<h2>Férias/Ausência</h2>
+<p><img alt="" height="968" src="/Manuais%20M8/_imagens/169/imagem_014.png" width="1917"/></p>
+<ul><li><strong>Código</strong>: Código sequencial gerado automaticamente pelo M8.</li><li><strong>Motivo: </strong>Você selecionará o motivo do cadastro, se por ausência ou férias do usuário.</li><li><strong>Início: </strong>Definirá a data inicial das férias ou ausência.</li><li><strong>Fim: </strong>Definirá a data final das férias ou ausência.</li><li><strong>Usuário Substituto: </strong>Informe um usuário já cadastrado que será o substituto deste no período informado. Lembrando que, este usuário passa a ter as mesmas permissões que o usuário do cadastro que esta sendo editado.</li><li><strong>Observações: </strong>Campo de descrição livre para observações sobre o registro.</li></ul>
+<p>C lique na opção<img alt="" src="/Manuais%20M8/_imagens/169/imagem_015.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/>, as informações preenchidas serão exibidas na listagem abaixo do cadastro, você conseguirá editar os registros existentes e também informar mais de um cadastro.</p>
+<h2>Tipo Pedidos</h2>
+<p><img alt="" height="970" src="/Manuais%20M8/_imagens/169/imagem_016.png" width="1917"/></p>
+<ul><li><strong>Tipo Pedido: </strong>Definirá o Tipo de Pedido que o usuário terá permissão para lançar no sistema.</li></ul>
+<p>C lique na opção<img alt="" src="/Manuais%20M8/_imagens/169/imagem_017.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/>, as informações preenchidas serão exibidas na listagem abaixo do cadastro, você conseguirá editar os registros existentes e também informar mais de um cadastro.</p>
+<h2>Tipos Documentos</h2>
+<p><img alt="" height="968" src="/Manuais%20M8/_imagens/169/imagem_018.png" width="1917"/></p>
+<ul><li><strong>Tipo Documento: </strong>Definirá o tipo de documento que o usuário terá permissão para lançar nas Notas Fiscais.</li></ul>
+<p>C lique na opção<img alt="" src="/Manuais%20M8/_imagens/169/imagem_019.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/>, as informações preenchidas serão exibidas na listagem abaixo do cadastro, você conseguirá editar os registros existentes e também informar mais de um cadastro.</p>
+<h2>Status Pedidos</h2>
+<p><img alt="" height="968" src="/Manuais%20M8/_imagens/169/imagem_020.png" width="1916"/></p>
+<ul><li><strong>Código: </strong>Código sequencial gerado automaticamente pelo sistema.</li><li><strong>Status: </strong>Informe nesse campo o status fluxo que o usuário terá acesso na tela de Análise de Pedidos.</li><li><strong>Bloquear Avançar: </strong>Quando marcado o usuário não conseguirá avançar os Pedidos nesse status.</li><li><strong>Bloquear Retroceder: </strong>Quando marcado o usuário não conseguirá retroceder os Pedidos nesse status.</li><li><strong>Bloquear Cancelar: </strong>Quando marcado o usuário não conseguirá cancelar os Pedidos nesse status.</li><li><strong>Bloqueio: </strong>Nesse campo você poderá definir um bloqueio para inserção de itens no Pedido, exclusão de itens do Pedido, ambas opções ou bloqueio total.</li><li><strong>Status Padrão: </strong>Definirá esse status como o primeiro no fluxo para os pedidos gerados por esse usuário.</li></ul>
+<p>C lique na opção<img alt="" src="/Manuais%20M8/_imagens/169/imagem_021.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/>, as informações preenchidas serão exibidas na listagem abaixo do cadastro, você conseguirá editar os registros existentes e também informar mais de um cadastro.</p>
+<h2>Status Assistência Técnica</h2>
+<p><img alt="" height="969" src="/Manuais%20M8/_imagens/169/imagem_022.png" width="1919"/></p>
+<ul><li><strong>Código: </strong>Código sequencial gerado automaticamente pelo sistema.</li><li><strong>Status: </strong>Informe nesse campo o status fluxo que o usuário terá acesso na tela de Análise de Ordens de Serviço do módulo Assistência Técnica.</li><li><strong>Bloquear Avançar: </strong>Quando marcado o usuário não conseguirá avançar as Ordens de Serviço nesse status.</li><li><strong>Bloquear Retroceder: </strong>Quando marcado o usuário não conseguirá retroceder as Ordens de Serviço nesse status.</li><li><strong>Bloquear Cancelar: </strong>Quando marcado o usuário não conseguirá cancelar as Ordens de Serviço.</li></ul>
+<p>C lique na opção<img alt="" src="/Manuais%20M8/_imagens/169/imagem_023.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/>, as informações preenchidas serão exibidas na listagem abaixo do cadastro, você conseguirá editar os registros existentes e também informar mais de um cadastro.</p>
+<h2>Status Ordem Produção</h2>
+<p><img alt="" height="968" src="/Manuais%20M8/_imagens/169/imagem_024.png" width="1916"/></p>
+<ul><li><strong>Código: </strong>Código sequencial gerado automaticamente pelo sistema.</li><li><strong>Status: </strong>Informe nesse campo o status fluxo que o usuário terá acesso na tela de Análise de Ordens de Produção no módulo PCP Produção.</li></ul>
+<p>C lique na opção<img alt="" src="/Manuais%20M8/_imagens/169/imagem_025.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/>, as informações preenchidas serão exibidas na listagem abaixo do cadastro, você conseguirá editar os registros existentes e também informar mais de um cadastro.</p>
+<h2>Status Projeto Tarefa</h2>
+<p><img alt="" height="964" src="/Manuais%20M8/_imagens/169/imagem_026.png" width="1917"/></p>
+<ul><li><strong>Código: </strong>Código sequencial gerado automaticamente pelo sistema.</li><li><strong>Status: </strong>Informe nesse campo o status fluxo que o usuário terá acesso na tela de Análise de Tarefas no módulo Projetos.</li></ul>
+<p>C lique na opção<img alt="" src="/Manuais%20M8/_imagens/169/imagem_027.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/>, as informações preenchidas serão exibidas na listagem abaixo do cadastro, você conseguirá editar os registros existentes e também informar mais de um cadastro.</p>
+<h2>Status Projeto</h2>
+<p><img alt="" height="970" src="/Manuais%20M8/_imagens/169/imagem_028.png" width="1916"/></p>
+<ul><li><strong>Código: </strong>Código sequencial gerado automaticamente pelo sistema.</li><li><strong>Status: </strong>Informe nesse campo o status fluxo que o usuário terá acesso na tela de Análise de Projetos no módulo Projetos.</li><li><strong>Bloquear Avançar: </strong>Quando marcado o usuário não conseguirá avançar os Projetos nesse status.</li><li><strong>Bloquear Retroceder: </strong>Quando marcado o usuário não conseguirá retroceder os Projetos nesse status.</li></ul>
+<p>C lique na opção<img alt="" src="/Manuais%20M8/_imagens/169/imagem_029.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/>, as informações preenchidas serão exibidas na listagem abaixo do cadastro, você conseguirá editar os registros existentes e também informar mais de um cadastro.</p>
+<h2>Status Orçamento</h2>
+<p><img alt="" height="966" src="/Manuais%20M8/_imagens/169/imagem_030.png" width="1917"/></p>
+<ul><li><strong>Código: </strong>Código sequencial gerado automaticamente pelo sistema.</li><li><strong>Status: </strong>Informe nesse campo o status fluxo que o usuário terá acesso na tela de Análise de Orçamentos no módulo Faturamento.</li><li><strong>Bloquear Avançar: </strong>Quando marcado o usuário não conseguirá avançar os Orçamentos nesse status.</li><li><strong>Bloquear Retroceder: </strong>Quando marcado o usuário não conseguirá retroceder os Orçamentos nesse status.</li><li><strong>Bloquear Cancelar: </strong>Quando marcado o usuário não conseguirá cancelar os Orçamentos.</li><li><strong>Status Padrão: </strong>Definirá esse status como o primeiro no fluxo para os Orçamentos gerados por esse usuário.</li></ul>
+<p>C lique na opção<img alt="" src="/Manuais%20M8/_imagens/169/imagem_031.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/>, as informações preenchidas serão exibidas na listagem abaixo do cadastro, você conseguirá editar os registros existentes e também informar mais de um cadastro.</p>
+<h2>Status Orçamento CRM</h2>
+<p><img alt="" height="968" src="/Manuais%20M8/_imagens/169/imagem_032.png" width="1919"/></p>
+<ul><li><strong>Código: </strong>Código sequencial gerado automaticamente pelo sistema.</li><li><strong>Status: </strong>Informe nesse campo o status fluxo que o usuário terá acesso na tela de Análise de Orçamentos no módulo CRM.</li><li><strong>Bloquear Avançar: </strong>Quando marcado o usuário não conseguirá avançar os Orçamentos nesse status.</li><li><strong>Bloquear Retroceder: </strong>Quando marcado o usuário não conseguirá retroceder os Orçamentos nesse status.</li><li><strong>Bloquear Cancelar: </strong>Quando marcado o usuário não conseguirá cancelar os Orçamentos.</li><li><strong>Status Padrão: </strong>Definirá esse status como o primeiro no fluxo para os Orçamentos gerados por esse usuário.</li></ul>
+<p>C lique na opção<img alt="" src="/Manuais%20M8/_imagens/169/imagem_033.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/>, as informações preenchidas serão exibidas na listagem abaixo do cadastro, você conseguirá editar os registros existentes e também informar mais de um cadastro.</p>
+<h2>Status Oportunidade CRM</h2>
+<p><img alt="" height="967" src="/Manuais%20M8/_imagens/169/imagem_034.png" width="1918"/></p>
+<ul><li><strong>Código: </strong>Código sequencial gerado automaticamente pelo sistema.</li><li><strong>Status: </strong>Informe nesse campo o status fluxo que o usuário terá acesso na tela de Análise de Oportunidades no módulo CRM.</li></ul>
+<p>C lique na opção<img alt="" src="/Manuais%20M8/_imagens/169/imagem_035.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/>, as informações preenchidas serão exibidas na listagem abaixo do cadastro, você conseguirá editar os registros existentes e também informar mais de um cadastro.</p>
+<h2>Status Oportunidade CRM</h2>
+<p><img alt="" height="923" src="/Manuais%20M8/_imagens/169/imagem_036.png" width="1916"/></p>
+<ul><li><strong>Status: </strong>Informe nesse campo o status fluxo que o usuário terá acesso referente ao status de Contas do mesmo.</li></ul>
+<p>C lique na opção<img alt="" src="/Manuais%20M8/_imagens/169/imagem_037.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/>, as informações preenchidas serão exibidas na listagem abaixo do cadastro, você conseguirá editar os registros existentes e também informar mais de um cadastro.</p>
+<h2>Centros de Custo</h2>
+<p><img alt="" height="965" src="/Manuais%20M8/_imagens/169/imagem_038.png" width="1918"/></p>
+<ul><li><strong>Código: </strong>Código sequencial gerado automaticamente pelo sistema.</li><li><strong>Empresa: </strong>Definirá a Empresa em que os Centros de Custo estão cadastrados.</li><li><strong>Centro de Custo: </strong>Nesse campo você informará os Centros de Custo que o usuário fará parte.</li></ul>
+<p>C lique na opção<img alt="" src="/Manuais%20M8/_imagens/169/imagem_039.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/>, as informações preenchidas serão exibidas na listagem abaixo do cadastro, você conseguirá editar os registros existentes e também informar mais de um cadastro.</p>
+<h2>Acesso PDV</h2>
+<p><img alt="" height="970" src="/Manuais%20M8/_imagens/169/imagem_040.png" width="1918"/></p>
+<ul><li><strong>Código: </strong>Código sequencial gerado automaticamente pelo sistema.</li><li><strong>Estabelecimento: </strong>Aqui você definirá o estabelecimento que esse caixa pertence.</li><li><strong>Conta Caixa: </strong>Nesse campo você estabelecerá a conta caixa que será utilizada nas movimentações contábeis das vendas feitas pelo emissor de Cupom Fiscal, assim como as baixas de títulos originados por essas vendas.</li><li><strong>Histórico Contábil à Vista: </strong>O histórico informado será utilizado no lançamento das movimentações contábeis referente as vendas feitas por esse usuário no emissor de NFC-es.</li><li><strong>Número Caixa: </strong>Deverá ser informado o número do caixa que o usuário utilizará para efetuar as vendas.</li></ul>
+<p>Acessos API</p>
+<p><img alt="" height="818" src="/Manuais%20M8/_imagens/169/imagem_041.png" width="1914"/></p>
+<p><strong>Serviço API:</strong> Deverá selecionar os EndPoints disponibilizados para consultas via API.</p>
+<h2>Endereços Permitidos</h2>
+<p><img alt="" height="965" src="/Manuais%20M8/_imagens/169/imagem_042.png" width="1918"/></p>
+<ul><li><strong>Código: </strong>Código sequencial gerado automaticamente pelo sistema.</li><li><strong>Endereço de Acesso: </strong>Definirá os endereços de IP que o usuário conseguirá acessar o M8.</li></ul>
+<h2>Edição de Cadastro de Usuário</h2>
+<p>Ao acessar a tela, você conseguirá listar todos os usuários ou filtrá-las de acordo com os filtros disponíveis na tela, para editá-las clique no botão Editar<img alt="" src="/Manuais%20M8/_imagens/169/imagem_043.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/>.</p>
+<h2>Exclusão de Cadastro de Usuário</h2>
+<p>Você também conseguirá fazer a exclusão de um Cadastro de Usuário clicado em Excluir<img alt="" src="/Manuais%20M8/_imagens/169/imagem_044.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/>. Ao excluir essa Usuário você não conseguirá recuperá-lo e o mesmo não terá acesso ao M8.</p>
+<blockquote>Gostou de aprender um pouco sobre Cadastro de Usuário no M8? Caso restem dúvidas entre em contato com nossa equipe de Suporte.</blockquote>
+
+</div>
+
+<footer>
+
+Documento gerado automaticamente pelo Exportador M8
+
+</footer>
+
+</body>
+
+</html>

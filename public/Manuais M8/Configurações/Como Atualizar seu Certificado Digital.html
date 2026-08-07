@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Como Atualizar seu Certificado Digital</title>
+
+
+
+    <link rel="stylesheet" href="/templates/estilo.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo-area">
+
+        <img src="/assets/competi.jpg" class="logo">
+
+        <div>
+
+            <div class="empresa">
+
+                COMPETI SISTEMAS
+
+            </div>
+
+            <div class="erp">
+
+                Documentação Oficial do M8 ERP
+
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+<div class="titulo">
+
+Como Atualizar seu Certificado Digital
+
+</div>
+
+<div class="categoria">
+
+Configurações
+
+</div>
+
+<div class="conteudo">
+
+<h2>Como atualizar seu certificado digital</h2>
+<p>Por se tratar de um sistema totalmente online, hoje o M8 utiliza o certificado de modelo A1 para o emissão das Notas Fiscais Eletrônicas. O Certificado Digital é o documento responsável pela assinatura digital dos documentos fiscais transmitidos do CNPJ vinculado ao certificado. Esse artigo irá te auxiliar na atualização anual do seu Certificado Digital no M8 com um passo a passo simples e prático.</p>
+<div class="callout callout-info">Configurações &gt; CADASTROS &gt; CADASTROS &gt; Lista Cadastro de Estabelecimentos</div>
+<h2>Configuração NF-e</h2>
+<p><img alt="" height="935" src="/Manuais%20M8/_imagens/172/imagem_001.png" width="1918"/></p>
+<ul><li><strong>Código: </strong>Código de identificação interna criado automaticamente pelo sistema.</li><li><strong>Ambiente: </strong>Define o ambiente de transmissão para seus documentos, em homologação (ambiente virtual de testes disponibilizado pelo SEFAZ) ou produção.</li><li><strong>E-mail Envio XML: </strong>Esse campo é usado como o e-mail que será o remetente de envio dos e-mails de xmls.</li><li><strong>Senha Certificado: </strong>Senha do arquivo de Certificado Digital.</li><li><strong>Arquivo: </strong>Nesse campo você deverá inserir o arquivo.pfx de seu Certificado Digital.</li></ul>
+<ul><li><strong>Validade: </strong>Esse campo irá exibir a data de validade do arquivo inserido no campo acima.</li><li><strong>Exibir QrCode Danfe: </strong>Ao marcar essa opção, será apresentado o código QR na impressão de suas DANFES.</li><li><strong>Enviar E-mail Transportador: </strong>Quando marcada essa opção, ao faturar o documento, será enviado um e- mail com a DANFE e XML para o transportador do documento.</li><li><strong>Parcelas XML: </strong>Ao marcar essa opção, serão apresentadas as parcelas financeiras no XML do documento.</li><li><strong>Verificar I.E: </strong>Ao marcar essa opção, o sistema irá validar a Inscrição Estadual no momento da entrada de nota. Opção valida para a rotina de Importar NF-e Wizard e Monitor NF-e.</li><li><strong>Desconsiderar CNPJ XML: </strong>Ao marcar essa opção, o sistema passa a não validar o CNPJ do destinatário no momento da entrada de nota. Opção valida para a rotina de Importar NF-e Wizard e Monitor NF-e.</li><li><strong>Ocultar Unid. Trib. Danfe: </strong>Ao marcar essa opção, o sistema irá ocultar a unidade tributável do item na impressão da DANFE.</li><li><strong>Código Barras Conversão XML: </strong>Ao marcar essa opção será enviado o código de barras da unidade de conversão de cada produto no XML da NF.</li><li><strong>Habilitar Contingência: </strong>Usa-se essa opção no momento em que o SEFAZ de cada estado ativa um ambiente de contingência. Deve-se sempre utilizar a opção repassada pelo SEFAZ de cada estado.</li></ul>
+<h2>Configuração NFS-e</h2>
+<p><img alt="" height="939" src="/Manuais%20M8/_imagens/172/imagem_002.png" width="1918"/></p>
+<ul><li><strong>Código: </strong>Código de identificação interna criado automaticamente pelo sistema.</li><li><strong>Parcelas XML: </strong>Ao marcar essa opção, serão apresentadas as parcelas financeiras no DANFE de seu documento. Essa opção é normalmente utilizada quando o documento com retenção de imposto no qual o valor financeiro é menor que o valor total do documento.</li><li><strong>Ambiente: </strong>Define o ambiente de transmissão para seus documentos, em homologação (ambiente virtual de testes disponibilizado pelo sistema utilizado pela sua prefeitura para emissão de NFS-e) ou produção.</li><li><strong>Layout: </strong>Forma de comunicação com a prefeitura.</li></ul>
+<ul><li><strong>Regime Especial ISS: </strong>Campo utilizado para configurar o regime especial de acordo com cada prefeitura.</li><li><strong>Impressão NFS-e Pendente: </strong>Ao utilizar essa opção, você poderá fazer a impressão de notas fiscais de serviço ainda pendentes no sistema, de acordo com a permissão do sistema de cada prefeitura.</li><li><strong>Login Prefeitura: </strong>Login de acesso ao sistema da prefeitura.</li><li><strong>Senha Prefeitura: </strong>Senha de acesso ao sistema da prefeitura.</li><li><span style="color:#000099"><strong>Chave Acesso: </strong></span><span style="color:#000099">*conceito*</span></li><li><span style="color:#990000"><strong>Chave Parceiro: </strong></span><span style="color:#990000">Chave disponibilizada pela Migrate para integração com o sistema da prefeitura.</span></li><li><strong>Senha Certificado: </strong>Senha do arquivo de certificado digital.</li><li><strong>Arquivo: </strong>Nesse campo você deverá inserir o arquivo.pfx do seu certificado digital.</li><li><strong>Validade: </strong>Neste campo será exibida a data de validade do seu arquivo inserido no campo logo acima.</li></ul>
+<h2>Configuração NFC-e</h2>
+<p><img alt="" height="942" src="/Manuais%20M8/_imagens/172/imagem_003.png" width="1917"/></p>
+<ul><li><strong>Código: </strong>Código de identificação interna criado automaticamente pelo sistema.</li><li><strong>Ambiente: </strong>Define o ambiente de transmissão para seus documentos, em homologação (ambiente virtual de testes disponibilizado pelo SEFAZ de cada estado) ou produção.</li><li><strong>Token: </strong>Número de identificação do token no SEFAZ.</li><li><strong>Token CSC: </strong>Token CSC gerado pelo SEFAZ.</li><li><strong>URL QRCode: </strong>URL do QRCode de acordo com o estado.</li><li><strong>Habilitar Contingência: </strong>Usa-se essa opção no momento em que o SEFAZ de cada estado ativa um ambiente de contingência. Deve-se sempre utilizar a opção repassada pelo SEFAZ de cada estado.</li><li><strong>Senha Certificado: </strong>Senha do arquivo de certificado digital.</li><li><strong>Arquivo: </strong>Nesse campo você deverá inserir o arquivo.pfx do seu certificado digital.</li><li><strong>Validade: </strong>Neste campo será exibida a data de validade do certificado digital.</li></ul>
+<h2>Configuração CT-e/MDF-e</h2>
+<p><img alt="" height="936" src="/Manuais%20M8/_imagens/172/imagem_004.png" width="1919"/></p>
+<ul><li><strong>Código: </strong>Código de identificação interna criado automaticamente pelo sistema.</li><li><strong>Ambiente: </strong>Define o ambiente de transmissão para seus documentos, em homologação (ambiente virtual de testes disponibilizado pelo SEFAZ) ou produção.</li><li><span style="color:#000099"><strong>Senha Certificado: </strong></span><span style="color:#000099">*conceito*</span></li><li><span style="color:#990000"><strong>Senha: </strong></span><span style="color:#990000">Senha do arquivo de certificado digital.</span></li><li><strong>Arquivo: </strong>Nesse campo você deverá inserir o arquivo.pfx de seu certificado digital.</li><li><strong>Validade: </strong>Exibe a data de validade do arquivo de certificado digital.</li><li><strong>Série CT-e: </strong>Série de transmissão de CT-e.</li><li><strong>Série MDF-e: </strong>Série de transmissão de MDF-e.</li><li><strong>Operação Fiscal: </strong>Nesse campo é configurado a operação fiscal padrão que será sugerida na transmissão de MDF-e e/ou CT-e.</li><li><strong>Serviço Transporte Padrão: </strong>Nesse campo é configurado o serviço de transporte padrão que será sugerido na emissão de CT-e.</li><li><span style="color:#000099"><strong>Método Buscar Cargas: </strong></span><span style="color:#000099">*conceito*</span></li></ul>
+<blockquote>Gostou de aprender sobre a Atualização de Certificado Digital no M8? Caso restem dúvidas entre em contato com nossa equipe de Suporte.</blockquote>
+
+</div>
+
+<footer>
+
+Documento gerado automaticamente pelo Exportador M8
+
+</footer>
+
+</body>
+
+</html>

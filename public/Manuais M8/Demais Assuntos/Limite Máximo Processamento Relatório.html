@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Limite Máximo Processamento Relatório</title>
+
+
+
+    <link rel="stylesheet" href="/templates/estilo.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo-area">
+
+        <img src="/assets/competi.jpg" class="logo">
+
+        <div>
+
+            <div class="empresa">
+
+                COMPETI SISTEMAS
+
+            </div>
+
+            <div class="erp">
+
+                Documentação Oficial do M8 ERP
+
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+<div class="titulo">
+
+Limite Máximo Processamento Relatório
+
+</div>
+
+<div class="categoria">
+
+Demais Assuntos
+
+</div>
+
+<div class="conteudo">
+
+<h2>Limite Máximo Processamento Relatório</h2>
+<p>Ao tentar imprimir relatório no PDV retornava mensagem "o limite máximo de trabalho de processamento de relatório configurado pelo administrador do sistema foi alcançado":</p>
+<p><img alt="" height="408" src="/Manuais%20M8/_imagens/385/imagem_001.png" width="965"/></p>
+<h2>Executar</h2>
+<p>Quando ocorrer a seguinte situação, se deve fazer seguinte alteração: Utiliza-se atalho <strong>WINDOWS + R</strong> ou pesquisa no Windows o <strong>(Executar)</strong> Utiliza-se atalho <strong>WINDOWS + R</strong> ou pesquisa no Windows o <strong>(Executar)</strong></p>
+<p><img alt="" height="1030" src="/Manuais%20M8/_imagens/385/imagem_002.png" width="1912"/></p>
+<h2>Editor de Registro</h2>
+<p>E faça o uso para realizar a abertura do Editor de Registro, digitando no Executar &gt; <strong>"regedit": </strong></p>
+<p><img alt="" height="749" src="/Manuais%20M8/_imagens/385/imagem_003.png" width="1430"/></p>
+<p>Fazendo uso do Localizar, digite o seguinte campo: (PrintJobLimit ) Computador\HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Crystal Reports for.NET Framework 4.0\Report Application Server\InprocServer<br/>Computador\HKEY_LOCAL_MACHINE\SOFTWARE\SAP BusinessObjects\Crystal Reports for.NET Framework 4.0\Report Application Server\Server</p>
+<p>Computador\HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\SAP BusinessObjects\Crystal Reports for.NET Framework 4.0\Report Application Server\InprocServer Computador\HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\SAP BusinessObjects\Crystal Reports for.NET Framework 4.0\Report Application Server\Server mputador\HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\SAP BusinessObjects\Suite XI 4.0\Report Application Server\InProcServer<br/>Computador\HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\SAP BusinessObjects\Suite XI 4.0\Report Application Server\Server</p>
+<h2>Alteração Campo: </h2>
+<p><img alt="" height="1032" src="/Manuais%20M8/_imagens/385/imagem_004.png" width="1917"/></p>
+<p>Todos os caminhos do Localizar que contenha campo <strong>PrintJobLimit</strong> deve-se alterar registro de <strong>75</strong> para <strong>750</strong>. Após realizado ajustes, reinicia PDV e caso persista mensagem, desligue computador, e ligue-o novamente, sem fazer o uso do (Reiniciar).</p>
+<blockquote>Gostou de aprender sobre o Erro de impressão? Caso restem dúvidas entre em contato com nossa equipe de Suporte.</blockquote>
+
+</div>
+
+<footer>
+
+Documento gerado automaticamente pelo Exportador M8
+
+</footer>
+
+</body>
+
+</html>

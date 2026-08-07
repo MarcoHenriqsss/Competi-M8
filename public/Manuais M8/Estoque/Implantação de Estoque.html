@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Implantação de Estoque</title>
+
+
+
+    <link rel="stylesheet" href="/templates/estilo.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo-area">
+
+        <img src="/assets/competi.jpg" class="logo">
+
+        <div>
+
+            <div class="empresa">
+
+                COMPETI SISTEMAS
+
+            </div>
+
+            <div class="erp">
+
+                Documentação Oficial do M8 ERP
+
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+<div class="titulo">
+
+Implantação de Estoque
+
+</div>
+
+<div class="categoria">
+
+Estoque
+
+</div>
+
+<div class="conteudo">
+
+<h2>Implantação de Estoque</h2>
+<p>A Implantação de Estoque será utilizada para implantar o estoque inicial da sua Empresa. Poderá ser utilizado também para ajustar um estoque que não foi mapeado anteriormente.</p>
+<div class="callout callout-info">Caminho no sistema: Estoque &gt; MOVIMENTO &gt; MOVIMENTO &gt; Implantações de Estoque</div>
+<p><img alt="" height="968" src="/Manuais%20M8/_imagens/324/imagem_001.png" width="1919"/></p>
+<p><img alt="" height="967" src="/Manuais%20M8/_imagens/324/imagem_002.png" width="1919"/></p>
+<h2>Inclusão Implantação de Estoque</h2>
+<p><img alt="" height="969" src="/Manuais%20M8/_imagens/324/imagem_003.png" width="1919"/></p>
+<p>Para incluir uma nova Implantação de Estoque clique na opção<img alt="" src="/Manuais%20M8/_imagens/324/imagem_004.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/> no canto superior esquerdo. Para te auxiliar neste cadastro, criamos esse artigo com a descrição detalhada de todos os campos, segue abaixo:</p>
+<h2>Cabeçalho</h2>
+<p><img alt="" height="967" src="/Manuais%20M8/_imagens/324/imagem_005.png" width="1918"/></p>
+<ul><li><strong>Código: </strong>Código de identificação da Implantação de Estoque gerado automaticamente pelo M8.</li></ul>
+<ul><li><strong>Emissão: </strong>Campo onde você informará a data de emissão desta Implantação de Estoque.</li><li><strong>Status: </strong>Campo preenchido pelo M8 de acordo com o Status desta Implantação de Estoque, ao gerar o registro o status ficará como Pendente.</li><li><strong>Estabelecimento: </strong>Definirá em qual estabelecimento esse ajuste será aplicado.</li><li><strong>Grupo Estoque: </strong>Nesse campo você informará o Grupo de Estoque que será utilizado na Implantação de Estoque. Campo não obrigatório.</li><li><strong>Observações: </strong>Campo de descrição livre para observações sobre essa Implantação de Estoque. Campo não Obrigatório.</li></ul>
+<p>Após concluir a revisão de todos os campos, clique em<img alt="" src="/Manuais%20M8/_imagens/324/imagem_006.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/> para criar o registro da Implantação de Estoque. Em seguida será exibida outra aba n o canto esquerdo para preenchimento, segue descrição da mesma:</p>
+<h2>Itens</h2>
+<p><img alt="" height="970" src="/Manuais%20M8/_imagens/324/imagem_007.png" width="1919"/></p>
+<ul><li><strong>Código: </strong>Código do produto/serviço dentro da Implantação de Estoque que será gerado automaticamente.</li><li><strong>Produto/serviço: </strong>Informe o produto/serviço que sofrerá o ajuste de quantidade e/ou custo.</li><li><strong>Unidade conversão: </strong>Unidade para qual será convertida caso haja conversão.</li><li><strong>Lote: </strong>Local de estoque que receberá a quantidade especificada.</li><li><strong>Quantidade: </strong>Quantidade total desse item que deve constar em estoque. Nesse momento não é feita a soma ou diminuição da quantidade já existente em estoque.<ul><li><strong>Exemplo: </strong>Você tem um produto com 5 quantidades e precisa que o seu estoque tenha 12 quantidades. Nesse caso, você informará a quantidade 12.</li><li><strong>Exemplo: </strong>Você tem um produto com 12 quantidades e precisa zerar o estoque. Nesse caso, você informará a quantidade 0.</li></ul></li></ul>
+<ul><li><strong>Custo/custo gerencial: </strong>Informe o custo do produto, a ser implantado, na data da emissão deste processo. Caso não informado, o custo levado será 0. Quando necessário ajuste de custo, o mesmo deverá ser informado neste campo.</li></ul>
+<p>Após preencher os campos, clique em<img alt="" src="/Manuais%20M8/_imagens/324/imagem_008.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/> para que o item seja lançado na listagem abaixo, dessa forma você poderá lançar um novo item. Abaixo do campo de cadastro dos itens, mostrará uma lista dos itens com as informações inseridas. Mostrará a quantidade inserida, o Estoque Atual do Item e a diferença entre eles. Essa coluna com a diferença, será a quantidade que o sistema precisará retirar ou inserir para que no final gere o saldo de acordo com a quantidade inserida para cada lote.</p>
+<p><img alt="" height="972" src="/Manuais%20M8/_imagens/324/imagem_009.png" width="1918"/></p>
+<p>Ações</p>
+<p><img alt="" height="971" src="/Manuais%20M8/_imagens/324/imagem_010.png" width="1914"/></p>
+<ul><li><strong>Finalizar: </strong>Após conferir as informações necessárias e produtos que serão ajustados, clique nesta opção para concluir o processo. Dessa forma o status da Implantação de Estoque será atualizado automaticamente para Processado e os ajustes serão concretizados.</li><li><strong>Cancelar: </strong>Essa opção deverá ser utilizada caso precise cancelar a Implantação de Estoque. Dessa forma o status da Implantação de Estoque será atualizado automaticamente para Cancelado e será possível fazer alterações na implantação e também processá-la novamente.</li><li><strong>Importar arquivo excel: </strong>Permite fazer a importação de uma planilha com dados de produtos para efetuar ajustes em massa. O modelo da planilha estará disponível na opção Layout Modelo Excel abaixo.</li><li><strong>Importar arquivo coletor de dados: </strong>Possibilita as Empresas que fazem a conferência com utilizando Coletor de Dados, importarem o arquivo que gerado pelo coletos e carregar os dados de forma automática para a Implantação de Estoque.</li><li><strong>Layout modelo excel: </strong>Ao clicar nessa opção será baixado, em sua máquina, uma planilha modelo para Importação na opção Importar Arquivo Excel citada acima.</li></ul>
+<h2>Edição Implantação de Estoque</h2>
+<p>Ao acessar a tela, você conseguirá listar todas as Implantações de Estoque ou filtrá-las de acordo com os filtros disponíveis na tela, para editá-las clique no botão Editar<img alt="" src="/Manuais%20M8/_imagens/324/imagem_011.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/>.</p>
+<h2>Exclusão Implantação de Estoque</h2>
+<p>Você também conseguirá fazer a exclusão de uma Implantação de Estoque quando a mesma estiver com status Pendente ou Cancelado, clicado em Excluir<img alt="" src="/Manuais%20M8/_imagens/324/imagem_012.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/>. Ao excluir essa Implantação de Estoque você não conseguirá recuperá-la, os itens informados nessa Implantação de Estoque não sofreram nenhuma alteração.</p>
+<blockquote>Gostou de conhecer um pouco sobre Implantação de Estoque no M8? Caso ainda restem dúvidas entre em contato com nossa equipe de Suporte.</blockquote>
+
+</div>
+
+<footer>
+
+Documento gerado automaticamente pelo Exportador M8
+
+</footer>
+
+</body>
+
+</html>

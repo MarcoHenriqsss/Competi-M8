@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Parametrizações Emissão da NFS-e Nacional</title>
+
+
+
+    <link rel="stylesheet" href="/templates/estilo.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo-area">
+
+        <img src="/assets/competi.jpg" class="logo">
+
+        <div>
+
+            <div class="empresa">
+
+                COMPETI SISTEMAS
+
+            </div>
+
+            <div class="erp">
+
+                Documentação Oficial do M8 ERP
+
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+<div class="titulo">
+
+Parametrizações Emissão da NFS-e Nacional
+
+</div>
+
+<div class="categoria">
+
+Configurações
+
+</div>
+
+<div class="conteudo">
+
+<h2>Adequação Legal – Emissão da NFS-e Nacional</h2>
+<p>Foi realizada uma adequação no sistema para atender ao <strong>novo padrão nacional de emissão da Nota Fiscal de</strong> <strong>Serviço Eletrônica (NFS-e)</strong>, conforme as diretrizes da <strong>Receita Federal</strong> e dos <strong>órgãos municipais integrados</strong>.</p>
+<p>O sistema passará a transmitir automaticamente as NFS-e pelo <strong>Ambiente Nacional</strong>.</p>
+<p>Para que isso ocorra corretamente, siga os passos abaixo:</p>
+<h3>1. Configuração no Cadastro do Estabelecimento</h3>
+<p><strong>Caminho: </strong></p>
+<div class="callout callout-info">Configurações &gt; CADASTROS &gt; CADASTROS &gt; Lista Cadastro de Estabelecimentos</div>
+<p>Acesse o <strong>cadastro do estabelecimento &gt;</strong> V á até a aba <strong>Configuração NFS-e</strong>. Acesse o <strong>cadastro do estabelecimento &gt;</strong> V á até a aba <strong>Configuração NFS-e</strong>.</p>
+<p>No campo <strong>Versão API</strong>, selecione: ➜ 2.0 - M8 Nacional No campo <strong>Versão API</strong>, selecione: ➜ 2.0 - M8 Nacional</p>
+<p>E preencha os campos Opção Simples Nacional, Regime de Apuração e Enviar Contribuinte, conforme as parametrizações do seu estabelecimento.</p>
+<p><img alt="" height="921" src="/Manuais%20M8/_imagens/179/imagem_001.png" width="1916"/></p>
+<p>Após essas configurações s alve as alterações.</p>
+<h3>2. Cadastro do Código NBS</h3>
+<p><strong>Caminho: </strong></p>
+<div class="callout callout-info">Estoque &gt; CADASTROS &gt; CADASTROS &gt; Lista Cadastro de Nbs</div>
+<p>Verifique se o <strong>campo NBS</strong> está preenchido dentro do cadastro do serviço.</p>
+<p><img alt="" height="913" src="/Manuais%20M8/_imagens/179/imagem_002.png" width="1917"/></p>
+<p>Caso não esteja, realize o <strong>cadastro do código NBS</strong> no caminho repassado.</p>
+<p><img alt="" height="913" src="/Manuais%20M8/_imagens/179/imagem_003.png" width="1917"/></p>
+<p>Após o cadastro, entre no cadastro do seu serviço, e preencha-o.</p>
+<div class="callout callout-info"><strong>Importante: </strong> o código NBS <strong>deve ser cadastrado sem pontos</strong>.</div>
+<h3>3. Cadastro da Lista de Serviços (LC-116)</h3>
+<p><strong>Caminho: </strong></p>
+<div class="callout callout-info">Estoque &gt; CADASTROS &gt; CADASTROS &gt; Lista Cadastro de Serviço LC-116</div>
+<p>Acesse cada cadastro da lista LC-116.</p>
+<p><img alt="" height="919" src="/Manuais%20M8/_imagens/179/imagem_004.png" width="1923"/></p>
+<p>Edite cada cadastro e preencha o novo campo obrigatório <strong>Código Nacional</strong></p>
+<p><img alt="" height="915" src="/Manuais%20M8/_imagens/179/imagem_005.png" width="1916"/></p>
+<p>Valide se todos os serviços estão devidamente preenchidos.</p>
+<div class="callout callout-info"><strong>Atenção: </strong> o Código Nacional deve ser cadastrado <strong>sem pontos</strong>. <strong>Atenção:</strong> o Código Nacional deve ser cadastrado <strong>sem pontos</strong>.</div>
+<h3>4. Configuração da Operação Fiscal</h3>
+<p>Após concluir os passos anteriores acesse o cadastro da operação fiscal.</p>
+<div class="callout callout-info">Configurações &gt; CADASTROS &gt; CADASTROS &gt; Lista Cadastro de Operações Fiscais</div>
+<p>Um novo campo será habilitado:<br/><strong>Campo:</strong> Retenção ISSQN <strong>Campo: </strong> Retenção ISSQN</p>
+<p><img alt="" height="919" src="/Manuais%20M8/_imagens/179/imagem_006.png" width="1916"/></p>
+<p>Configurar conforme a parametrização da sua venda.</p>
+<p><strong>5. CST Pis e Cofins</strong></p>
+<p>No padrão Nacional as CSTs de Pis e Cofins aceitas são do 01 ao 09 conforme descrição abaixo.</p>
+<p>01 - Operação Tributável com Alíquota Básica; 02 - Operação Tributável com Alíquota Diferenciada; 03 - Operação Tributável com Alíquota por Unidade de Medida de Produto; 04 - Operação Tributável monofásica - Revenda a Alíquota Zero; 05 - Operação Tributável por Substituição Tributária; 06 - Operação Tributável a Alíquota Zero;<br/>07 - Operação Isenta da Contribuição;<br/>08 - Operação sem Incidência da Contribuição; 09 - Operação com Suspensão da Contribuição;</p>
+<p>Ao tentar transmitir a NFS-e com outra CST, será retornada uma rejeição. Para alteração, acesse o cadastro dos impostos Pis e Cofins, no campo CST pode fazer alteração da informação para mais adequeada.</p>
+<div class="callout callout-info">Fiscal &gt; MOVIMENTO &gt; CONFIGURAÇÕES &gt; Configuração de Impostos</div>
+<p><img alt="" height="906" src="/Manuais%20M8/_imagens/179/imagem_007.png" width="1913"/></p>
+<h3>Importante</h3>
+<ul><li>Essas parametrizações <strong>devem ser habilitadas apenas </strong>quando a <strong>prefeitura já estiver transmitindo em</strong> <strong>ambiente nacional</strong>.</li><li>Também é necessário cadastrar o seu estabelecimento no <strong>Portal Nacional do Contribuinte</strong>, pois, mesmo realizando a parametrização no sistema, o cadastro nesse portal é obrigatório. Abaixo está o link para acesso. Para mais informações, entre em contato com a sua contabilidade.</li></ul>
+<p>Link para acesso ao Portal Nacional para Contribuinte.</p>
+<p><a href="https://www.nfse.gov.br/EmissorNacional/Login?ReturnUrl=%2fEmissorNacional" rel="noopener noreferrer" target="_blank">https://www.nfse.gov.br/EmissorNacional/Login?ReturnUrl=%2fEmissorNacional</a></p>
+<div class="callout callout-info">Gostou de aprender um pouco sobre Parametrizações Emissão NFS-e Nacional? Caso restem dúvidas entre em contato com nossa equipe de Suporte.</div>
+
+</div>
+
+<footer>
+
+Documento gerado automaticamente pelo Exportador M8
+
+</footer>
+
+</body>
+
+</html>

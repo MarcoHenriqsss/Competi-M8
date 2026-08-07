@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>API de Cobrança Sicoob</title>
+
+
+
+    <link rel="stylesheet" href="/templates/estilo.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo-area">
+
+        <img src="/assets/competi.jpg" class="logo">
+
+        <div>
+
+            <div class="empresa">
+
+                COMPETI SISTEMAS
+
+            </div>
+
+            <div class="erp">
+
+                Documentação Oficial do M8 ERP
+
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+<div class="titulo">
+
+API de Cobrança Sicoob
+
+</div>
+
+<div class="categoria">
+
+Financeiro
+
+</div>
+
+<div class="conteudo">
+
+<h2>Integração API de Cobrança Sicoob</h2>
+<p>Neste artigo te mostraremos o passo a passo para habilitar no M8 a integração com API de cobrança do Sicoob, esse processo permitirá que uma maior agilidade no processo de cobrança, assim como um maior controle das movimentações financeiras da sua empresa.</p>
+<div class="callout callout-info">Financeiro &gt; CADASTROS &gt; CADASTROS &gt; Lista Cadastro de Convênios Bancários para Boletos</div>
+<p><img alt="" height="917" src="/Manuais%20M8/_imagens/203/imagem_001.png" width="1916"/></p>
+<p><img alt="" height="915" src="/Manuais%20M8/_imagens/203/imagem_002.png" width="1917"/></p>
+<p><img alt="" height="914" src="/Manuais%20M8/_imagens/203/imagem_003.png" width="1917"/></p>
+<p>Após aberta a lista de Convênios, edite o convênio Sicoob configurado e siga as seguinte etapas:</p>
+<p>1 - Para iniciar o processo de integração da API da Cobrança Sicoob, o cliente deverá contratar o serviço de APIs disponivilizado no Portal do Sicoob, disponível em Meus Aplicativos &gt; APIs. 2 - No portal desenvolvedor Sicoob, obter as informações para preencher os dados de Configuração Boleto Eletrônico no cadastro Convênio Bancário.<br/>3 - Seguir padrão (nome=valor; ) na mesma linha sem espaçamentos conforme exemplo abaixo:</p>
+<p><img alt="" height="794" src="/Manuais%20M8/_imagens/203/imagem_004.png" width="1664"/></p>
+<ul><li><strong>Cliente_id: </strong>Código da sua empresa na API do Sicoob.</li><li><strong>Número Contrato: </strong>Número do convênio/contrato com o banco.</li></ul>
+<p>É importante que, após feitas as configurações, seja efetuada a geração de um boleto para teste. Pode ocorrer uma falha; caso isso aconteça, acesse o aplicativo do banco e localize a área de transações pendentes. Nessa área, deve ser autorizada a utilização da API para cobrança.<br/>Dessa forma, quando as Notas Fiscais forem faturadas com geração de boleto, este será gerado pelo Banco Sicoob e, através da comunicação com a API, poderá ser impresso no sistema, assim como ao regerar os boletos. Outro ponto importante é que esta integração dispensa a importação de arquivos de retorno de pagamento para efetuar a baixa de títulos, pois essa integração também é feita diretamente pela API. Basta realizar a pesquisa dos títulos e executar o comando para finalizar a baixa dos títulos correspondentes.</p>
+<blockquote>Gostou de aprender um pouco sobre Integração API de Pagamentos Sicoob no M8? Caso restem dúvidas entre em contato com nossa equipe de Suporte.</blockquote>
+
+</div>
+
+<footer>
+
+Documento gerado automaticamente pelo Exportador M8
+
+</footer>
+
+</body>
+
+</html>

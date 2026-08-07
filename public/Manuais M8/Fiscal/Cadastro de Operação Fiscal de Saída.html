@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Cadastro de Operação Fiscal de Saída</title>
+
+
+
+    <link rel="stylesheet" href="/templates/estilo.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo-area">
+
+        <img src="/assets/competi.jpg" class="logo">
+
+        <div>
+
+            <div class="empresa">
+
+                COMPETI SISTEMAS
+
+            </div>
+
+            <div class="erp">
+
+                Documentação Oficial do M8 ERP
+
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+<div class="titulo">
+
+Cadastro de Operação Fiscal de Saída
+
+</div>
+
+<div class="categoria">
+
+Fiscal
+
+</div>
+
+<div class="conteudo">
+
+<h2>Cadastro de Operação Fiscal de Saída</h2>
+<p>O cadastro de Operação Fiscal é um recurso que agrupa toda a parte Fiscal da empresa desde CFOP, CST de impostos e demais configurações Tributárias.</p>
+<div class="callout callout-info"><strong>Caminho de Acesso:</strong> Fiscal &gt; CADASTROS &gt; CADASTROS &gt; Lista Cadastro de Operações Fiscais</div>
+<p><img alt="" height="973" src="/Manuais%20M8/_imagens/270/imagem_001.png" width="1918"/></p>
+<p><img alt="" height="969" src="/Manuais%20M8/_imagens/270/imagem_002.png" width="1916"/></p>
+<h2>Inclusão de Operação Fiscal</h2>
+<p>Para adicionar uma nova operação Fiscal clique em<img alt="" src="/Manuais%20M8/_imagens/270/imagem_003.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/> ou.<img alt="" src="/Manuais%20M8/_imagens/270/imagem_004.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/></p>
+<p><img alt="" height="967" src="/Manuais%20M8/_imagens/270/imagem_005.png" width="1918"/></p>
+<p>Ao clicar em <strong>Adicionar</strong> o sistema abrirá uma nova tela, o qual deverão ser preenchidos os campos obrigatórios ( Operação, Descrição da Operação, Cfop com Inscrição, Cfop sem Inscrição, Extensão CFOP ), as demais informações servem para controle e cabe a cada empresa definir o que deve ser preenchido ou não.</p>
+<h2>Cabeçalho</h2>
+<p><img alt="" height="868" src="/Manuais%20M8/_imagens/270/imagem_006.png" width="1918"/></p>
+<ul><li><strong>Operação: </strong>Definirá qual o tipo da Operação, se de Entrada ou Saída.</li><li><strong>Empresa: </strong>Empresa na qual será criada a Operação Fiscal.</li><li><strong>Descrição da Operação: </strong>Nome dado a Operação a ser criada.</li><li><strong>Descrição Resumida: </strong>Apelido dado a Operação a ser criada.</li></ul>
+<ul><li><strong>CFOP Com Inscrição: </strong>CFOP utilizada na emissão de NFe quando o cliente possuir Inscrição Estadual.</li><li><strong>CFOP Sem Inscrição: </strong>CFOP utilizada na emissão de NFe quando o cliente não possuir Inscrição Estadual.</li><li><strong>CFOP Integração API: </strong>CFOP utilizada para integrações com outros sistemas.</li><li><strong>Extensão CFOP: </strong>Esse campo deverá ser utilizado para cadastrar mais de uma Operação com a mesma CFOP. Permitido até 999 extensões de CFOP.</li><li><strong>Cód. Benefício Fiscal: </strong>Aqui você informará o código do benefício fiscal de produtos, como por exemplo benefício de PIS e COFINS.</li><li><strong>Tabela Contábil: </strong>Nesse campo você configurará de tabela contábil que serão utilizadas nas contabilizações dos documentos.</li><li><strong>Tipo Documento: </strong>Informará a configuração do Tipo de documento que será utilizado na emissão de NFe ou NFS-E.</li><li><strong>Operação Devolução: </strong>Aqui você informará uma Operação Fiscal de devolução</li><li><strong>Operação Fiscal Imposto Posterior: </strong>Campo utilizado anteriormente para vincular operações fiscais, para que quando informada alguma operação fiscal, o sistema automaticamente busque as configurações de impostos da Operação vinculada porém, tal campo está em desuso no momento.</li><li><strong>Gerar Ordem Serviço: </strong>Quando marcado, ao faturar a nota fiscal será gerado um OS de Assistência Técnica do item.</li><li><strong>Desconsiderar Financeiro: </strong>Quando marcado, ao faturar a nota fiscal será gerado um OS de Assistência Técnica do item.</li><li><strong>Estoque: </strong>Ao marcar a Flag, ao gerar os documentos fiscais, o sistema irá movimentar o Estoque.</li><li><strong>Venda sem Estoque: </strong>Ao marcar a Flag. o sistema permitirá realizar as vendas quando o produto não possuir estoque.</li><li><strong>Notificar API (Credito ST): </strong>Quando marcada, será disparado uma notificação via API, referente aos valores de Credito do ICMS ST.</li></ul>
+<p><img alt="" height="969" src="/Manuais%20M8/_imagens/270/imagem_007.png" width="1919"/></p>
+<ul><li><strong>Cálculo ICMS: </strong>Definirá o formato do Cálculo para o ICMS.</li></ul>
+<ul><li><strong>Cálculo ICMS ST: </strong>Definirá o formato do Cálculo para o ICMS ST.</li><li><strong>Exigibilidade ISS: </strong>Configuração será necessária para emissão de NFS-e, tais configurações são variáveis dentre as Prefeituras.</li><li><strong>Natureza Operação ISS: </strong>Configuração será necessária para emissão de NFS-e, tais configurações são variáveis dentre as Prefeituras.</li><li><strong>Tributação Operação ISS: </strong>Esse campo será utilizado para envio de informações ao XML quanto a tributação do ISS na NFS-e.</li><li><strong>Situação Tributária ISSQN: </strong>Configuração será necessária para emissão de NFS-e, podendo variar dentre as Prefeituras.</li><li><strong>Base de ISS Diferenciado: </strong>Quando marcado, será considerado a base do ISS como diferenciado.</li><li><strong>Base de INSS Diferenciado: </strong>Quando marcado, será considerado base do INSS como diferenciado.</li><li><strong>Ativo Imobilizado: </strong>Quando marcado como "SIM", os produtos do documento Fiscal vinculado a Operação Fiscal, serão de uso do Ativo Imobilizado.</li><li><strong>Cód. Imp.: </strong>Possibilitará informar o código da Operação Fiscal do sistema utilizado em outro sistema.</li></ul>
+<h2>Impostos</h2>
+<p><img alt="" height="969" src="/Manuais%20M8/_imagens/270/imagem_008.png" width="1919"/></p>
+<ul><li><strong>Código: </strong>Campo sequencial referente ao cadastro do Imposto. Será preenchido automaticamente pelo M8.</li><li><strong>Imposto: </strong>Aqui você selecionará e vinculará os impostos a Operação Fiscal, tal campo é de múltipla seleção podendo ser pesquisado e selecionado mais de um Imposto por vez. Será obrigatório que sejam informados os impostos ICMS/ISS, PIS e Cofins, mesmo que os mesmo não sejam destacados nas Notas Fiscais emitidas com essa Operação Fiscal.</li></ul>
+<h2>Alíquotas</h2>
+<p><img alt="" height="972" src="/Manuais%20M8/_imagens/270/imagem_009.png" width="1919"/></p>
+<ul><li><strong>Usar Alíquotas: </strong>Quando marcado, o sistema dará preferência para as alíquotas informadas na operação fiscal ao invés das alíquotas informadas no cadastro do Estabelecimento.</li><li><strong>%ISS: </strong>Estabelecerá a Alíquota de ISS a ser utilizada nos documentos Fiscais.</li><li><strong>%INSS: </strong>Estabelecerá a Alíquota de INSS a ser utilizada nos documentos Fiscais<strong>.</strong></li><li><strong>%IRRF: </strong>Estabelecerá a Alíquota de IRRF a ser utilizada nos documentos Fiscais.</li><li><strong>%PIS: </strong>Estabelecerá a Alíquota de PIS a ser utilizada nos documentos Fiscais.</li><li><strong>%COFINS: </strong>Estabelecerá a Alíquota de COFINS a ser utilizada nos documentos Fiscais<strong>.</strong></li><li><strong>%CSLL: </strong>Estabelecerá a Alíquota de CSLL a ser utilizada nos documentos Fiscais.</li></ul>
+<h2>EFD Contribuições</h2>
+<p><img alt="" height="973" src="/Manuais%20M8/_imagens/270/imagem_010.png" width="1918"/></p>
+<ul><li><strong>Conta Contábil</strong>: Campo disponível para configuração da Conta referente a atividade principal da receita</li><li><strong>Tipo Crédito: </strong>Campo disponível para informar a Alíquota de ISS a ser utilizada nos documentos Fiscais.</li><li><strong>Tipo Débito</strong>: Campo disponível para informar a Alíquota de INSS a ser utilizada nos documentos Fiscais.</li></ul>
+<h2>Simples Nacional</h2>
+<p><img alt="" height="913" src="/Manuais%20M8/_imagens/270/imagem_011.png" width="1919"/></p>
+<ul><li><strong>Segregação da Receita (Atividade): </strong>Campo disponível para configuração da subdivisão do anexo do Simples Nacional para apuração do SPED FISCAL. Configuração válida apenas para Operações Fiscais de Saída.</li></ul>
+<h2>Plano Financeiro</h2>
+<p><img alt="" height="970" src="/Manuais%20M8/_imagens/270/imagem_012.png" width="1916"/></p>
+<ul><li><strong>Código: </strong>Campo sequencial criado automaticamente após salvar as configurações.</li><li><strong>Empresa: </strong>Campo disponível para configuração por empresa, quando preenchido, o sistema buscará os planos financeiros da empresa informada.</li><li><strong>Plano Financeiro Compra: </strong>Quando preenchido, o sistema dará prioridade para o plano informado no campo no momento da geração do Contas a Pagar.</li><li><strong>Plano Financeiro Venda: </strong>Quando preenchido, o sistema dará prioridade para o plano informado no campo no momento da geração do Contas a Receber.</li><li><strong>Plano Financeiro Compra - Devolução: </strong>Quando preenchido, o sistema dará prioridade para o plano informado no campo no momento da geração do Título da Devolução de Compra.</li><li><strong>Plano Financeiro Venda - Devolução: </strong>Quando preenchido, o sistema dará prioridade para o plano informado no campo no momento da geração do Título da Devolução de Venda.</li></ul>
+<p>Após o preenchimento das informações clique em<img alt="" src="/Manuais%20M8/_imagens/270/imagem_013.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/> para que os produtos selecionados sejam carregados na Listagem logo abaixo dos campos.</p>
+<h2>Histórico</h2>
+<p><img alt="" height="969" src="/Manuais%20M8/_imagens/270/imagem_014.png" width="1918"/></p>
+<p>Ao acessar a aba <strong>Histórico</strong>, terá a informação de todos os documentos fiscais emitidos utilizando a Operação Fiscal selecionada.</p>
+<h2>Mensagens nota Fiscal</h2>
+<p><img alt="" height="969" src="/Manuais%20M8/_imagens/270/imagem_015.png" width="1918"/></p>
+<ul><li><strong>Destino Regra Observação: </strong>Aqui você fará a configuração da observação da NFe, podendo ser configurada para ser apresentada tanto no item quanto nos dados adicionais da NFe.</li><li><strong>Mensagem: </strong>Nesse campo você vinculará a mensagem a ser apresentada no documento Fiscal.</li></ul>
+<ul><li><strong>Mensagem SPED (0460): </strong>Nesse campo você vinculará a mensagem a ser apresentada no Arquivo SPED registro 0460.</li><li><strong>Regra Observação: </strong>Nesse campo você vinculará a regra de observação a ser apresentada nos dados adicionais ou item, conforme configuração do campo <strong>"Destino Regra Observação"</strong>.</li></ul>
+<h2>Outras Obrig. Tribut. TTD</h2>
+<p><img alt="" height="970" src="/Manuais%20M8/_imagens/270/imagem_016.png" width="1918"/></p>
+<ul><li><strong>Código: </strong>Campo sequencial criado automaticamente após salvar as configurações.</li><li><strong>Mensagem SPED (0460): </strong>Campo disponível para vincular a mensagem a ser apresentada no Arquivo SPED registro 0460.</li><li><strong>Complemento: </strong>Campo em formato texto livre, disponível para preenchimento, tal informação será considerado na geração do arquivo SPED no registro C195.</li><li><strong>Código Ajuste: </strong>Campo disponível para preenchimento, tal informação será levada na geração do arquivo SPED registro C197.</li><li><strong>Complemento: </strong>Campo em formato texto livre, disponível para preenchimento, tal informação será considerado na geração do arquivo SPED no registro C197<strong>.</strong></li><li><strong>Regra Base Cálculo: </strong>Campo disponível para preenchimento, tal informação será levada na geração do arquivo SPED registro C197<strong>.</strong></li><li><strong>Regra Alíquota: </strong>Campo disponível para preenchimento, tal informação será levada na geração do arquivo SPED registro C197.</li><li><strong>Regra Valor: </strong>Campo disponível para preenchimento, tal informação será levada na geração do arquivo SPED registro C197.</li></ul>
+<p>Após o preenchimento das informações clique em<img alt="" src="/Manuais%20M8/_imagens/270/imagem_017.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/> para que os produtos selecionados sejam carregados na Listagem logo abaixo dos campos.</p>
+<h2>Regras</h2>
+<p><img alt="" height="971" src="/Manuais%20M8/_imagens/270/imagem_018.png" width="1917"/></p>
+<ul><li><strong>Regra Custo Operação: </strong>Nesse campo você vinculará a regra para cálculo do custo operação do item, informando a regra matemática disponibilizada pelo sistema, esta regra poderá ser alterada conforme necessidade da sua Empresa.</li><li><strong>Regra Custo Gerencial: </strong>Nesse campo você vinculará a regra para cálculo do custo gerencial do item, informando a regra matemática disponibilizada pelo sistema, esta regra poderá ser alterada conforme necessidade da sua Empresa.</li><li><strong>Regra Preço/Custo Compra: </strong>Nesse campo você vinculará a regra para cálculo do preço do item com base no custo da compra, informando a regra matemática disponibilizada pelo sistema, esta regra poderá ser alterada conforme necessidade da sua Empresa.</li><li><strong>Regra Preço Venda Estab.: </strong>Campo disponível para vincular a regra para cálculo do preço de venda do item, informando a regra matemática disponibilizada pelo sistema, esta regra poderá ser alterada conforme necessidade da sua Empresa.</li><li><strong>Regra Outros Descontos: </strong>Campo disponível para vincular a regra para cálculo do desconto do item, informando a regra matemática disponibilizada pelo sistema, esta regra poderá ser alterada conforme necessidade da sua Empresa.</li><li><strong>Regra BC Comissão: </strong>Campo disponível para vincular a regra para cálculo da base de Comissão dos vendedores. informando a regra matemática disponibilizada pelo sistema, esta regra poderá ser alterada conforme necessidade da sua Empresa.</li></ul>
+<h2>Ações</h2>
+<p><img alt="" height="968" src="/Manuais%20M8/_imagens/270/imagem_019.png" width="1919"/></p>
+<ul><li><strong>Duplicar: </strong>Opção disponível para duplicar a Operação Fiscal. Ao clicar será aberto um modal na tela onde você deverá selecionar a Empresa que ficará vinculada essa Operação Fiscal. Depois clique em para finalizar o processo.<img alt="" src="/Manuais%20M8/_imagens/270/imagem_020.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/></li></ul>
+<p><img alt="" height="966" src="/Manuais%20M8/_imagens/270/imagem_021.png" width="1918"/></p>
+<ul><li><strong>Reprocessar Custo Operação: </strong>Esse campo possibilitará fazer o reprocessamento do custo operação dos produtos dos documentos fiscais vinculados a Operação Fiscal.</li><li><strong>Reprocessar Custo Gerencial: </strong>Esse campo possibilitará fazer o reprocessamento o custo gerencial dos produtos dos documentos fiscais vinculados a operação Fiscal.</li></ul>
+<h2>Edição da Operação Fiscal</h2>
+<p>Ao acessar a tela, você conseguirá listar todas as Operações Fiscais ou filtrá-las conforme os filtros disponíveis na tela, para editá-las clique no botão Editar<img alt="" src="/Manuais%20M8/_imagens/270/imagem_022.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/>.</p>
+<h2>Exclusão de Operação Fiscal</h2>
+<p>Você também conseguirá fazer a exclusão de uma Operação Fiscal clicando em Excluir<img alt="" src="/Manuais%20M8/_imagens/270/imagem_023.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/>. Ao excluir essa Operação Fiscal você não conseguirá recuperá-la e também não poderá utilizá-la em nenhuma rotina do sistema.</p>
+<blockquote>Gostou de conhecer um pouco sobre Cadastro de Operação Fiscal no M8? Caso ainda restem dúvidas pode entrar em contato com nossa equipe de Suporte.</blockquote>
+
+</div>
+
+<footer>
+
+Documento gerado automaticamente pelo Exportador M8
+
+</footer>
+
+</body>
+
+</html>

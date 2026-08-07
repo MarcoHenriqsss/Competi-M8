@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Como emitir uma nota de complemento de imposto</title>
+
+
+
+    <link rel="stylesheet" href="/templates/estilo.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo-area">
+
+        <img src="/assets/competi.jpg" class="logo">
+
+        <div>
+
+            <div class="empresa">
+
+                COMPETI SISTEMAS
+
+            </div>
+
+            <div class="erp">
+
+                Documentação Oficial do M8 ERP
+
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+<div class="titulo">
+
+Como emitir uma nota de complemento de imposto
+
+</div>
+
+<div class="categoria">
+
+Faturamento
+
+</div>
+
+<div class="conteudo">
+
+<p>Configuração da Operação Fiscal para emissão de NF-e Complementar de Imposto ICMS</p>
+<h2>Como emitir uma nota de complemento de imposto</h2>
+<h2>O que é uma Nota Fiscal de Complemento?</h2>
+<p>A NF-e Complementar é emitida para acrescentar dados e valores que não foram informados na NF-e original. A legislação prevê sua emissão em casos como:</p>
+<ul><li><strong>Exportação:</strong> quando o valor do dólar, por exemplo, for diferente na hora da emissão da NF-e e do recebimento da mercadoria. Neste caso, a NF-e Complementar é para ajuste de valores.</li><li>Quando há diferença no preço ou na quantidade de mercadoria.</li><li>Lançamento ou correção de imposto quando há inconsistência de cálculo ou de classificação fiscal.</li></ul>
+<h2>Como emitir a NF-e Complementar?</h2>
+<ul><li>A natureza da operação deve ser a mesma da NF-e original, mas a finalidade deve ser informada como "2 - Complementação de NF-e"</li><li>O campo "Informação de Documentos Fiscais referenciados" deve estar preenchido com a chave de acesso da NF-e original.</li><li>Os campos código, nome, CST/CSOSN, CFOP e NCM dos produtos devem estar conforme a NF-e original.</li><li>Em caso de complemento de quantidade de produtos, um exemplo na nota deveria ser 5, mas foi informado 3, na NF-e complementar irá informar o valor de 2. Os demais campos como valor unitário, valor total, bases de cálculo dos impostos e valores dos impostos deverá efetuar da mesma forma. Importante lembrar que não pode haver alteração do valor total da NF-e.</li><li>Para complemento de imposto ICMS, deverá informar somente a base de cálculo do ICMS e valor de ICMS, os demais campos deverão ser informados zerado.</li><li>Em tipo de frete, deverá ser preenchido como 9 - Sem Frete.</li></ul>
+<p>Mostraremos como configurar a operação fiscal, o tipo de documento e o lançamento de uma NF-e Complementar de Imposto ICMS.</p>
+<h2>Configuração da Operação Fiscal para emissão de NF-e Complementar de Imposto ICMS</h2>
+<p><img alt="" height="965" src="/Manuais%20M8/_imagens/276/imagem_001.png" width="1917"/></p>
+<div class="callout callout-info">Configurações &gt; CADASTROS &gt; CADASTROS &gt; Lista Cadastro de Operações Fiscais</div>
+<p>Para emissão de uma Nota Fiscal de complemento de imposto deverá ser criada uma Operação Fiscal específica para esse caso, informando a mesma CFOP da nota original, que está sendo complementada. O cabeçalho da Operação Fiscal deve ser preenchido conforme o artigo Cadastro de Operação Fiscal. O que muda são as definições de impostos na aba Impostos. Nessa aba devem ser informados os impostos, incluindo o que deseja complementar, nesse artigo usaremos o ICMS como exemplo.</p>
+<h2>Cadastrando os Impostos</h2>
+<p><img alt="" height="963" src="/Manuais%20M8/_imagens/276/imagem_002.png" width="1915"/></p>
+<div class="callout callout-info">Fiscal &gt; MOVIMENTO &gt; CONFIGURAÇÕES &gt; Configuração de Impostos</div>
+<p>Na operação fiscal deverá ser informado a regra de ICMS complementar, conforme orientação abaixo.</p>
+<ul><li><strong>Nome: </strong>Deverá ser informado um nome de fácil identificação, mostrando que essa regra será utilizada para complemento de ICMS.</li><li><strong>CST: </strong>Deverá ser informada mesma CST utilizada na emissão da nota original, que está sendo complementada.</li><li><strong>Regra valor impostos: </strong>O imposto ICMS complementar não terá um regra fixa, por isso deverá ser informado nesse campo o valor de ICMS a ser complementado. Esse valor deverá ser informado utilizando ponto final para separação dos centavos.<ul><li><strong>Exemplo: </strong>17.00</li></ul></li><li><strong>Regra base de cálculo: </strong>O imposto ICMS complementar não terá um regra fixa, por isso deverá ser informado nesse campo a base de cálculo de ICMS a ser complementado. Esse valor deverá ser informado utilizando ponto final para separação dos centavos.<ul><li><strong>Exemplo: </strong>100.00</li></ul></li></ul>
+<p>Os demais campos devem ser configurados como descreve o artigo de Cadastro de Imposto.</p>
+<h2>Configuração do Tipo Documento</h2>
+<p><img alt="" height="968" src="/Manuais%20M8/_imagens/276/imagem_003.png" width="1915"/></p>
+<div class="callout callout-info">Configurações &gt; CADASTROS &gt; CADASTROS &gt; Lista Cadastro de Tipos de Documentos</div>
+<p>Deverá ser configurado um Tipo de Documento específico para emissão das notas de complemento de imposto.</p>
+<ul><li><strong>Nome: </strong>Informe um nome de fácil identificação, definindo que esse tipo deve ser utilizado em notas de complemento.</li><li><strong>Finalidade da Emissão: </strong>Nesse campo informa a opção "2- Complementar"</li></ul>
+<p>Os demais campos devem ser preenchidos conforme descreve o artigo Tipo Documento.</p>
+<h2>Lançamento da NF-e de Complemento de ICMS</h2>
+<p><img alt="" height="969" src="/Manuais%20M8/_imagens/276/imagem_004.png" width="1914"/></p>
+<div class="callout callout-info">Faturamento &gt; MOVIMENTO &gt; NOTAS FISCAIS &gt; Emitir Nota Fiscal de Outras Operações</div>
+<p>A descrição de todos os campos necessários para emissão de uma nota fiscal está no artigo de Nota Fiscal, que você poderá consultar caso necessário, nesse artigo será especificado os campos necessários para emissão de uma Nota Fiscal Complementar.</p>
+<ul><li><strong>Código: </strong>Será o código de identificação na nota fiscal, gerado automaticamente pelo sistema.</li><li><strong>Tipo Documento</strong>: Informe o tipo de documento para emissão de NF-e Complementar de Imposto que configurou conforme orientado anteriormente.</li><li><strong>Cliente</strong>: Deverá informar o mesmo cliente da nota original emitida, que será complementada.</li><li><strong>Indicador Presença</strong>: Informe "0 - Não se aplica".</li><li><strong>Finalidade Emissão NF-e</strong>: Deverá preencher com a opção "2 - Complementar".</li><li><strong>Tipo Emissão NF-e</strong>: Deverá ser "1 - Normal".</li><li><strong>Documento</strong>: Ao processar será retornado pelo SEFAZ o número de documento.</li><li><strong>Chave NF-e</strong>: Ao processar será retornado pelo SEFAZ a chave de acesso do documento.</li><li><strong>Status NF-e</strong>: Ao processar será retornado pelo SEFAZ o status do documento.</li><li><strong>Série</strong>: Informará a série de emissão do documento, de modelo 55.</li><li><strong>Condição de Pagamento</strong>: Deverá ser informado uma condição de pagamento onde o campo Descrição NF- e esteja marcado com a opção "90- Sem pagamento".</li><li><strong>Observações</strong>: Esse campo será destinado a observações que serão transcritas na impressão da Nota e no xml.</li></ul>
+<h2>Produtos</h2>
+<p><img alt="" height="935" src="/Manuais%20M8/_imagens/276/imagem_005.png" width="1918"/></p>
+<p>Para emissão de NF-e de Complemento de Imposto, você poderá criar um produto especifico para emissão de complemento ou poderá utilizar o cadastro do mesmo produto informado na nota original. Informando sempre a NCM igual ao item da nota original.</p>
+<ul><li><strong>Produto</strong>: Neste campo você informará o produto que deverá complementar na NF-e.</li><li><strong>Operação Fiscal</strong>: Informará a operação fiscal de complemento de imposto, que configurou conforme orientado anteriormente nesse mesmo artigo.</li><li><strong>Quantidade</strong>: Como será uma nota de complemento de ICMS, <strong>não deverá ter quantidade de produto</strong>.</li><li><strong>Valor Unitário</strong>: Como será uma nota de complemento de ICMS, <strong>não deverá ter valor unitário do produto</strong>.</li><li><strong>% ICMS</strong>: Informe a <strong>Alíquota de ICMS praticada </strong>para o produto no Estado de destino.</li><li><strong>Observações</strong>: Neste campo você poderá informar qualquer observação importante sobre o item, que serão levadas na nota fiscal e XML.</li></ul>
+<h2>Referenciamento da NF-e origem</h2>
+<p><img alt="" height="935" src="/Manuais%20M8/_imagens/276/imagem_006.png" width="1917"/></p>
+<p>Para emissão de notas fiscais de complemento é obrigatório pelo SEFAZ fazer o referenciamento do documento original, que está sendo complementado, você pode fazer esse processo pelo menu ações da tela de nota fiscal.</p>
+<h2>Referenciar Documentos</h2>
+<p><img alt="" height="932" src="/Manuais%20M8/_imagens/276/imagem_007.png" width="1918"/></p>
+<p>Ao clicar será aberto na tela um modal onde você conseguirá filtrar os documentos emitidos pela sua empresa, para referenciá-lo clique no checkbox na linha do documento desejado e depois clique em<img alt="" src="/Manuais%20M8/_imagens/276/imagem_008.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/>. Nesse tela você também conseguirá consultar os documentos já referenciados a essa nota, clicando na opção<img alt="" src="/Manuais%20M8/_imagens/276/imagem_009.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/></p>
+<h2>Documentos Referenciados - Outros</h2>
+<p><img alt="" height="936" src="/Manuais%20M8/_imagens/276/imagem_010.png" width="1917"/></p>
+<p>Por essa aba você conseguirá fazer o referenciamento de notas pela chave de acesso ou número de documento.</p>
+<ul><li><strong>Emissão</strong>: Informe a data de emissão da NF-e original.</li><li><strong>Sintegra</strong>: Informará o modelo 55 - Nota Fiscal Eletrônica NF-e.</li><li><strong>Documento/Chave</strong>: Informará a chave de acesso da NF-e original.</li><li><strong>Série</strong>: Série da NF-e original.</li></ul>
+<p>Em, selecione a opção<img alt="" src="/Manuais%20M8/_imagens/276/imagem_011.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/>, para verificar se as informações lançadas estão corretas, em casos de dúvidas, é indicado fazer o download da pré danfe da nota e encaminhar para que a contabilidade valide as informações antes de faturar o documento. Os únicos valores que devem constar em notas de complemento de ICMS são de base de cálculo e valor de ICMS.<img alt="" src="/Manuais%20M8/_imagens/276/imagem_012.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/></p>
+<p><img alt="" height="886" src="/Manuais%20M8/_imagens/276/imagem_013.png" width="1911"/></p>
+<blockquote>Gostou de aprender sobre como Emitir uma NF-e Complementar de Imposto no M8? Caso restem dúvidas entre em contato com nossa equipe de Suporte.</blockquote>
+
+</div>
+
+<footer>
+
+Documento gerado automaticamente pelo Exportador M8
+
+</footer>
+
+</body>
+
+</html>

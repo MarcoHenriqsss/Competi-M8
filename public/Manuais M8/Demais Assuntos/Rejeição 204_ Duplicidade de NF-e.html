@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Rejeição 204_ Duplicidade de NF-e</title>
+
+
+
+    <link rel="stylesheet" href="/templates/estilo.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo-area">
+
+        <img src="/assets/competi.jpg" class="logo">
+
+        <div>
+
+            <div class="empresa">
+
+                COMPETI SISTEMAS
+
+            </div>
+
+            <div class="erp">
+
+                Documentação Oficial do M8 ERP
+
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+<div class="titulo">
+
+Rejeição 204_ Duplicidade de NF-e
+
+</div>
+
+<div class="categoria">
+
+Demais Assuntos
+
+</div>
+
+<div class="conteudo">
+
+<h2>O que é a Rejeição 204: Duplicidade de NF-e ao faturar uma nota fiscal?</h2>
+<p>Essa rejeição ocorre quando é enviado ao SEFAZ dados como chave NF-e ou número de documento de uma Nota já transmitida. Neste caso, a Sefaz rejeitará a nota, informando duplicidade. No M8, essa rejeição será exibida conforme exemplo abaixo.</p>
+<p><img alt="" height="164" src="/Manuais%20M8/_imagens/66/imagem_001.png" width="724"/></p>
+<h2>Como Resolver?</h2>
+<p>Primeiramente, verifique no cabeçalho da Nota Fiscal, o Documento e a Chave NF-e gerados.</p>
+<p><img alt="" height="940" src="/Manuais%20M8/_imagens/66/imagem_002.png" width="1922"/></p>
+<p>Copie a Chave NF-e gerada e no site da Sefaz ( <a href="https://www.nfe.fazenda.gov.br/portal/principal.aspx" rel="noopener noreferrer" target="_blank">https://www.nfe.fazenda.gov.br/portal/principal.aspx</a>, ), em Consultar NF-e faça a consulta desta chave. Na consulta poderá retornar que a chave informada não consta na base do Sefaz ou poderá ser exibido o documento emitido com a numeração e chave no Sefaz, onde você poderá conferir os valores e demais dados da Nota.<br/>Em seguida, volte ao lançamento que apresentou o erro e clique no Menu Ações, na opção Atualizar Protocolo NF-e. Essa opção deve ser usada quando há no SEFAZ o documento e esse se refere ao mesmo que esta pendente no M8. Essa ação trará os dados de protocolo da NF-e que esta no SEFAZ, atualizando o Status NF-e da Nota.</p>
+<p><img alt="" height="934" src="/Manuais%20M8/_imagens/66/imagem_003.png" width="1921"/></p>
+<p>Com o processo de Atualizar Protocolo NF-e, o sistema irá fazer a busca de informações na base do SEFAZ e atualizar os dados no lançamento do documento pendente. Após esse processo, ainda no lançamento da Nota Fiscal, clique em Ações, na opção Faturar Documento.</p>
+<p><img alt="" height="931" src="/Manuais%20M8/_imagens/66/imagem_004.png" width="1920"/></p>
+<p>Desta forma sua Nota será atualizada para o status de processada.</p>
+<div class="callout callout-info">Caso ao efetuar esse processo ocorra outro erro, ou os dados que estão no Sefaz forem diferentes das informações do documento pendente, acione o Suporte da M8 para auxiliar na verificação.</div>
+<blockquote>Gostou de aprender sobre a Rejeição 204- Duplicidade de NF-e ao faturar uma nota fiscal? Caso restem dúvidas entre em contato com nossa equipe de Suporte.</blockquote>
+
+</div>
+
+<footer>
+
+Documento gerado automaticamente pelo Exportador M8
+
+</footer>
+
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Condição de Pagamento</title>
+
+
+
+    <link rel="stylesheet" href="/templates/estilo.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo-area">
+
+        <img src="/assets/competi.jpg" class="logo">
+
+        <div>
+
+            <div class="empresa">
+
+                COMPETI SISTEMAS
+
+            </div>
+
+            <div class="erp">
+
+                Documentação Oficial do M8 ERP
+
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+<div class="titulo">
+
+Condição de Pagamento
+
+</div>
+
+<div class="categoria">
+
+Financeiro
+
+</div>
+
+<div class="conteudo">
+
+<h2>Condição de Pagamento</h2>
+<p>A Condição de Pagamento definirá como os valores de venda ou compra serão pagos, estabelece se o pagamento será feito à vista ou à prazo, o número e valor das parcelas, assim como a data de vencimento, meio de pagamento, entre outras informações.</p>
+<div class="callout callout-info"><strong>Caminho de Acesso:</strong>  Módulo Financeiro -&gt; CADASTROS -&gt; CADASTROS -&gt; Lista Cadastro de Condições de Pagamento</div>
+<p><img alt="" height="966" src="/Manuais%20M8/_imagens/209/imagem_001.png" width="1904"/></p>
+<p><img alt="" height="968" src="/Manuais%20M8/_imagens/209/imagem_002.png" width="1918"/></p>
+<h3>Inclusão de Condição de Pagamento</h3>
+<p><img alt="" height="969" src="/Manuais%20M8/_imagens/209/imagem_003.png" width="1905"/></p>
+<p>Para incluir uma nova Condição de Pagamento clique na opção<img alt="" src="/Manuais%20M8/_imagens/209/imagem_004.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/> no canto superior esquerdo. Para te auxiliar neste cadastro, criamos esse artigo com a descrição detalhada de todos os campos, segue abaixo:</p>
+<h3>Cabeçalho</h3>
+<p><img alt="" height="966" src="/Manuais%20M8/_imagens/209/imagem_005.png" width="1914"/></p>
+<ul><li><strong>Código: </strong>Código sequencial gerado automaticamente pelo sistema.</li><li><strong>Ativo: </strong>Definirá se a Condição de Pagamento estará ativa para utilização nas operações. Quando inativa a mesma não será exibida nos campos de busca dentro das rotinas de Faturamento e Compra, somente na</li></ul>
+<ul><li>Lista Cadastro de Condição de Pagamento.</li><li><strong>Tipo: </strong>Definirá se essa Condição de Pagamento será à vista, à prazo ou outros.</li><li><strong>Empresa: </strong>Determinará a qual Empresa essa Condição de Pagamento pertencerá.</li><li><strong>Nome: </strong>Nome de identificação da Condição de Pagamento.</li><li><strong>Abreviatura: </strong>Campo de três dígitos para abreviatura do nome da Condição de Pagamento.</li><li><strong>Meio de Pagamento: </strong>Qual será o meio de pagamento do título gerado, por exemplo<strong>: </strong>Boleto, cartão de crédito, dinheiro, pix.</li><li><strong>Bandeira Cartão: </strong>Configuração utilizada para realizar integração com Conciliadora de cartão.</li><li><strong>Descrição NF-e: </strong>Indicará qual será a descrição da Condição de Pagamento no XML da Nota Fiscal.<ul><li>Quando marcado a opção 14 - Duplicada Mercantil NF-e 3.0, as parcelas serão mostradas na impressão da Danfe.</li><li>Quando marcado a opção 03 - Cartão Crédito será habilitado o campo % Operadora Cartão onde você poderá informar a taxa da máquina de cartão utilizada por sua Empresa.</li></ul></li><li><strong>Enviar NF-e: </strong>Quando marcado, qualquer uma das opções selecionas no campo acima (Descrição NF-e), serão exibidas na impressão da Danfe.</li><li><strong>Lançamentos Permitidos: </strong>Esse campo limitará o uso da Condição de Pagamento em lançamentos de compra, venda ou ambos.</li><li><strong>Data Gerar Parcela: </strong>Estabelecerá se as parcelas da Nota Fiscal serão geradas a partir da data de emissão ou de faturamento da mesma. A opção padrão respeitará a data de faturamento.</li><li><strong>% Operadora Cartão: </strong>Informar a taxa da operadora de cartão.</li><li><strong>Vencimento Fim de Semana: </strong>Determinará se a data de vencimento será prorrogada ou antecipada quando a mesma cair em finais de semana ou feriados. Se a opção Ignorar for a selecionada, os feriados e finais de semana serão considerados normalmente.</li><li><strong>Exibir PDV: </strong>Estabelecerá se essa Condição de Pagamento poderá ser utilizada em emissão de Cupom Fiscal.</li><li><strong>Enviar Pagamento PDV: </strong>Estabelecerá se a Condição de Pagamento poderá ser utilizada na emissão de Cupom Fiscal pelo NFC-e.</li></ul>
+<p><img alt="" height="950" src="/Manuais%20M8/_imagens/209/imagem_006.png" width="1919"/></p>
+<ul><li><strong>Condição Especial: </strong>Quando marcada, ao gerar as parcelas dentro do Pedido utilizando essa Condição de Pagamento será exibida na tela um modal onde você informará a quantidade de parcela e intervalo entre elas. Destinada para situações em que o número de parcelas será extensa.</li><li><strong>Informar Dados TEF/POS: </strong>Quando marcado, será habilitado no cabeçalho das telas do Contas a Receber, Nota Fiscal de Venda/Outras o campo onde você informará o código de pagamento gerado no POS, esse se tornará obrigatório.</li><li><strong>Exibe A.P: </strong>Definirá se a Condição de Pagamento poderá ser utilizada no cadastro de Autorização de Pagamento.</li><li><strong>Exibe A.N: </strong>Definirá se a Condição de Pagamento poderá ser utilizada no cadastro de Autorização de Adiantamento.</li><li><strong>Entrada Antecipada: </strong>Configuração valida para Ordens de Compra, quando informada essa Condição de Pagamento dentro da Ordem de Compra, ao finalizar a mesma o sistema fará um lançamento de Autorização de Adiantamento.</li><li><strong>Validar Parcelas: </strong>Quando marcado, no momento de transmissão da Nota Fiscal o sistema validará se o valor das parcelas corresponde ao valor total da mesma.</li><li><strong>Validar Gerou Financeiro: </strong>Quando marcado, no momento de transmissão da Nota Fiscal o sistema validará se o financeiro será gerado corretamente.</li><li><strong>Validações Faturamento: </strong>Quando marcado igual a 'não', o sistema não irá validar os meios de pagamento vinculados ao cadastro do cliente. Dessa forma as vendas para esse cliente só poderão ser feitas com Condições de Pagamento que tenham algum desses meios de pagamento informados no campo Meio Pagamento já citado.</li><li><strong>Valor ICMS ST Primeiro Parcela: </strong>Quando na Nota Fiscal será lançado valor de ICMS ST, o mesmo será cobrado integralmente na primeira parcela se o pagamento for a prazo. Sendo as demais parcelas o valor restante da Nota Fiscal dividido pelo número de parcelas.</li><li><strong>Separar Valor ICMS ST: </strong>Quando marcado irá gerar uma parcela separada para o valor de ICMS ST que estava atribuído a primeira parcela, considerando o Dia Vencimento ST para criar o vencimento dessa parcela.</li><li><strong>Dia Vencimento ST: </strong>data que será gerado, caso marcado a opção anterior.</li><li><strong>Validar Acordo Comercial: </strong>Quando marcado, será validado no processo de análise de pedido, juntamente com a parametrização do cadastro de status fluxo, gerando uma restrição.</li></ul>
+<p><img alt="" height="950" src="/Manuais%20M8/_imagens/209/imagem_007.png" width="1919"/></p>
+<ul><li><strong>Dia Fixo Pagamento: </strong>Definirá como o sistema gerará as datas de vencimento das parcelas.<ul><li><strong>Não Configurado: </strong>Não irá interferir nas demais configurações da tela.</li><li><strong>Data Atual: </strong>Serão consideradas as informações da aba Dia Fixo de Pagamento, com essa opção os campos Quantidade Parcelas e Intervalo Fixo serão desconsiderados, dessa forma o sistema respeitará a data de geração do Pedido, Ordem de Serviço ou Nota fiscal.</li><li><strong>Dia Fixo: </strong>Serão consideradas as informações da aba Dia Fixo de Pagamento e também os campos Quantidade Parcelas e Intervalo Fixo.</li><li><strong>Buscar Dia Fixo Cliente: </strong>Quando marcado, o sistema validará o registro de dia fixo de pagamento configurado dentro do Cadastro do Cliente</li></ul></li><li><strong>Data Vencimento: </strong>informar a data de vencimento, quando informado que é data fixada.</li><li><strong>Código Marketplace: </strong>Definirá como essa Condição de Pagamento será exibida no Marketplace utilizado por sua Empresa.</li><li><strong>Limpar Parcelas: </strong>Quando marcado, ao gerar uma Nota Fiscal a partir de um pedido, as parcelas não serão levadas para a mesma. Essas serão geradas ao faturar a Nota Fiscal ou na opção Gerar Parcelas no Menu Ações.</li><li><strong>Bloquear Desconto</strong>: Quando marcado, serão bloqueados os campos de desconto na tela de fechamento de Pedidos e Ordens de Serviço.</li><li><strong>Validar Adiantamento: </strong>Essa configuração deverá ser utilizada juntamente com a configuração Validar Adiantamento do Cadastro de Status, para validação de restrição de Adiantamento na Análise de Pedido/Ordem de Serviço.</li><li><strong>Adiantamento Baixa: </strong>Quando marcado, será utilizado o saldo de adiantamento da conta do cliente/fornecedor para baixa automaticas à vista.</li><li><strong>Separar Adiantamento: </strong>Quando marcado, será gerado uma parcela referente ao valor do adiantamento utilizado e, o saldo restante será reprocessado de acordo com os intervalos/vencimentos informados (configuração valida para venda).</li></ul>
+<ul><li><strong>Descrição Marketplace: </strong>A descrição dessa Condição de Pagamento será exibida no Marketplace utilizado por sua Empresa.</li><li><strong>Reserva Estoque: </strong>Quando marcado ao utilizar essa Condição de Pagamento em Pedidos e Ordens de Serviço será reservado estoque dos itens informados.</li><li><strong>Integração Mobile: </strong>Quando marcado, será exibido o cadastro na lista do APP.</li><li><strong>Integração V Expenses: </strong>Informar o código de Integração.</li><li><strong>Bloq. Cancel. NF Fatur.: </strong>Quando marcado, bloqueia cancelamento de Nota Fiscal com boletos eletrônicos vinculados.</li><li><strong>Pix Techfin: </strong>Quando marcado, será solicitado ao realizar o fechamento da venda no PDV o pagamento atraves do Pix/Techfin atraves do convênio bancário.</li><li><strong>Boleto Convênio: </strong>Informar o Convenio para o Pix Techfin.</li><li><strong>Provisão automática: </strong>Quando marcado, após baixar o último título/ parcela da provisão à pagar, será gerado um novo lançamento de provisão automáticamente, de acordo com a provisão vinculada ao título.</li><li><strong>Consid. Comp. Provisões: </strong>Configuração valida para Provisões de Contas a Pagar/Receber, quando marcado será considerada a competência informada com adição de 30 dias para o vencimento das provisões.</li><li><strong>Parcela Fixa: </strong>Quando marcada é possível preencher os campos Quantidade Parcelas e Intervalo Fixo. Será utilizada quando as parcelas tiverem um intervalo fixo entre elas.</li><li><strong>Baixa automática: </strong>Ao marcar, a baixa automática do lançamento será realizada nas contas e históricos definidos na aba 'Baixa Automática', que será habilitada após salvar está configuração.</li><li><strong>Comissão Parcela: </strong>Ao marcar, o sistema passará a seguir as regras definidas na aba 'Comissão Parcela', que será exibida automaticamente após salvar.</li><li><strong>Prazo médio: </strong>Campo para informar os dias para validade docampo anterior.</li><li><strong>Qtde Parcelas: </strong>Número de parcelas.</li><li><strong>Qtde Parcelas TEF: </strong>válido para PDV.</li><li><strong>Intervalo Fixo: </strong>Deverá ser informado o intervalo entre as parcelas. <strong>Exemplo: </strong>30 Dias - O sistema gerará a quantidade de parcelas informada no campo Quantidade Parcelas com intervalo de trinta dias entre elas.</li><li><strong>Intervalos: </strong>Deverá ser preenchido quando o intervalo entre as parcelas não é fixo, você deverá preencher o campo com os valores separados por barra como no exemplo abaixo. <strong>Exemplo</strong>: 3/7/30/45 - O Sistema gerará as parcelas com o intervalo informado entre elas.</li><li><strong>% Custo Financeiro: </strong>Nesse campo será informada a percentagem de adição de custo financeiro no Orçamento CRM Industrial.</li><li><strong>% Custo Margem: </strong>Essa percentagem será considerada no calculo de custo de margem do pedido no campo % Despesa Fixa.</li><li><strong>% Tabela Preço: </strong>Quando informado, essa percentagem poderá ou não ser utilizada na rotina de inclusão de itens na Tabela de Preço, sendo acrescido no valor do produto o percentual informado.</li><li><strong>% Acresc./Outros Valores: </strong>No momento de lançamento do item em um Pedido, Ordem de Serviço ou Nota Fiscal o sistema considerará essa percentagem no campo Valor Outras, somando ao total.</li></ul>
+<p><img alt="" height="317" src="/Manuais%20M8/_imagens/209/imagem_008.png" width="1918"/></p>
+<ul><li><strong>% Desconto: </strong>A percentagem informada será levada como desconto na aba Fechamento nos Pedidos.</li><li><strong>Valor Mínimo Faturar: </strong>Quando informado, o sistema fará a validação de acordo com o campo Valor Mínimo preenchido dentro do cadastro do produto, caso o valor informado esteja menor que o Valor Mínimo o sistema exibirá uma mensagem de rejeição.</li><li><strong>% Acrésc./Decréscimo: </strong>Quando informado, será recalculado o valor da venda considerando essa percentagem.</li><li><strong>% Entrada: </strong>Quando informado um valor, o sistema irá criar a primeira parcela com valor proporcional a % informada.</li><li><strong>Cod. Importação: </strong>caso tenha, poderá informar.</li><li><strong>Alerta Gerar Parcelas: </strong>O sistema exibirá um alerta na tela de Pedido e Orçamento com a mensagem descrita nesse campo.</li><li><strong>Observação Nota Fiscal: </strong>Observações referente a Condição de Pagamento, será exibida no rodapé da Nota Fiscal.</li></ul>
+<p>Após concluir a revisão de todos os campos, clique em<img alt="" src="/Manuais%20M8/_imagens/209/imagem_009.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/> para criar o registro da Condição de Pagamento. Em seguida serão exibidas outras abas para preenchimento no canto esquerdo, sendo elas:</p>
+<h3>Dia Fixo Pagamento</h3>
+<ul><li><strong>Dia Inicial e Dia Final: </strong>Campo onde você informará as datas de intervalo.</li><li><strong>Dia pagamento: </strong>Você informará o dia do pagamento entre as duas datas de intervalo acima.</li><li><strong>Tipo Vencimento: Para qual </strong>período o sistema vai começar a considerar essa data fixa de pagamento.<ul><li><strong>No mesmo mês:</strong> Será gerada parcela com vencimento no mesmo mês de emissão do Pedido, Ordem de Serviço ou Nota Fiscal.</li><li><strong>No mês subsequente:</strong> Será gerada parcela com vencimento no mês posterior a emissão do Pedido, Ordem de Serviço ou Nota Fiscal.</li><li><strong>No segundo mês subsequente:</strong> Será gerada parcela com vencimento no segundo mês posterior a emissão do Pedido, Ordem de Serviço ou Nota Fiscal.</li><li><strong>Na mesma semana:</strong> Será gerada parcela com vencimento na próxima semana de emissão do Pedido, Ordem de Serviço ou Nota Fiscal.</li><li><strong>Na mesma quinzena:</strong> Será gerada parcela com vencimento na próxima quinzena de emissão do Pedido, Ordem de Serviço ou Nota Fiscal.</li></ul></li></ul>
+<p>Por fim, clique em<img alt="" src="/Manuais%20M8/_imagens/209/imagem_010.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/> o cadastro de Dia Fixo será exibido na listagem abaixo do cadastro, sendo possível cadastrar várias opções.</p>
+<h3>Vendedores não autorizados: </h3>
+<p><img alt="" height="966" src="/Manuais%20M8/_imagens/209/imagem_011.png" width="1917"/></p>
+<p>Quando essa condição de pagamento não puder ser utilizada por algum vendedor, o mesmo deve ser informado nessa aba.</p>
+<ul><li><strong>Vendedor: </strong>Campo onde você informará o cadastro do vendedor que não terá permissão para usar essa Condição de Pagamento.</li></ul>
+<p>C lique na opção<img alt="" src="/Manuais%20M8/_imagens/209/imagem_012.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/>, o vendedor vinculado será exibido na listagem abaixo do cadastro, você conseguirá informar mais de um cadastro.</p>
+<p><strong>Ações</strong></p>
+<p><img alt="" height="886" src="/Manuais%20M8/_imagens/209/imagem_013.png" width="1918"/></p>
+<ul><li><strong>Copiar Registro: </strong>Esta rotina permite duplicaro cadastro, com os mesmos dados em um novo código de registro. Atenção, após duplicar alterar os dados desejados.</li><li><strong>Simular Parcelas: </strong>Será exibido um modal, onde será possível simular a emissão e titulos financeiros, confirme a configuração dessa condição de pagamento.</li></ul>
+<h3>Edição de Condição de Pagamento</h3>
+<p>Ao acessar a tela, você conseguirá listar todas as Condições de Pagamento ou filtrá-las de acordo com os filtros disponíveis na tela, para editá-las clique no botão Editar<img alt="" src="/Manuais%20M8/_imagens/209/imagem_014.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/>.</p>
+<h3>Exclusão de condição de Pagamento</h3>
+<p>Você poderá excluir uma Condição de pagamento clicando na opção Excluir.<img alt="" src="/Manuais%20M8/_imagens/209/imagem_015.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/>. Caso seja necessário, o registro excluído poderá ser restaurado por meio da opção Restaurar Registro<img alt="" src="/Manuais%20M8/_imagens/209/imagem_016.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/>, disponível na lista. Ressalta-se que essa funcionalidade está disponível exclusivamente para usuários com perfil de Administrador.</p>
+<blockquote>Gostou de aprender um pouco sobre Cadastro de Condição de Pagamento no M8? Caso restem dúvidas entre em contato com nossa equipe de Suporte.</blockquote>
+
+</div>
+
+<footer>
+
+Documento gerado automaticamente pelo Exportador M8
+
+</footer>
+
+</body>
+
+</html>

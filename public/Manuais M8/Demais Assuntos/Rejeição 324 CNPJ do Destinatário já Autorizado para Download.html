@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Rejeição 324 CNPJ do Destinatário já Autorizado para Download</title>
+
+
+
+    <link rel="stylesheet" href="/templates/estilo.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo-area">
+
+        <img src="/assets/competi.jpg" class="logo">
+
+        <div>
+
+            <div class="empresa">
+
+                COMPETI SISTEMAS
+
+            </div>
+
+            <div class="erp">
+
+                Documentação Oficial do M8 ERP
+
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+<div class="titulo">
+
+Rejeição 324 CNPJ do Destinatário já Autorizado para Download
+
+</div>
+
+<div class="categoria">
+
+Demais Assuntos
+
+</div>
+
+<div class="conteudo">
+
+<h2>O que é a Rejeição 324 CNPJ do destinatário já autorizado para download?</h2>
+<p>Ao emitir uma Nota Fiscal onde o CNPJ do destinatário e o CNPJ autorizado para download enviados no XML forem o mesmo, será retornada a rejeição 324, pois sendo o destinatário o CNPJ informado já terá acesso ao download da NF. No M8 a rejeição é exibida conforme exemplo abaixo:</p>
+<p><img alt="" height="141" src="/Manuais%20M8/_imagens/67/imagem_001.png" width="512"/></p>
+<h2>Como resolver?</h2>
+<p>Deverá editar o cadastro do cliente, informado no cabeçalho da Nota Fiscal.</p>
+<p><img alt="" height="968" src="/Manuais%20M8/_imagens/67/imagem_002.png" width="1920"/></p>
+<p>Ao entrar no cadastro do cliente, acesse a aba de Contatos, edite o registro informado e valide qual CNPJ informado no campo Cpf/Cnpj, se for o mesmo do destinatário da Nota Fiscal, marque a opção Autorização XML NF-e como NÃO.</p>
+<p><img alt="" height="964" src="/Manuais%20M8/_imagens/67/imagem_003.png" width="1918"/></p>
+<p>Após realizar o ajuste n o Cadastro do Cliente, deverá salvar as informações, voltar ao lançamento da Nota Fiscal e em Ações &gt; Faturar Documento, poderá tentar transmitir a Nota novamente.</p>
+<p><img alt="" height="965" src="/Manuais%20M8/_imagens/67/imagem_004.png" width="1918"/></p>
+<p>Desta forma, será enviada uma nova requisição ao SEFAZ e será retornada com a transmissão do documento, com numeração da nota e chave de acesso.</p>
+<blockquote>Gostou de aprender sobre a Rejeição 323 - CNPJ autorizado para download inválido? Caso restem dúvidas entre em contato com nossa equipe de Suporte.</blockquote>
+
+</div>
+
+<footer>
+
+Documento gerado automaticamente pelo Exportador M8
+
+</footer>
+
+</body>
+
+</html>

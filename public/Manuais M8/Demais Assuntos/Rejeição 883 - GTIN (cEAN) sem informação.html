@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Rejeição 883 - GTIN (cEAN) sem informação</title>
+
+
+
+    <link rel="stylesheet" href="/templates/estilo.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo-area">
+
+        <img src="/assets/competi.jpg" class="logo">
+
+        <div>
+
+            <div class="empresa">
+
+                COMPETI SISTEMAS
+
+            </div>
+
+            <div class="erp">
+
+                Documentação Oficial do M8 ERP
+
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+<div class="titulo">
+
+Rejeição 883 - GTIN (cEAN) sem informação
+
+</div>
+
+<div class="categoria">
+
+Demais Assuntos
+
+</div>
+
+<div class="conteudo">
+
+<h2>O que é a Rejeição 883 - GTIN (cEAN) sem informação?</h2>
+<p>Essa rejeição ocorre quando um ou mais itens lançados na Nota Fiscal não possuem código de barras informado, lembrando que a validação se aplica apenas para documentos de modelo 55 (NF-e). No M8, a rejeição é exibida conforme imagem abaixo no momento de transmissão ao SEFAZ.</p>
+<p><img alt="" height="130" src="/Manuais%20M8/_imagens/65/imagem_001.png" width="631"/></p>
+<h2>Como resolver?</h2>
+<p>O primeiro passo é validar qual item está causando a rejeição, para isso entre na aba Produtos da Nota Fiscal.</p>
+<p><img alt="" height="957" src="/Manuais%20M8/_imagens/65/imagem_002.png" width="1916"/></p>
+<p>Nessa tela você poderá verificar qual item está apresentando a rejeição de acordo com a coluna Código de Barras, pois a mesma estará sem informação para esse produto.</p>
+<p><img alt="" height="962" src="/Manuais%20M8/_imagens/65/imagem_003.png" width="1918"/></p>
+<p>Caso a coluna não esteja sendo exibida, valide as configurações das colunas dessa grid.</p>
+<p><img alt="" height="960" src="/Manuais%20M8/_imagens/65/imagem_004.png" width="1915"/></p>
+<p>Agora que já identificou qual item está sem o código de barras, edite o lançamento do mesmo na Nota e entre em seu cadastro pelo atalho (+). Dessa forma, você será redirecionado ao cadastro desse produto.</p>
+<p><img alt="" height="961" src="/Manuais%20M8/_imagens/65/imagem_005.png" width="1917"/></p>
+<p>Dentro do cadastro do produto você poderá informar no campo Código de Barras o código de barras do mesmo, preencher a descrição "SEM GTIN", que é aceita pelo SEFAZ, ou clicar na opção<img alt="" src="/Manuais%20M8/_imagens/65/imagem_006.png" style="display:inline-block;vertical-align:middle;margin:0 .15em"/>, dessa forma o sistema criará automaticamente um código de barras para esse produto.</p>
+<p><img alt="" height="964" src="/Manuais%20M8/_imagens/65/imagem_007.png" width="1917"/></p>
+<p>Depois disso, volte a aba Produtos da Nota Fiscal, atualize a grid dos produtos, verá que o campo que antes estava vazio na coluna Códigos Barras, agora está preenchido de acordo com a configuração do cadastro do produto.</p>
+<p><img alt="" height="961" src="/Manuais%20M8/_imagens/65/imagem_008.png" width="1916"/></p>
+<p>Após fazer esse processo com todos os itens que estavam sem o código de barras, você poderá tentar transmitir a Nota Fiscal novamente em Ações &gt; Faturar Documento.</p>
+<blockquote>Gostou de aprender sobre a Rejeição 883 - GTIN (cEAN) sem informação? Caso restem dúvidas entre em contato com nossa equipe de Suporte.</blockquote>
+
+</div>
+
+<footer>
+
+Documento gerado automaticamente pelo Exportador M8
+
+</footer>
+
+</body>
+
+</html>

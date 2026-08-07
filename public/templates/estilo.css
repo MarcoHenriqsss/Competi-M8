@@ -214,11 +214,62 @@ footer{
 }
 
 /* Parágrafo que contém imagem */
+/* =========================================
+   CORREÇÃO DE TEXTOS SOBREPOSTOS
+========================================= */
+
+.conteudo p {
+    height: auto !important;
+    min-height: 0 !important;
+
+    line-height: 1.6 !important;
+
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+
+    white-space: normal !important;
+}
+
+.conteudo li {
+    height: auto !important;
+    min-height: 0 !important;
+
+    line-height: 1.6 !important;
+
+    margin-bottom: 6px;
+}
+
+.conteudo div {
+    line-height: 1.6;
+}
+
+/* Quando um parágrafo contém imagem */
 .conteudo p:has(img) {
-    margin: 10px 0 !important;
+    height: auto !important;
+    min-height: 0 !important;
+
+    margin: 12px 0 !important;
     padding: 0 !important;
 
-    line-height: 0 !important;
+    /* NÃO usar line-height: 0 */
+    line-height: 1.6 !important;
+}
+
+/* Mantém as imagens organizadas */
+.conteudo img {
+    display: block !important;
+
+    width: auto !important;
+    max-width: 80% !important;
+
+    height: auto !important;
+    max-height: 650px !important;
+
+    object-fit: contain;
+
+    margin: 12px auto !important;
+
+    border-radius: 8px;
 }
 
 /* Div que contém diretamente uma imagem */

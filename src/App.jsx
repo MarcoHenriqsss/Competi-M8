@@ -175,10 +175,8 @@ function App() {
                 </h2>
 
                 <p>
-                  {artigosFiltrados.length} manual
-                  {artigosFiltrados.length !== 1
-                    ? "is"
-                    : ""}
+                  {artigosFiltrados.length}{" "}
+                  {artigosFiltrados.length === 1 ? "manual" : "manuais"}
                 </p>
               </div>
             </div>

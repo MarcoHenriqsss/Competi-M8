@@ -564,35 +564,44 @@ button {
 
 @media (max-width: 800px) {
 
-  .topo {
-    align-items: stretch;
-
-    flex-direction: column;
-  }
-
-  .pesquisa {
-    width: 100%;
-  }
-
-  .layout {
-    display: block;
-  }
-
   .sidebar {
-    border-right: 0;
+    position: static !important;
+    top: auto !important;
+    height: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
 
-    border-bottom:
-      1px solid #202532;
+    padding: 18px 12px;
+
+    border-right: 0;
+    border-bottom: 1px solid #202532;
   }
 
   .lista-categorias {
+    display: flex;
     flex-direction: row;
 
     overflow-x: auto;
+    overflow-y: hidden;
+
+    gap: 8px;
+
+    padding-bottom: 6px;
+
+    scrollbar-width: none;
+  }
+
+  .lista-categorias::-webkit-scrollbar {
+    display: none;
   }
 
   .categoria {
-    min-width: 180px;
+    min-width: max-content;
+    width: auto;
+
+    flex-shrink: 0;
+
+    padding: 10px 14px;
   }
 
   .conteudo {

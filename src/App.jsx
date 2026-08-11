@@ -26,18 +26,30 @@ function App() {
   );
 
   const artigosFiltrados = useMemo(() => {
-    if (!categoriaSelecionada) return [];
+    const termo = busca.trim().toLowerCase();
 
-    if (!busca.trim()) {
-      return categoriaSelecionada.artigos;
+    // Sem pesquisa: mostra apenas a categoria selecionada
+    if (!termo) {
+      if (!categoriaSelecionada) return [];
+
+      return categoriaSelecionada.artigos.map((artigo) => ({
+        ...artigo,
+        categoria: categoriaSelecionada.categoria,
+      }));
     }
 
-    const termo = busca.toLowerCase();
-
-    return categoriaSelecionada.artigos.filter((artigo) =>
-      artigo.titulo.toLowerCase().includes(termo)
+    // Com pesquisa: busca em TODAS as categorias
+    return categorias.flatMap((categoria) =>
+      categoria.artigos
+        .filter((artigo) =>
+          artigo.titulo.toLowerCase().includes(termo)
+        )
+        .map((artigo) => ({
+          ...artigo,
+          categoria: categoria.categoria,
+        }))
     );
-  }, [categoriaSelecionada, busca]);
+  }, [categorias, categoriaSelecionada, busca]);
 
   function montarCaminho(caminho) {
     return (
@@ -171,7 +183,9 @@ function App() {
                 </span>
 
                 <h2>
-                  {categoriaAtiva || "Manuais"}
+                  {busca.trim()
+                    ? `Resultados para "${busca}"`
+                    : categoriaAtiva || "Manuais"}
                 </h2>
 
                 <p>
@@ -203,7 +217,9 @@ function App() {
                       </h3>
 
                       <p>
-                        Clique para visualizar
+                        {busca.trim()
+                          ? `${artigo.categoria} • Clique para visualizar`
+                          : "Clique para visualizar"}
                       </p>
                     </div>
 

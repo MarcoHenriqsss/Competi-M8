@@ -564,27 +564,56 @@ button {
 
 @media (max-width: 800px) {
 
+  /* TOPO */
+  .topo {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 14px;
+
+    padding: 14px 16px;
+  }
+
+  .marca {
+    width: 100%;
+  }
+
+  .pesquisa {
+    width: 100%;
+  }
+
+
+  /* LAYOUT PRINCIPAL */
+  .layout {
+    display: block !important;
+    width: 100%;
+  }
+
+
+  /* CATEGORIAS */
   .sidebar {
     position: static !important;
-    top: auto !important;
-    height: auto !important;
-    max-height: none !important;
-    overflow: visible !important;
 
-    padding: 18px 12px;
+    width: 100% !important;
+    height: auto !important;
+
+    padding: 16px 12px;
 
     border-right: 0;
     border-bottom: 1px solid #202532;
+
+    overflow: visible !important;
   }
 
   .lista-categorias {
     display: flex;
     flex-direction: row;
 
-    overflow-x: auto;
-    overflow-y: hidden;
+    width: 100%;
 
     gap: 8px;
+
+    overflow-x: auto;
+    overflow-y: hidden;
 
     padding-bottom: 6px;
 
@@ -596,16 +625,63 @@ button {
   }
 
   .categoria {
+    width: auto !important;
     min-width: max-content;
-    width: auto;
 
     flex-shrink: 0;
 
     padding: 10px 14px;
   }
 
+
+  /* ÁREA DE MANUAIS */
   .conteudo {
-    padding: 25px 18px;
+    width: 100% !important;
+    max-width: none !important;
+
+    margin: 0 !important;
+
+    padding: 24px 14px !important;
+  }
+
+  .cabecalho-conteudo h2 {
+    font-size: 30px;
+  }
+
+
+  /* CARDS */
+  .lista-manuais {
+    width: 100%;
+  }
+
+  .card-manual {
+    width: 100% !important;
+
+    grid-template-columns: auto 1fr auto;
+
+    padding: 16px;
+
+    gap: 12px;
+  }
+
+  .info-manual {
+    min-width: 0;
+  }
+
+  .info-manual h3 {
+    font-size: 16px;
+
+    word-break: normal;
+    overflow-wrap: break-word;
+  }
+
+  .icone {
+    width: 42px;
+    height: 42px;
+  }
+
+  .seta {
+    font-size: 20px;
   }
 
   .barra-manual {

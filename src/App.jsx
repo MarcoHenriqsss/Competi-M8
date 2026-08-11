@@ -65,6 +65,7 @@ function App() {
     setManualAtual({
       titulo: artigo.titulo,
       url: montarCaminho(artigo.arquivo),
+      tipo: artigo.tipo || "html",
     });
   }
 
@@ -163,6 +164,11 @@ function App() {
                   onClick={() => {
                     setCategoriaAtiva(item.categoria);
                     setBusca("");
+
+                    window.scrollTo({
+                      top: 0,
+                      behavior: "smooth",
+                    });
                   }}
                 >
                   <span>{item.categoria}</span>
@@ -207,7 +213,7 @@ function App() {
                   >
                     <div>
                       <span className="icone">
-                        📄
+                        {artigo.tipo === "pdf" ? "📕" : "📄"}
                       </span>
                     </div>
 
@@ -217,8 +223,8 @@ function App() {
                       </h3>
 
                       <p>
-                        {busca.trim()
-                          ? `${artigo.categoria} • Clique para visualizar`
+                        {artigo.tipo === "pdf"
+                          ? "PDF • Clique para visualizar"
                           : "Clique para visualizar"}
                       </p>
                     </div>

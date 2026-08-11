@@ -4,59 +4,73 @@
         "artigos": [
             {
                 "titulo": "Acessos API's",
-                "arquivo": "Manuais M8/Assistência técnica/Acessos API's.html"
+                "arquivo": "Manuais M8/Assistência técnica/Acessos API's.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro de Empresa - Configuração Compras",
-                "arquivo": "Manuais M8/Assistência técnica/Cadastro de Empresa - Configuração Compras.html"
+                "arquivo": "Manuais M8/Assistência técnica/Cadastro de Empresa - Configuração Compras.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro de Empresa - Configuração PCP",
-                "arquivo": "Manuais M8/Assistência técnica/Cadastro de Empresa - Configuração PCP.html"
+                "arquivo": "Manuais M8/Assistência técnica/Cadastro de Empresa - Configuração PCP.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro de Indicador de venda",
-                "arquivo": "Manuais M8/Assistência técnica/Cadastro de Indicador de venda.html"
+                "arquivo": "Manuais M8/Assistência técnica/Cadastro de Indicador de venda.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro de Projetos",
-                "arquivo": "Manuais M8/Assistência técnica/Cadastro de Projetos.html"
+                "arquivo": "Manuais M8/Assistência técnica/Cadastro de Projetos.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro de SLA",
-                "arquivo": "Manuais M8/Assistência técnica/Cadastro de SLA.html"
+                "arquivo": "Manuais M8/Assistência técnica/Cadastro de SLA.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Contabilização Baixa de Títulos",
-                "arquivo": "Manuais M8/Assistência técnica/Contabilização Baixa de Títulos.html"
+                "arquivo": "Manuais M8/Assistência técnica/Contabilização Baixa de Títulos.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Contabilização Documentos Fiscais",
-                "arquivo": "Manuais M8/Assistência técnica/Contabilização Documentos Fiscais.html"
+                "arquivo": "Manuais M8/Assistência técnica/Contabilização Documentos Fiscais.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Fechamento Comissão",
-                "arquivo": "Manuais M8/Assistência técnica/Fechamento Comissão.html"
+                "arquivo": "Manuais M8/Assistência técnica/Fechamento Comissão.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Lista Cadastro Tipos Ordens de Serviço",
-                "arquivo": "Manuais M8/Assistência técnica/Lista Cadastro Tipos Ordens de Serviço.html"
+                "arquivo": "Manuais M8/Assistência técnica/Lista Cadastro Tipos Ordens de Serviço.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Livro Registro Saídas Agrupado por CFOP",
-                "arquivo": "Manuais M8/Assistência técnica/Livro Registro Saídas Agrupado por CFOP.html"
+                "arquivo": "Manuais M8/Assistência técnica/Livro Registro Saídas Agrupado por CFOP.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Manual Grupo Gcred",
-                "arquivo": "Manuais M8/Assistência técnica/Manual Grupo Gcred.html"
+                "arquivo": "Manuais M8/Assistência técnica/Manual Grupo Gcred.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Recálculo de Estoque",
-                "arquivo": "Manuais M8/Assistência técnica/Recálculo de Estoque.html"
+                "arquivo": "Manuais M8/Assistência técnica/Recálculo de Estoque.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Requisição de Estoque",
-                "arquivo": "Manuais M8/Assistência técnica/Requisição de Estoque.html"
+                "arquivo": "Manuais M8/Assistência técnica/Requisição de Estoque.html",
+                "tipo": "html"
             }
         ]
     },
@@ -65,51 +79,63 @@
         "artigos": [
             {
                 "titulo": "Cadastro Tipo de Tarefas",
-                "arquivo": "Manuais M8/CRM/Cadastro Tipo de Tarefas.html"
+                "arquivo": "Manuais M8/CRM/Cadastro Tipo de Tarefas.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro de Conta",
-                "arquivo": "Manuais M8/CRM/Cadastro de Conta.html"
+                "arquivo": "Manuais M8/CRM/Cadastro de Conta.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro de Modalidade de Negócio",
-                "arquivo": "Manuais M8/CRM/Cadastro de Modalidade de Negócio.html"
+                "arquivo": "Manuais M8/CRM/Cadastro de Modalidade de Negócio.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro de Oportunidade",
-                "arquivo": "Manuais M8/CRM/Cadastro de Oportunidade.html"
+                "arquivo": "Manuais M8/CRM/Cadastro de Oportunidade.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro de Tarefas",
-                "arquivo": "Manuais M8/CRM/Cadastro de Tarefas.html"
+                "arquivo": "Manuais M8/CRM/Cadastro de Tarefas.html",
+                "tipo": "html"
             },
             {
                 "titulo": "E-mail Marketing",
-                "arquivo": "Manuais M8/CRM/E-mail Marketing.html"
+                "arquivo": "Manuais M8/CRM/E-mail Marketing.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Faturamento - O que é um Orçamento Empresarial_",
-                "arquivo": "Manuais M8/CRM/Faturamento - O que é um Orçamento Empresarial_.html"
+                "arquivo": "Manuais M8/CRM/Faturamento - O que é um Orçamento Empresarial_.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Follow Up de Cobrança",
-                "arquivo": "Manuais M8/CRM/Follow Up de Cobrança.html"
+                "arquivo": "Manuais M8/CRM/Follow Up de Cobrança.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Integração RD Station",
-                "arquivo": "Manuais M8/CRM/Integração RD Station.html"
+                "arquivo": "Manuais M8/CRM/Integração RD Station.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Orçamento CRM_Projeto - Comercial",
-                "arquivo": "Manuais M8/CRM/Orçamento CRM_Projeto - Comercial.html"
+                "arquivo": "Manuais M8/CRM/Orçamento CRM_Projeto - Comercial.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Orçamento CRM_Projeto - Industrial",
-                "arquivo": "Manuais M8/CRM/Orçamento CRM_Projeto - Industrial.html"
+                "arquivo": "Manuais M8/CRM/Orçamento CRM_Projeto - Industrial.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Tipos de Orçamentos CRM_Projeto",
-                "arquivo": "Manuais M8/CRM/Tipos de Orçamentos CRM_Projeto.html"
+                "arquivo": "Manuais M8/CRM/Tipos de Orçamentos CRM_Projeto.html",
+                "tipo": "html"
             }
         ]
     },
@@ -118,31 +144,38 @@
         "artigos": [
             {
                 "titulo": "Conferência de Estoque por Projeto",
-                "arquivo": "Manuais M8/CTE/Conferência de Estoque por Projeto.html"
+                "arquivo": "Manuais M8/CTE/Conferência de Estoque por Projeto.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Conhecimento de Transporte Eletrônico - CT-e",
-                "arquivo": "Manuais M8/CTE/Conhecimento de Transporte Eletrônico - CT-e.html"
+                "arquivo": "Manuais M8/CTE/Conhecimento de Transporte Eletrônico - CT-e.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Erros da validação_ xNomeThe",
-                "arquivo": "Manuais M8/CTE/Erros da validação_ xNomeThe.html"
+                "arquivo": "Manuais M8/CTE/Erros da validação_ xNomeThe.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Exportar CT-e",
-                "arquivo": "Manuais M8/CTE/Exportar CT-e.html"
+                "arquivo": "Manuais M8/CTE/Exportar CT-e.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Exportar MDF-e",
-                "arquivo": "Manuais M8/CTE/Exportar MDF-e.html"
+                "arquivo": "Manuais M8/CTE/Exportar MDF-e.html",
+                "tipo": "html"
             },
             {
                 "titulo": "MDF-e",
-                "arquivo": "Manuais M8/CTE/MDF-e.html"
+                "arquivo": "Manuais M8/CTE/MDF-e.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Rejeição TFone emissão CTe",
-                "arquivo": "Manuais M8/CTE/Rejeição TFone emissão CTe.html"
+                "arquivo": "Manuais M8/CTE/Rejeição TFone emissão CTe.html",
+                "tipo": "html"
             }
         ]
     },
@@ -151,99 +184,123 @@
         "artigos": [
             {
                 "titulo": "Análise Sugestão de Compra",
-                "arquivo": "Manuais M8/Compras/Análise Sugestão de Compra.html"
+                "arquivo": "Manuais M8/Compras/Análise Sugestão de Compra.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro de Pré Recebimento Nota Fiscal",
-                "arquivo": "Manuais M8/Compras/Cadastro de Pré Recebimento Nota Fiscal.html"
+                "arquivo": "Manuais M8/Compras/Cadastro de Pré Recebimento Nota Fiscal.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro de Tipo de Compra",
-                "arquivo": "Manuais M8/Compras/Cadastro de Tipo de Compra.html"
+                "arquivo": "Manuais M8/Compras/Cadastro de Tipo de Compra.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro de Tipo de Ordem de Compra",
-                "arquivo": "Manuais M8/Compras/Cadastro de Tipo de Ordem de Compra.html"
+                "arquivo": "Manuais M8/Compras/Cadastro de Tipo de Ordem de Compra.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro de Transportador",
-                "arquivo": "Manuais M8/Compras/Cadastro de Transportador.html"
+                "arquivo": "Manuais M8/Compras/Cadastro de Transportador.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Compras - Departamento de Compras",
-                "arquivo": "Manuais M8/Compras/Compras - Departamento de Compras.html"
+                "arquivo": "Manuais M8/Compras/Compras - Departamento de Compras.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cotações - O que é uma Cotação de Preços_",
-                "arquivo": "Manuais M8/Compras/Cotações - O que é uma Cotação de Preços_.html"
+                "arquivo": "Manuais M8/Compras/Cotações - O que é uma Cotação de Preços_.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Exportar NF-e",
-                "arquivo": "Manuais M8/Compras/Exportar NF-e.html"
+                "arquivo": "Manuais M8/Compras/Exportar NF-e.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Fornecedores_ Escolha e Relacionamento",
-                "arquivo": "Manuais M8/Compras/Fornecedores_ Escolha e Relacionamento.html"
+                "arquivo": "Manuais M8/Compras/Fornecedores_ Escolha e Relacionamento.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Importar NF-e Wizard",
-                "arquivo": "Manuais M8/Compras/Importar NF-e Wizard.html"
+                "arquivo": "Manuais M8/Compras/Importar NF-e Wizard.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Lançamento Manual de Nota Fiscal de Compra",
-                "arquivo": "Manuais M8/Compras/Lançamento Manual de Nota Fiscal de Compra.html"
+                "arquivo": "Manuais M8/Compras/Lançamento Manual de Nota Fiscal de Compra.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Lista Cadastro de pesagem de veículo",
-                "arquivo": "Manuais M8/Compras/Lista Cadastro de pesagem de veículo.html"
+                "arquivo": "Manuais M8/Compras/Lista Cadastro de pesagem de veículo.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Lista Processo de Cotação",
-                "arquivo": "Manuais M8/Compras/Lista Processo de Cotação.html"
+                "arquivo": "Manuais M8/Compras/Lista Processo de Cotação.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Lista de Cotação de Compra",
-                "arquivo": "Manuais M8/Compras/Lista de Cotação de Compra.html"
+                "arquivo": "Manuais M8/Compras/Lista de Cotação de Compra.html",
+                "tipo": "html"
             },
             {
                 "titulo": "NF de Entrada - Por que fazer Download das notas fiscais de entrada_",
-                "arquivo": "Manuais M8/Compras/NF de Entrada - Por que fazer Download das notas fiscais de entrada_.html"
+                "arquivo": "Manuais M8/Compras/NF de Entrada - Por que fazer Download das notas fiscais de entrada_.html",
+                "tipo": "html"
             },
             {
                 "titulo": "O que é uma Cotação de Preços_",
-                "arquivo": "Manuais M8/Compras/O que é uma Cotação de Preços_.html"
+                "arquivo": "Manuais M8/Compras/O que é uma Cotação de Preços_.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Ordem de Compra",
-                "arquivo": "Manuais M8/Compras/Ordem de Compra.html"
+                "arquivo": "Manuais M8/Compras/Ordem de Compra.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Outros Documentos",
-                "arquivo": "Manuais M8/Compras/Outros Documentos.html"
+                "arquivo": "Manuais M8/Compras/Outros Documentos.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Rateio de Frete",
-                "arquivo": "Manuais M8/Compras/Rateio de Frete.html"
+                "arquivo": "Manuais M8/Compras/Rateio de Frete.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Relatório de Compra Agrupado Operação Fiscal",
-                "arquivo": "Manuais M8/Compras/Relatório de Compra Agrupado Operação Fiscal.html"
+                "arquivo": "Manuais M8/Compras/Relatório de Compra Agrupado Operação Fiscal.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Relatório de Compra Agrupado por Produto",
-                "arquivo": "Manuais M8/Compras/Relatório de Compra Agrupado por Produto.html"
+                "arquivo": "Manuais M8/Compras/Relatório de Compra Agrupado por Produto.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Solicitação de Compras para Estoque",
-                "arquivo": "Manuais M8/Compras/Solicitação de Compras para Estoque.html"
+                "arquivo": "Manuais M8/Compras/Solicitação de Compras para Estoque.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Solicitação de Compras",
-                "arquivo": "Manuais M8/Compras/Solicitação de Compras.html"
+                "arquivo": "Manuais M8/Compras/Solicitação de Compras.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Solicitação_Pedido de Compra",
-                "arquivo": "Manuais M8/Compras/Solicitação_Pedido de Compra.html"
+                "arquivo": "Manuais M8/Compras/Solicitação_Pedido de Compra.html",
+                "tipo": "html"
             }
         ]
     },
@@ -252,135 +309,168 @@
         "artigos": [
             {
                 "titulo": "Atualizar % IPI NCM",
-                "arquivo": "Manuais M8/Configurações/Atualizar % IPI NCM.html"
+                "arquivo": "Manuais M8/Configurações/Atualizar % IPI NCM.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro Regra",
-                "arquivo": "Manuais M8/Configurações/Cadastro Regra.html"
+                "arquivo": "Manuais M8/Configurações/Cadastro Regra.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro de CFOP",
-                "arquivo": "Manuais M8/Configurações/Cadastro de CFOP.html"
+                "arquivo": "Manuais M8/Configurações/Cadastro de CFOP.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro de Classificação de Pessoa",
-                "arquivo": "Manuais M8/Configurações/Cadastro de Classificação de Pessoa.html"
+                "arquivo": "Manuais M8/Configurações/Cadastro de Classificação de Pessoa.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro de Conta Bancária",
-                "arquivo": "Manuais M8/Configurações/Cadastro de Conta Bancária.html"
+                "arquivo": "Manuais M8/Configurações/Cadastro de Conta Bancária.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro de Contadores",
-                "arquivo": "Manuais M8/Configurações/Cadastro de Contadores.html"
+                "arquivo": "Manuais M8/Configurações/Cadastro de Contadores.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro de Contato Pessoa",
-                "arquivo": "Manuais M8/Configurações/Cadastro de Contato Pessoa.html"
+                "arquivo": "Manuais M8/Configurações/Cadastro de Contato Pessoa.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro de Departamento",
-                "arquivo": "Manuais M8/Configurações/Cadastro de Departamento.html"
+                "arquivo": "Manuais M8/Configurações/Cadastro de Departamento.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro de Empresa - Configuração CRM",
-                "arquivo": "Manuais M8/Configurações/Cadastro de Empresa - Configuração CRM.html"
+                "arquivo": "Manuais M8/Configurações/Cadastro de Empresa - Configuração CRM.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro de Empresa - Configuração Centro de Custo",
-                "arquivo": "Manuais M8/Configurações/Cadastro de Empresa - Configuração Centro de Custo.html"
+                "arquivo": "Manuais M8/Configurações/Cadastro de Empresa - Configuração Centro de Custo.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro de Empresa - Configuração Faturamento",
-                "arquivo": "Manuais M8/Configurações/Cadastro de Empresa - Configuração Faturamento.html"
+                "arquivo": "Manuais M8/Configurações/Cadastro de Empresa - Configuração Faturamento.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro de Empresa - Configuração Financeiro",
-                "arquivo": "Manuais M8/Configurações/Cadastro de Empresa - Configuração Financeiro.html"
+                "arquivo": "Manuais M8/Configurações/Cadastro de Empresa - Configuração Financeiro.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro de Empresa - Configuração Pedido",
-                "arquivo": "Manuais M8/Configurações/Cadastro de Empresa - Configuração Pedido.html"
+                "arquivo": "Manuais M8/Configurações/Cadastro de Empresa - Configuração Pedido.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro de Endereço Entrega",
-                "arquivo": "Manuais M8/Configurações/Cadastro de Endereço Entrega.html"
+                "arquivo": "Manuais M8/Configurações/Cadastro de Endereço Entrega.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro de Grupo de Acesso",
-                "arquivo": "Manuais M8/Configurações/Cadastro de Grupo de Acesso.html"
+                "arquivo": "Manuais M8/Configurações/Cadastro de Grupo de Acesso.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro de Imóvel Rural",
-                "arquivo": "Manuais M8/Configurações/Cadastro de Imóvel Rural.html"
+                "arquivo": "Manuais M8/Configurações/Cadastro de Imóvel Rural.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro de Mensagens Padrão Nota Fiscal",
-                "arquivo": "Manuais M8/Configurações/Cadastro de Mensagens Padrão Nota Fiscal.html"
+                "arquivo": "Manuais M8/Configurações/Cadastro de Mensagens Padrão Nota Fiscal.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro de Motorista",
-                "arquivo": "Manuais M8/Configurações/Cadastro de Motorista.html"
+                "arquivo": "Manuais M8/Configurações/Cadastro de Motorista.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro de Municípios",
-                "arquivo": "Manuais M8/Configurações/Cadastro de Municípios.html"
+                "arquivo": "Manuais M8/Configurações/Cadastro de Municípios.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro de Tipo de Pessoa",
-                "arquivo": "Manuais M8/Configurações/Cadastro de Tipo de Pessoa.html"
+                "arquivo": "Manuais M8/Configurações/Cadastro de Tipo de Pessoa.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro de Veiculo Fipe",
-                "arquivo": "Manuais M8/Configurações/Cadastro de Veiculo Fipe.html"
+                "arquivo": "Manuais M8/Configurações/Cadastro de Veiculo Fipe.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro de Veículo Pessoa",
-                "arquivo": "Manuais M8/Configurações/Cadastro de Veículo Pessoa.html"
+                "arquivo": "Manuais M8/Configurações/Cadastro de Veículo Pessoa.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro de Veículo",
-                "arquivo": "Manuais M8/Configurações/Cadastro de Veículo.html"
+                "arquivo": "Manuais M8/Configurações/Cadastro de Veículo.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro de usuário",
-                "arquivo": "Manuais M8/Configurações/Cadastro de usuário.html"
+                "arquivo": "Manuais M8/Configurações/Cadastro de usuário.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Como Atualizar seu Certificado Digital",
-                "arquivo": "Manuais M8/Configurações/Como Atualizar seu Certificado Digital.html"
+                "arquivo": "Manuais M8/Configurações/Como Atualizar seu Certificado Digital.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Configurar Pessoas",
-                "arquivo": "Manuais M8/Configurações/Configurar Pessoas.html"
+                "arquivo": "Manuais M8/Configurações/Configurar Pessoas.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Configuração Empresa - Configuração Estoque",
-                "arquivo": "Manuais M8/Configurações/Configuração Empresa - Configuração Estoque.html"
+                "arquivo": "Manuais M8/Configurações/Configuração Empresa - Configuração Estoque.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Configuração Empresa - Configuração Markup",
-                "arquivo": "Manuais M8/Configurações/Configuração Empresa - Configuração Markup.html"
+                "arquivo": "Manuais M8/Configurações/Configuração Empresa - Configuração Markup.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Configuração Estabelecimento - Configuração Nota Saída",
-                "arquivo": "Manuais M8/Configurações/Configuração Estabelecimento - Configuração Nota Saída.html"
+                "arquivo": "Manuais M8/Configurações/Configuração Estabelecimento - Configuração Nota Saída.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Configurações do Sistema",
-                "arquivo": "Manuais M8/Configurações/Configurações do Sistema.html"
+                "arquivo": "Manuais M8/Configurações/Configurações do Sistema.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Parametrização do Código de Benefício Fiscal - CBenef",
-                "arquivo": "Manuais M8/Configurações/Parametrização do Código de Benefício Fiscal - CBenef.html"
+                "arquivo": "Manuais M8/Configurações/Parametrização do Código de Benefício Fiscal - CBenef.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Parametrizações Emissão da NFS-e Nacional",
-                "arquivo": "Manuais M8/Configurações/Parametrizações Emissão da NFS-e Nacional.html"
+                "arquivo": "Manuais M8/Configurações/Parametrizações Emissão da NFS-e Nacional.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Relatório de Listagem de Usuários",
-                "arquivo": "Manuais M8/Configurações/Relatório de Listagem de Usuários.html"
+                "arquivo": "Manuais M8/Configurações/Relatório de Listagem de Usuários.html",
+                "tipo": "html"
             }
         ]
     },
@@ -389,35 +479,43 @@
         "artigos": [
             {
                 "titulo": "Cadastro de Contrato de Serviço",
-                "arquivo": "Manuais M8/Contratos/Cadastro de Contrato de Serviço.html"
+                "arquivo": "Manuais M8/Contratos/Cadastro de Contrato de Serviço.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro de Contrato",
-                "arquivo": "Manuais M8/Contratos/Cadastro de Contrato.html"
+                "arquivo": "Manuais M8/Contratos/Cadastro de Contrato.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastros de Tipos de Contratos",
-                "arquivo": "Manuais M8/Contratos/Cadastros de Tipos de Contratos.html"
+                "arquivo": "Manuais M8/Contratos/Cadastros de Tipos de Contratos.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Lançamento de Valores Variáveis",
-                "arquivo": "Manuais M8/Contratos/Lançamento de Valores Variáveis.html"
+                "arquivo": "Manuais M8/Contratos/Lançamento de Valores Variáveis.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Lista Faturamento Contratos",
-                "arquivo": "Manuais M8/Contratos/Lista Faturamento Contratos.html"
+                "arquivo": "Manuais M8/Contratos/Lista Faturamento Contratos.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Lista Faturamento Pendente",
-                "arquivo": "Manuais M8/Contratos/Lista Faturamento Pendente.html"
+                "arquivo": "Manuais M8/Contratos/Lista Faturamento Pendente.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Manutenção de Contratos",
-                "arquivo": "Manuais M8/Contratos/Manutenção de Contratos.html"
+                "arquivo": "Manuais M8/Contratos/Manutenção de Contratos.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Reajuste Manual",
-                "arquivo": "Manuais M8/Contratos/Reajuste Manual.html"
+                "arquivo": "Manuais M8/Contratos/Reajuste Manual.html",
+                "tipo": "html"
             }
         ]
     },
@@ -426,35 +524,43 @@
         "artigos": [
             {
                 "titulo": "Cadastro de Históricos Contábeis",
-                "arquivo": "Manuais M8/Contábil/Cadastro de Históricos Contábeis.html"
+                "arquivo": "Manuais M8/Contábil/Cadastro de Históricos Contábeis.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro de Modelo de Plano de Contas",
-                "arquivo": "Manuais M8/Contábil/Cadastro de Modelo de Plano de Contas.html"
+                "arquivo": "Manuais M8/Contábil/Cadastro de Modelo de Plano de Contas.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro de Plano de Contas",
-                "arquivo": "Manuais M8/Contábil/Cadastro de Plano de Contas.html"
+                "arquivo": "Manuais M8/Contábil/Cadastro de Plano de Contas.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro de Tabelas Contábeis",
-                "arquivo": "Manuais M8/Contábil/Cadastro de Tabelas Contábeis.html"
+                "arquivo": "Manuais M8/Contábil/Cadastro de Tabelas Contábeis.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Definir limite de Lançamentos - Contábil",
-                "arquivo": "Manuais M8/Contábil/Definir limite de Lançamentos - Contábil.html"
+                "arquivo": "Manuais M8/Contábil/Definir limite de Lançamentos - Contábil.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Implantação de Saldo Contábil",
-                "arquivo": "Manuais M8/Contábil/Implantação de Saldo Contábil.html"
+                "arquivo": "Manuais M8/Contábil/Implantação de Saldo Contábil.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Lista de Lote Contábil",
-                "arquivo": "Manuais M8/Contábil/Lista de Lote Contábil.html"
+                "arquivo": "Manuais M8/Contábil/Lista de Lote Contábil.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Manutenção Contábil",
-                "arquivo": "Manuais M8/Contábil/Manutenção Contábil.html"
+                "arquivo": "Manuais M8/Contábil/Manutenção Contábil.html",
+                "tipo": "html"
             }
         ]
     },
@@ -463,7 +569,8 @@
         "artigos": [
             {
                 "titulo": "Cadastro de Centro de Custo",
-                "arquivo": "Manuais M8/Custos/Cadastro de Centro de Custo.html"
+                "arquivo": "Manuais M8/Custos/Cadastro de Centro de Custo.html",
+                "tipo": "html"
             }
         ]
     },
@@ -472,103 +579,128 @@
         "artigos": [
             {
                 "titulo": "Abas do Sistema se Fechando Sozinhas",
-                "arquivo": "Manuais M8/Demais Assuntos/Abas do Sistema se Fechando Sozinhas.html"
+                "arquivo": "Manuais M8/Demais Assuntos/Abas do Sistema se Fechando Sozinhas.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Erro_ 173_ Chave de comunicação inválida",
-                "arquivo": "Manuais M8/Demais Assuntos/Erro_ 173_ Chave de comunicação inválida.html"
+                "arquivo": "Manuais M8/Demais Assuntos/Erro_ 173_ Chave de comunicação inválida.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Erro_ EL254-Erro no cadastro do tomador do município",
-                "arquivo": "Manuais M8/Demais Assuntos/Erro_ EL254-Erro no cadastro do tomador do município.html"
+                "arquivo": "Manuais M8/Demais Assuntos/Erro_ EL254-Erro no cadastro do tomador do município.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Facilitadores M8",
-                "arquivo": "Manuais M8/Demais Assuntos/Facilitadores M8.html"
+                "arquivo": "Manuais M8/Demais Assuntos/Facilitadores M8.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Falha na Validação do xml da NF-e (Campo_Descrição)",
-                "arquivo": "Manuais M8/Demais Assuntos/Falha na Validação do xml da NF-e (Campo_Descrição).html"
+                "arquivo": "Manuais M8/Demais Assuntos/Falha na Validação do xml da NF-e (Campo_Descrição).html",
+                "tipo": "html"
             },
             {
                 "titulo": "Integração servidor de e-mail Gmail",
-                "arquivo": "Manuais M8/Demais Assuntos/Integração servidor de e-mail Gmail.html"
+                "arquivo": "Manuais M8/Demais Assuntos/Integração servidor de e-mail Gmail.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Limite Máximo Processamento Relatório",
-                "arquivo": "Manuais M8/Demais Assuntos/Limite Máximo Processamento Relatório.html"
+                "arquivo": "Manuais M8/Demais Assuntos/Limite Máximo Processamento Relatório.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Notificação de Estoque Mínimo",
-                "arquivo": "Manuais M8/Demais Assuntos/Notificação de Estoque Mínimo.html"
+                "arquivo": "Manuais M8/Demais Assuntos/Notificação de Estoque Mínimo.html",
+                "tipo": "html"
             },
             {
                 "titulo": "O que é nota fiscal denegada_",
-                "arquivo": "Manuais M8/Demais Assuntos/O que é nota fiscal denegada_.html"
+                "arquivo": "Manuais M8/Demais Assuntos/O que é nota fiscal denegada_.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Rejeição 204_ Duplicidade de NF-e",
-                "arquivo": "Manuais M8/Demais Assuntos/Rejeição 204_ Duplicidade de NF-e.html"
+                "arquivo": "Manuais M8/Demais Assuntos/Rejeição 204_ Duplicidade de NF-e.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Rejeição 232 - IE do destinatário não informada",
-                "arquivo": "Manuais M8/Demais Assuntos/Rejeição 232 - IE do destinatário não informada.html"
+                "arquivo": "Manuais M8/Demais Assuntos/Rejeição 232 - IE do destinatário não informada.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Rejeição 250_ Código do órgão de Recepção do Evento da UF Diverge da Solicitada",
-                "arquivo": "Manuais M8/Demais Assuntos/Rejeição 250_ Código do órgão de Recepção do Evento da UF Diverge da Solicitada.html"
+                "arquivo": "Manuais M8/Demais Assuntos/Rejeição 250_ Código do órgão de Recepção do Evento da UF Diverge da Solicitada.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Rejeição 324 CNPJ do Destinatário já Autorizado para Download",
-                "arquivo": "Manuais M8/Demais Assuntos/Rejeição 324 CNPJ do Destinatário já Autorizado para Download.html"
+                "arquivo": "Manuais M8/Demais Assuntos/Rejeição 324 CNPJ do Destinatário já Autorizado para Download.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Rejeição 521_ Operação Interna e UF do emitente difere da UF do destinatário_remetente contribuinte do ICMS",
-                "arquivo": "Manuais M8/Demais Assuntos/Rejeição 521_ Operação Interna e UF do emitente difere da UF do destinatário_remetente contribuinte do ICMS.html"
+                "arquivo": "Manuais M8/Demais Assuntos/Rejeição 521_ Operação Interna e UF do emitente difere da UF do destinatário_remetente contribuinte do ICMS.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Rejeição 656_ Consumo Indevido",
-                "arquivo": "Manuais M8/Demais Assuntos/Rejeição 656_ Consumo Indevido.html"
+                "arquivo": "Manuais M8/Demais Assuntos/Rejeição 656_ Consumo Indevido.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Rejeição 693_ Alíquota de ICMS superior a definida para a operação interestadual",
-                "arquivo": "Manuais M8/Demais Assuntos/Rejeição 693_ Alíquota de ICMS superior a definida para a operação interestadual.html"
+                "arquivo": "Manuais M8/Demais Assuntos/Rejeição 693_ Alíquota de ICMS superior a definida para a operação interestadual.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Rejeição 728_ NF-e sem informação da IE do destinatário",
-                "arquivo": "Manuais M8/Demais Assuntos/Rejeição 728_ NF-e sem informação da IE do destinatário.html"
+                "arquivo": "Manuais M8/Demais Assuntos/Rejeição 728_ NF-e sem informação da IE do destinatário.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Rejeição 773_ Operação Interna e UF de destino difere da UF de origem",
-                "arquivo": "Manuais M8/Demais Assuntos/Rejeição 773_ Operação Interna e UF de destino difere da UF de origem.html"
+                "arquivo": "Manuais M8/Demais Assuntos/Rejeição 773_ Operação Interna e UF de destino difere da UF de origem.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Rejeição 883 - GTIN (cEAN) sem informação",
-                "arquivo": "Manuais M8/Demais Assuntos/Rejeição 883 - GTIN (cEAN) sem informação.html"
+                "arquivo": "Manuais M8/Demais Assuntos/Rejeição 883 - GTIN (cEAN) sem informação.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Rejeição_ 305 - Destinatário Bloqueado na UF",
-                "arquivo": "Manuais M8/Demais Assuntos/Rejeição_ 305 - Destinatário Bloqueado na UF.html"
+                "arquivo": "Manuais M8/Demais Assuntos/Rejeição_ 305 - Destinatário Bloqueado na UF.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Rejeição_ 531 - Total da BC ICMS difere do somatório dos itens",
-                "arquivo": "Manuais M8/Demais Assuntos/Rejeição_ 531 - Total da BC ICMS difere do somatório dos itens.html"
+                "arquivo": "Manuais M8/Demais Assuntos/Rejeição_ 531 - Total da BC ICMS difere do somatório dos itens.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Rejeição_ 533 - Total da BC ICMS-ST difere do somatório dos itens",
-                "arquivo": "Manuais M8/Demais Assuntos/Rejeição_ 533 - Total da BC ICMS-ST difere do somatório dos itens.html"
+                "arquivo": "Manuais M8/Demais Assuntos/Rejeição_ 533 - Total da BC ICMS-ST difere do somatório dos itens.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Rejeição_ 539 - Duplicidade de NF-e, com diferença na Chave de Acesso",
-                "arquivo": "Manuais M8/Demais Assuntos/Rejeição_ 539 - Duplicidade de NF-e, com diferença na Chave de Acesso.html"
+                "arquivo": "Manuais M8/Demais Assuntos/Rejeição_ 539 - Duplicidade de NF-e, com diferença na Chave de Acesso.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Rejeição_ 694 - Não informado o grupo de ICMS para a UF de destino",
-                "arquivo": "Manuais M8/Demais Assuntos/Rejeição_ 694 - Não informado o grupo de ICMS para a UF de destino.html"
+                "arquivo": "Manuais M8/Demais Assuntos/Rejeição_ 694 - Não informado o grupo de ICMS para a UF de destino.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Rejeição_ 778 - Informado NCM inexistente",
-                "arquivo": "Manuais M8/Demais Assuntos/Rejeição_ 778 - Informado NCM inexistente.html"
+                "arquivo": "Manuais M8/Demais Assuntos/Rejeição_ 778 - Informado NCM inexistente.html",
+                "tipo": "html"
             }
         ]
     },
@@ -577,83 +709,103 @@
         "artigos": [
             {
                 "titulo": "Aplicativo ERPM8 Analytics",
-                "arquivo": "Manuais M8/Demais Módulos/Aplicativo ERPM8 Analytics.html"
+                "arquivo": "Manuais M8/Demais Módulos/Aplicativo ERPM8 Analytics.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro de Alçada",
-                "arquivo": "Manuais M8/Demais Módulos/Cadastro de Alçada.html"
+                "arquivo": "Manuais M8/Demais Módulos/Cadastro de Alçada.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro de Modelo de Documento",
-                "arquivo": "Manuais M8/Demais Módulos/Cadastro de Modelo de Documento.html"
+                "arquivo": "Manuais M8/Demais Módulos/Cadastro de Modelo de Documento.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro de Notificação Financeira",
-                "arquivo": "Manuais M8/Demais Módulos/Cadastro de Notificação Financeira.html"
+                "arquivo": "Manuais M8/Demais Módulos/Cadastro de Notificação Financeira.html",
+                "tipo": "html"
             },
             {
                 "titulo": "E-mails Enviados",
-                "arquivo": "Manuais M8/Demais Módulos/E-mails Enviados.html"
+                "arquivo": "Manuais M8/Demais Módulos/E-mails Enviados.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Envio de Estoque Marketplace",
-                "arquivo": "Manuais M8/Demais Módulos/Envio de Estoque Marketplace.html"
+                "arquivo": "Manuais M8/Demais Módulos/Envio de Estoque Marketplace.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Envio de Produtos Marktplace",
-                "arquivo": "Manuais M8/Demais Módulos/Envio de Produtos Marktplace.html"
+                "arquivo": "Manuais M8/Demais Módulos/Envio de Produtos Marktplace.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Expenses",
-                "arquivo": "Manuais M8/Demais Módulos/Expenses.html"
+                "arquivo": "Manuais M8/Demais Módulos/Expenses.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Importar Produtos",
-                "arquivo": "Manuais M8/Demais Módulos/Importar Produtos.html"
+                "arquivo": "Manuais M8/Demais Módulos/Importar Produtos.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Importação Pedidos",
-                "arquivo": "Manuais M8/Demais Módulos/Importação Pedidos.html"
+                "arquivo": "Manuais M8/Demais Módulos/Importação Pedidos.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Importação XML API Fiscal",
-                "arquivo": "Manuais M8/Demais Módulos/Importação XML API Fiscal.html"
+                "arquivo": "Manuais M8/Demais Módulos/Importação XML API Fiscal.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Importação de Cheques",
-                "arquivo": "Manuais M8/Demais Módulos/Importação de Cheques.html"
+                "arquivo": "Manuais M8/Demais Módulos/Importação de Cheques.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Importação de Pedidos Marketplace",
-                "arquivo": "Manuais M8/Demais Módulos/Importação de Pedidos Marketplace.html"
+                "arquivo": "Manuais M8/Demais Módulos/Importação de Pedidos Marketplace.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Importação de Pessoas",
-                "arquivo": "Manuais M8/Demais Módulos/Importação de Pessoas.html"
+                "arquivo": "Manuais M8/Demais Módulos/Importação de Pessoas.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Importação de Tabela Preço",
-                "arquivo": "Manuais M8/Demais Módulos/Importação de Tabela Preço.html"
+                "arquivo": "Manuais M8/Demais Módulos/Importação de Tabela Preço.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Licença e Como utilizar o App ERP M8 - Força de Vendas",
-                "arquivo": "Manuais M8/Demais Módulos/Licença e Como utilizar o App ERP M8 - Força de Vendas.html"
+                "arquivo": "Manuais M8/Demais Módulos/Licença e Como utilizar o App ERP M8 - Força de Vendas.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Limpeza da Cache e Cookies",
-                "arquivo": "Manuais M8/Demais Módulos/Limpeza da Cache e Cookies.html"
+                "arquivo": "Manuais M8/Demais Módulos/Limpeza da Cache e Cookies.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Lista Inutilização NFC-e",
-                "arquivo": "Manuais M8/Demais Módulos/Lista Inutilização NFC-e.html"
+                "arquivo": "Manuais M8/Demais Módulos/Lista Inutilização NFC-e.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Lista Manifestações NF-e",
-                "arquivo": "Manuais M8/Demais Módulos/Lista Manifestações NF-e.html"
+                "arquivo": "Manuais M8/Demais Módulos/Lista Manifestações NF-e.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Rejeição 904 - Informado indevidamente campo valor de pagamento",
-                "arquivo": "Manuais M8/Demais Módulos/Rejeição 904 - Informado indevidamente campo valor de pagamento.html"
+                "arquivo": "Manuais M8/Demais Módulos/Rejeição 904 - Informado indevidamente campo valor de pagamento.html",
+                "tipo": "html"
             }
         ]
     },
@@ -662,163 +814,203 @@
         "artigos": [
             {
                 "titulo": "Cadastro de Bens",
-                "arquivo": "Manuais M8/Estoque/Cadastro de Bens.html"
+                "arquivo": "Manuais M8/Estoque/Cadastro de Bens.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro de Família",
-                "arquivo": "Manuais M8/Estoque/Cadastro de Família.html"
+                "arquivo": "Manuais M8/Estoque/Cadastro de Família.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro de Grupos de Estoque",
-                "arquivo": "Manuais M8/Estoque/Cadastro de Grupos de Estoque.html"
+                "arquivo": "Manuais M8/Estoque/Cadastro de Grupos de Estoque.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro de Produtos",
-                "arquivo": "Manuais M8/Estoque/Cadastro de Produtos.html"
+                "arquivo": "Manuais M8/Estoque/Cadastro de Produtos.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro de Unidade de Conversão - Venda",
-                "arquivo": "Manuais M8/Estoque/Cadastro de Unidade de Conversão - Venda.html"
+                "arquivo": "Manuais M8/Estoque/Cadastro de Unidade de Conversão - Venda.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Consulta Estoque",
-                "arquivo": "Manuais M8/Estoque/Consulta Estoque.html"
+                "arquivo": "Manuais M8/Estoque/Consulta Estoque.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Consulta Sugestão de Compra",
-                "arquivo": "Manuais M8/Estoque/Consulta Sugestão de Compra.html"
+                "arquivo": "Manuais M8/Estoque/Consulta Sugestão de Compra.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Contagem de Estoque",
-                "arquivo": "Manuais M8/Estoque/Contagem de Estoque.html"
+                "arquivo": "Manuais M8/Estoque/Contagem de Estoque.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Correção de Apontamento",
-                "arquivo": "Manuais M8/Estoque/Correção de Apontamento.html"
+                "arquivo": "Manuais M8/Estoque/Correção de Apontamento.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Estoque - As possibilidades do M8.Cloud",
-                "arquivo": "Manuais M8/Estoque/Estoque - As possibilidades do M8.Cloud.html"
+                "arquivo": "Manuais M8/Estoque/Estoque - As possibilidades do M8.Cloud.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Estoque - Benefícios da rastreabilidade e boas práticas",
-                "arquivo": "Manuais M8/Estoque/Estoque - Benefícios da rastreabilidade e boas práticas.html"
+                "arquivo": "Manuais M8/Estoque/Estoque - Benefícios da rastreabilidade e boas práticas.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Estoque - Cadastros de Produtos e sua influência no Controle de Estoque",
-                "arquivo": "Manuais M8/Estoque/Estoque - Cadastros de Produtos e sua influência no Controle de Estoque.html"
+                "arquivo": "Manuais M8/Estoque/Estoque - Cadastros de Produtos e sua influência no Controle de Estoque.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Estoque - Como elaborar uma tabela de preços_",
-                "arquivo": "Manuais M8/Estoque/Estoque - Como elaborar uma tabela de preços_.html"
+                "arquivo": "Manuais M8/Estoque/Estoque - Como elaborar uma tabela de preços_.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Estoque - Como fazer um cadastro eficiente de produtos",
-                "arquivo": "Manuais M8/Estoque/Estoque - Como fazer um cadastro eficiente de produtos.html"
+                "arquivo": "Manuais M8/Estoque/Estoque - Como fazer um cadastro eficiente de produtos.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Estoque - O que é uma Tabela de Preço_",
-                "arquivo": "Manuais M8/Estoque/Estoque - O que é uma Tabela de Preço_.html"
+                "arquivo": "Manuais M8/Estoque/Estoque - O que é uma Tabela de Preço_.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Estoque - Para que Implantar Controle de Estoque_",
-                "arquivo": "Manuais M8/Estoque/Estoque - Para que Implantar Controle de Estoque_.html"
+                "arquivo": "Manuais M8/Estoque/Estoque - Para que Implantar Controle de Estoque_.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Estoque - Quais dados devo preencher no meu Cadastro de Produto_",
-                "arquivo": "Manuais M8/Estoque/Estoque - Quais dados devo preencher no meu Cadastro de Produto_.html"
+                "arquivo": "Manuais M8/Estoque/Estoque - Quais dados devo preencher no meu Cadastro de Produto_.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Estoque - Quais os tipos de estoque que posso utilizar no meu negócio_",
-                "arquivo": "Manuais M8/Estoque/Estoque - Quais os tipos de estoque que posso utilizar no meu negócio_.html"
+                "arquivo": "Manuais M8/Estoque/Estoque - Quais os tipos de estoque que posso utilizar no meu negócio_.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Estoque - Rastreabilidade por Lotes de Fabricação e_ou Lotes",
-                "arquivo": "Manuais M8/Estoque/Estoque - Rastreabilidade por Lotes de Fabricação e_ou Lotes.html"
+                "arquivo": "Manuais M8/Estoque/Estoque - Rastreabilidade por Lotes de Fabricação e_ou Lotes.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Estoque - Rastreabilidade",
-                "arquivo": "Manuais M8/Estoque/Estoque - Rastreabilidade.html"
+                "arquivo": "Manuais M8/Estoque/Estoque - Rastreabilidade.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Etiquetas",
-                "arquivo": "Manuais M8/Estoque/Etiquetas.html"
+                "arquivo": "Manuais M8/Estoque/Etiquetas.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Grade de Comissão",
-                "arquivo": "Manuais M8/Estoque/Grade de Comissão.html"
+                "arquivo": "Manuais M8/Estoque/Grade de Comissão.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Grade de Desconto",
-                "arquivo": "Manuais M8/Estoque/Grade de Desconto.html"
+                "arquivo": "Manuais M8/Estoque/Grade de Desconto.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Implantação de Estoque",
-                "arquivo": "Manuais M8/Estoque/Implantação de Estoque.html"
+                "arquivo": "Manuais M8/Estoque/Implantação de Estoque.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Inclusão Itens Tabela Preço",
-                "arquivo": "Manuais M8/Estoque/Inclusão Itens Tabela Preço.html"
+                "arquivo": "Manuais M8/Estoque/Inclusão Itens Tabela Preço.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Manutenção PIS_COFINS",
-                "arquivo": "Manuais M8/Estoque/Manutenção PIS_COFINS.html"
+                "arquivo": "Manuais M8/Estoque/Manutenção PIS_COFINS.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Manutenção de Produtos",
-                "arquivo": "Manuais M8/Estoque/Manutenção de Produtos.html"
+                "arquivo": "Manuais M8/Estoque/Manutenção de Produtos.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Metas Comissões",
-                "arquivo": "Manuais M8/Estoque/Metas Comissões.html"
+                "arquivo": "Manuais M8/Estoque/Metas Comissões.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Número de Série",
-                "arquivo": "Manuais M8/Estoque/Número de Série.html"
+                "arquivo": "Manuais M8/Estoque/Número de Série.html",
+                "tipo": "html"
             },
             {
                 "titulo": "O que é Movimentação de Estoque_",
-                "arquivo": "Manuais M8/Estoque/O que é Movimentação de Estoque_.html"
+                "arquivo": "Manuais M8/Estoque/O que é Movimentação de Estoque_.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Promoção de produto",
-                "arquivo": "Manuais M8/Estoque/Promoção de produto.html"
+                "arquivo": "Manuais M8/Estoque/Promoção de produto.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Recalculo de estoque",
-                "arquivo": "Manuais M8/Estoque/Recalculo de estoque.html"
+                "arquivo": "Manuais M8/Estoque/Recalculo de estoque.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Relatório Inventário por Família",
-                "arquivo": "Manuais M8/Estoque/Relatório Inventário por Família.html"
+                "arquivo": "Manuais M8/Estoque/Relatório Inventário por Família.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Relatório Inventário por Local de Estoque",
-                "arquivo": "Manuais M8/Estoque/Relatório Inventário por Local de Estoque.html"
+                "arquivo": "Manuais M8/Estoque/Relatório Inventário por Local de Estoque.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Relatório Inventário por Marca",
-                "arquivo": "Manuais M8/Estoque/Relatório Inventário por Marca.html"
+                "arquivo": "Manuais M8/Estoque/Relatório Inventário por Marca.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Relatório Inventário por Produto",
-                "arquivo": "Manuais M8/Estoque/Relatório Inventário por Produto.html"
+                "arquivo": "Manuais M8/Estoque/Relatório Inventário por Produto.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Relatório Movimento Estoque",
-                "arquivo": "Manuais M8/Estoque/Relatório Movimento Estoque.html"
+                "arquivo": "Manuais M8/Estoque/Relatório Movimento Estoque.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Relatório de Inventário agrupado por Tipo",
-                "arquivo": "Manuais M8/Estoque/Relatório de Inventário agrupado por Tipo.html"
+                "arquivo": "Manuais M8/Estoque/Relatório de Inventário agrupado por Tipo.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Transferência de Estoque Múltipla",
-                "arquivo": "Manuais M8/Estoque/Transferência de Estoque Múltipla.html"
+                "arquivo": "Manuais M8/Estoque/Transferência de Estoque Múltipla.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Transferência de Estoque",
-                "arquivo": "Manuais M8/Estoque/Transferência de Estoque.html"
+                "arquivo": "Manuais M8/Estoque/Transferência de Estoque.html",
+                "tipo": "html"
             }
         ]
     },
@@ -827,127 +1019,158 @@
         "artigos": [
             {
                 "titulo": "Análise de Controle de Entrega",
-                "arquivo": "Manuais M8/Faturamento/Análise de Controle de Entrega.html"
+                "arquivo": "Manuais M8/Faturamento/Análise de Controle de Entrega.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro de Orçamento",
-                "arquivo": "Manuais M8/Faturamento/Cadastro de Orçamento.html"
+                "arquivo": "Manuais M8/Faturamento/Cadastro de Orçamento.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro de Série",
-                "arquivo": "Manuais M8/Faturamento/Cadastro de Série.html"
+                "arquivo": "Manuais M8/Faturamento/Cadastro de Série.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro de Tipo de Pedido",
-                "arquivo": "Manuais M8/Faturamento/Cadastro de Tipo de Pedido.html"
+                "arquivo": "Manuais M8/Faturamento/Cadastro de Tipo de Pedido.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Como emitir uma nota de complemento de imposto",
-                "arquivo": "Manuais M8/Faturamento/Como emitir uma nota de complemento de imposto.html"
+                "arquivo": "Manuais M8/Faturamento/Como emitir uma nota de complemento de imposto.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Como referenciar um documento",
-                "arquivo": "Manuais M8/Faturamento/Como referenciar um documento.html"
+                "arquivo": "Manuais M8/Faturamento/Como referenciar um documento.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Configuração de Status de Controle de Entrega",
-                "arquivo": "Manuais M8/Faturamento/Configuração de Status de Controle de Entrega.html"
+                "arquivo": "Manuais M8/Faturamento/Configuração de Status de Controle de Entrega.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Emissão de Notas Fiscais (NF)",
-                "arquivo": "Manuais M8/Faturamento/Emissão de Notas Fiscais (NF).html"
+                "arquivo": "Manuais M8/Faturamento/Emissão de Notas Fiscais (NF).html",
+                "tipo": "html"
             },
             {
                 "titulo": "Emitir Nota Fiscal de Outras Operações (NFe)",
-                "arquivo": "Manuais M8/Faturamento/Emitir Nota Fiscal de Outras Operações (NFe).html"
+                "arquivo": "Manuais M8/Faturamento/Emitir Nota Fiscal de Outras Operações (NFe).html",
+                "tipo": "html"
             },
             {
                 "titulo": "Erro_ E160-Arquivo enviado fora da estrutura do arquivo XML de entrada",
-                "arquivo": "Manuais M8/Faturamento/Erro_ E160-Arquivo enviado fora da estrutura do arquivo XML de entrada.html"
+                "arquivo": "Manuais M8/Faturamento/Erro_ E160-Arquivo enviado fora da estrutura do arquivo XML de entrada.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Falha de validação do XML da NF-e! - Campos não validados",
-                "arquivo": "Manuais M8/Faturamento/Falha de validação do XML da NF-e! - Campos não validados.html"
+                "arquivo": "Manuais M8/Faturamento/Falha de validação do XML da NF-e! - Campos não validados.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Faturamento Agrupado de Ordens de Serviço",
-                "arquivo": "Manuais M8/Faturamento/Faturamento Agrupado de Ordens de Serviço.html"
+                "arquivo": "Manuais M8/Faturamento/Faturamento Agrupado de Ordens de Serviço.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Faturamento Agrupado de Pedidos",
-                "arquivo": "Manuais M8/Faturamento/Faturamento Agrupado de Pedidos.html"
+                "arquivo": "Manuais M8/Faturamento/Faturamento Agrupado de Pedidos.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Faturamento Agrupado_ Múltiplo de Notas Fiscais",
-                "arquivo": "Manuais M8/Faturamento/Faturamento Agrupado_ Múltiplo de Notas Fiscais.html"
+                "arquivo": "Manuais M8/Faturamento/Faturamento Agrupado_ Múltiplo de Notas Fiscais.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Faturamento Múltiplo de Ordens de Serviço",
-                "arquivo": "Manuais M8/Faturamento/Faturamento Múltiplo de Ordens de Serviço.html"
+                "arquivo": "Manuais M8/Faturamento/Faturamento Múltiplo de Ordens de Serviço.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Faturando mais de uma vez o mesmo pedido",
-                "arquivo": "Manuais M8/Faturamento/Faturando mais de uma vez o mesmo pedido.html"
+                "arquivo": "Manuais M8/Faturamento/Faturando mais de uma vez o mesmo pedido.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Inutilização NF-e",
-                "arquivo": "Manuais M8/Faturamento/Inutilização NF-e.html"
+                "arquivo": "Manuais M8/Faturamento/Inutilização NF-e.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Lista de Controle de Entrega",
-                "arquivo": "Manuais M8/Faturamento/Lista de Controle de Entrega.html"
+                "arquivo": "Manuais M8/Faturamento/Lista de Controle de Entrega.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Manutenção de Pedidos",
-                "arquivo": "Manuais M8/Faturamento/Manutenção de Pedidos.html"
+                "arquivo": "Manuais M8/Faturamento/Manutenção de Pedidos.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Montagem de Carga",
-                "arquivo": "Manuais M8/Faturamento/Montagem de Carga.html"
+                "arquivo": "Manuais M8/Faturamento/Montagem de Carga.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Ordem de Serviço Simplificada",
-                "arquivo": "Manuais M8/Faturamento/Ordem de Serviço Simplificada.html"
+                "arquivo": "Manuais M8/Faturamento/Ordem de Serviço Simplificada.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Ordem de Serviço",
-                "arquivo": "Manuais M8/Faturamento/Ordem de Serviço.html"
+                "arquivo": "Manuais M8/Faturamento/Ordem de Serviço.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Pedidos de Venda Simplificado",
-                "arquivo": "Manuais M8/Faturamento/Pedidos de Venda Simplificado.html"
+                "arquivo": "Manuais M8/Faturamento/Pedidos de Venda Simplificado.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Relatório Faturamento Mensal",
-                "arquivo": "Manuais M8/Faturamento/Relatório Faturamento Mensal.html"
+                "arquivo": "Manuais M8/Faturamento/Relatório Faturamento Mensal.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Relatório de Comissões agrupado por Vendedor",
-                "arquivo": "Manuais M8/Faturamento/Relatório de Comissões agrupado por Vendedor.html"
+                "arquivo": "Manuais M8/Faturamento/Relatório de Comissões agrupado por Vendedor.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Relatório de Curva ABC",
-                "arquivo": "Manuais M8/Faturamento/Relatório de Curva ABC.html"
+                "arquivo": "Manuais M8/Faturamento/Relatório de Curva ABC.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Relatório de Listagem de Clientes",
-                "arquivo": "Manuais M8/Faturamento/Relatório de Listagem de Clientes.html"
+                "arquivo": "Manuais M8/Faturamento/Relatório de Listagem de Clientes.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Relatório de O.S Agrupado Por Cliente",
-                "arquivo": "Manuais M8/Faturamento/Relatório de O.S Agrupado Por Cliente.html"
+                "arquivo": "Manuais M8/Faturamento/Relatório de O.S Agrupado Por Cliente.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Simular custo_venda",
-                "arquivo": "Manuais M8/Faturamento/Simular custo_venda.html"
+                "arquivo": "Manuais M8/Faturamento/Simular custo_venda.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Tabela de preço",
-                "arquivo": "Manuais M8/Faturamento/Tabela de preço.html"
+                "arquivo": "Manuais M8/Faturamento/Tabela de preço.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Tipos de Orçamento de Faturamento",
-                "arquivo": "Manuais M8/Faturamento/Tipos de Orçamento de Faturamento.html"
+                "arquivo": "Manuais M8/Faturamento/Tipos de Orçamento de Faturamento.html",
+                "tipo": "html"
             }
         ]
     },
@@ -956,215 +1179,268 @@
         "artigos": [
             {
                 "titulo": "API de Cobrança Sicoob",
-                "arquivo": "Manuais M8/Financeiro/API de Cobrança Sicoob.html"
+                "arquivo": "Manuais M8/Financeiro/API de Cobrança Sicoob.html",
+                "tipo": "html"
             },
             {
                 "titulo": "API de Cobrança Sicredi",
-                "arquivo": "Manuais M8/Financeiro/API de Cobrança Sicredi.html"
+                "arquivo": "Manuais M8/Financeiro/API de Cobrança Sicredi.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Adiantamento de Clientes",
-                "arquivo": "Manuais M8/Financeiro/Adiantamento de Clientes.html"
+                "arquivo": "Manuais M8/Financeiro/Adiantamento de Clientes.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Adiantamento de Fornecedor",
-                "arquivo": "Manuais M8/Financeiro/Adiantamento de Fornecedor.html"
+                "arquivo": "Manuais M8/Financeiro/Adiantamento de Fornecedor.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Agenda Financeira",
-                "arquivo": "Manuais M8/Financeiro/Agenda Financeira.html"
+                "arquivo": "Manuais M8/Financeiro/Agenda Financeira.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Agrupamento de Títulos",
-                "arquivo": "Manuais M8/Financeiro/Agrupamento de Títulos.html"
+                "arquivo": "Manuais M8/Financeiro/Agrupamento de Títulos.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Análise de Crédito",
-                "arquivo": "Manuais M8/Financeiro/Análise de Crédito.html"
+                "arquivo": "Manuais M8/Financeiro/Análise de Crédito.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Aprovação de Pagamentos",
-                "arquivo": "Manuais M8/Financeiro/Aprovação de Pagamentos.html"
+                "arquivo": "Manuais M8/Financeiro/Aprovação de Pagamentos.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Apuração Comissão",
-                "arquivo": "Manuais M8/Financeiro/Apuração Comissão.html"
+                "arquivo": "Manuais M8/Financeiro/Apuração Comissão.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Baixa de Cheque Recebido",
-                "arquivo": "Manuais M8/Financeiro/Baixa de Cheque Recebido.html"
+                "arquivo": "Manuais M8/Financeiro/Baixa de Cheque Recebido.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Baixar Títulos à Pagar",
-                "arquivo": "Manuais M8/Financeiro/Baixar Títulos à Pagar.html"
+                "arquivo": "Manuais M8/Financeiro/Baixar Títulos à Pagar.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Baixar Títulos à Receber",
-                "arquivo": "Manuais M8/Financeiro/Baixar Títulos à Receber.html"
+                "arquivo": "Manuais M8/Financeiro/Baixar Títulos à Receber.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro Estrangeiro Cliente_Fornecedor",
-                "arquivo": "Manuais M8/Financeiro/Cadastro Estrangeiro Cliente_Fornecedor.html"
+                "arquivo": "Manuais M8/Financeiro/Cadastro Estrangeiro Cliente_Fornecedor.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro de Convênios Bancários para Boletos",
-                "arquivo": "Manuais M8/Financeiro/Cadastro de Convênios Bancários para Boletos.html"
+                "arquivo": "Manuais M8/Financeiro/Cadastro de Convênios Bancários para Boletos.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro de Modelo de Plano de Contas Financeiro",
-                "arquivo": "Manuais M8/Financeiro/Cadastro de Modelo de Plano de Contas Financeiro.html"
+                "arquivo": "Manuais M8/Financeiro/Cadastro de Modelo de Plano de Contas Financeiro.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro de Moeda",
-                "arquivo": "Manuais M8/Financeiro/Cadastro de Moeda.html"
+                "arquivo": "Manuais M8/Financeiro/Cadastro de Moeda.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro de Plano de Conta Financeiro",
-                "arquivo": "Manuais M8/Financeiro/Cadastro de Plano de Conta Financeiro.html"
+                "arquivo": "Manuais M8/Financeiro/Cadastro de Plano de Conta Financeiro.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro de Rubrica",
-                "arquivo": "Manuais M8/Financeiro/Cadastro de Rubrica.html"
+                "arquivo": "Manuais M8/Financeiro/Cadastro de Rubrica.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Como baixar um Título a Receber com Cheque_",
-                "arquivo": "Manuais M8/Financeiro/Como baixar um Título a Receber com Cheque_.html"
+                "arquivo": "Manuais M8/Financeiro/Como baixar um Título a Receber com Cheque_.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Como estornar a baixa de um Título a Receber",
-                "arquivo": "Manuais M8/Financeiro/Como estornar a baixa de um Título a Receber.html"
+                "arquivo": "Manuais M8/Financeiro/Como estornar a baixa de um Título a Receber.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Conciliar Lançamentos",
-                "arquivo": "Manuais M8/Financeiro/Conciliar Lançamentos.html"
+                "arquivo": "Manuais M8/Financeiro/Conciliar Lançamentos.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Condição de Pagamento",
-                "arquivo": "Manuais M8/Financeiro/Condição de Pagamento.html"
+                "arquivo": "Manuais M8/Financeiro/Condição de Pagamento.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Configuração da Conciliação de Cartão - Conciliadora",
-                "arquivo": "Manuais M8/Financeiro/Configuração da Conciliação de Cartão - Conciliadora.html"
+                "arquivo": "Manuais M8/Financeiro/Configuração da Conciliação de Cartão - Conciliadora.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Configurações necessárias para Importar Extrato Bancário",
-                "arquivo": "Manuais M8/Financeiro/Configurações necessárias para Importar Extrato Bancário.html"
+                "arquivo": "Manuais M8/Financeiro/Configurações necessárias para Importar Extrato Bancário.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Consulta Adiantamento de Clientes",
-                "arquivo": "Manuais M8/Financeiro/Consulta Adiantamento de Clientes.html"
+                "arquivo": "Manuais M8/Financeiro/Consulta Adiantamento de Clientes.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Consulta Adiantamento de fornecedor",
-                "arquivo": "Manuais M8/Financeiro/Consulta Adiantamento de fornecedor.html"
+                "arquivo": "Manuais M8/Financeiro/Consulta Adiantamento de fornecedor.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Consulta Contas a Pagar",
-                "arquivo": "Manuais M8/Financeiro/Consulta Contas a Pagar.html"
+                "arquivo": "Manuais M8/Financeiro/Consulta Contas a Pagar.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Consulta Contas a Receber",
-                "arquivo": "Manuais M8/Financeiro/Consulta Contas a Receber.html"
+                "arquivo": "Manuais M8/Financeiro/Consulta Contas a Receber.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Desconto Duplicatas",
-                "arquivo": "Manuais M8/Financeiro/Desconto Duplicatas.html"
+                "arquivo": "Manuais M8/Financeiro/Desconto Duplicatas.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Encontro de Contas",
-                "arquivo": "Manuais M8/Financeiro/Encontro de Contas.html"
+                "arquivo": "Manuais M8/Financeiro/Encontro de Contas.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Fluxo de Caixa Realizado",
-                "arquivo": "Manuais M8/Financeiro/Fluxo de Caixa Realizado.html"
+                "arquivo": "Manuais M8/Financeiro/Fluxo de Caixa Realizado.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Importar Arquivo de Retorno de Cobrança",
-                "arquivo": "Manuais M8/Financeiro/Importar Arquivo de Retorno de Cobrança.html"
+                "arquivo": "Manuais M8/Financeiro/Importar Arquivo de Retorno de Cobrança.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Importar Extrato Bancário",
-                "arquivo": "Manuais M8/Financeiro/Importar Extrato Bancário.html"
+                "arquivo": "Manuais M8/Financeiro/Importar Extrato Bancário.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Importar Folha de Pagamentos Financeiro",
-                "arquivo": "Manuais M8/Financeiro/Importar Folha de Pagamentos Financeiro.html"
+                "arquivo": "Manuais M8/Financeiro/Importar Folha de Pagamentos Financeiro.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Impressão Coletiva de Boletos",
-                "arquivo": "Manuais M8/Financeiro/Impressão Coletiva de Boletos.html"
+                "arquivo": "Manuais M8/Financeiro/Impressão Coletiva de Boletos.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Limite lançamento financeiro",
-                "arquivo": "Manuais M8/Financeiro/Limite lançamento financeiro.html"
+                "arquivo": "Manuais M8/Financeiro/Limite lançamento financeiro.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Lista Cadastro Cheque Recebido",
-                "arquivo": "Manuais M8/Financeiro/Lista Cadastro Cheque Recebido.html"
+                "arquivo": "Manuais M8/Financeiro/Lista Cadastro Cheque Recebido.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Lista Cadastro de Bandeira de Cartão",
-                "arquivo": "Manuais M8/Financeiro/Lista Cadastro de Bandeira de Cartão.html"
+                "arquivo": "Manuais M8/Financeiro/Lista Cadastro de Bandeira de Cartão.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Lista Cadastro de Cliente",
-                "arquivo": "Manuais M8/Financeiro/Lista Cadastro de Cliente.html"
+                "arquivo": "Manuais M8/Financeiro/Lista Cadastro de Cliente.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Lista Cadastro de Meio de Pagamento",
-                "arquivo": "Manuais M8/Financeiro/Lista Cadastro de Meio de Pagamento.html"
+                "arquivo": "Manuais M8/Financeiro/Lista Cadastro de Meio de Pagamento.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Lista Cadastro de Tipo de Adiantamento",
-                "arquivo": "Manuais M8/Financeiro/Lista Cadastro de Tipo de Adiantamento.html"
+                "arquivo": "Manuais M8/Financeiro/Lista Cadastro de Tipo de Adiantamento.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Lista Lançamento de Entradas",
-                "arquivo": "Manuais M8/Financeiro/Lista Lançamento de Entradas.html"
+                "arquivo": "Manuais M8/Financeiro/Lista Lançamento de Entradas.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Lista Lançamento de Saída",
-                "arquivo": "Manuais M8/Financeiro/Lista Lançamento de Saída.html"
+                "arquivo": "Manuais M8/Financeiro/Lista Lançamento de Saída.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Lista Lançamento de Transferência",
-                "arquivo": "Manuais M8/Financeiro/Lista Lançamento de Transferência.html"
+                "arquivo": "Manuais M8/Financeiro/Lista Lançamento de Transferência.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Lista Lançamentos de Extrato",
-                "arquivo": "Manuais M8/Financeiro/Lista Lançamentos de Extrato.html"
+                "arquivo": "Manuais M8/Financeiro/Lista Lançamentos de Extrato.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Lista Provisões a Pagar",
-                "arquivo": "Manuais M8/Financeiro/Lista Provisões a Pagar.html"
+                "arquivo": "Manuais M8/Financeiro/Lista Provisões a Pagar.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Lista Provisões a Receber",
-                "arquivo": "Manuais M8/Financeiro/Lista Provisões a Receber.html"
+                "arquivo": "Manuais M8/Financeiro/Lista Provisões a Receber.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Relato Serasa - Conciliação",
-                "arquivo": "Manuais M8/Financeiro/Relato Serasa - Conciliação.html"
+                "arquivo": "Manuais M8/Financeiro/Relato Serasa - Conciliação.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Relato Serasa",
-                "arquivo": "Manuais M8/Financeiro/Relato Serasa.html"
+                "arquivo": "Manuais M8/Financeiro/Relato Serasa.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Remessa Bancária Cobrança",
-                "arquivo": "Manuais M8/Financeiro/Remessa Bancária Cobrança.html"
+                "arquivo": "Manuais M8/Financeiro/Remessa Bancária Cobrança.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Renegociação de Títulos a Receber",
-                "arquivo": "Manuais M8/Financeiro/Renegociação de Títulos a Receber.html"
+                "arquivo": "Manuais M8/Financeiro/Renegociação de Títulos a Receber.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Renegociação de Títulos à Pagar",
-                "arquivo": "Manuais M8/Financeiro/Renegociação de Títulos à Pagar.html"
+                "arquivo": "Manuais M8/Financeiro/Renegociação de Títulos à Pagar.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Tratamento Contábil do Consórcio Não Contemplado para Aquisição de Ativo Imobilizado",
-                "arquivo": "Manuais M8/Financeiro/Tratamento Contábil do Consórcio Não Contemplado para Aquisição de Ativo Imobilizado.html"
+                "arquivo": "Manuais M8/Financeiro/Tratamento Contábil do Consórcio Não Contemplado para Aquisição de Ativo Imobilizado.html",
+                "tipo": "html"
             }
         ]
     },
@@ -1173,87 +1449,118 @@
         "artigos": [
             {
                 "titulo": "Apuração ECF",
-                "arquivo": "Manuais M8/Fiscal/Apuração ECF.html"
+                "arquivo": "Manuais M8/Fiscal/Apuração ECF.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Arquivo ECD",
-                "arquivo": "Manuais M8/Fiscal/Arquivo ECD.html"
+                "arquivo": "Manuais M8/Fiscal/Arquivo ECD.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro de Ncm_Ibpt",
-                "arquivo": "Manuais M8/Fiscal/Cadastro de Ncm_Ibpt.html"
+                "arquivo": "Manuais M8/Fiscal/Cadastro de Ncm_Ibpt.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro de Operação Fiscal de Entrada",
-                "arquivo": "Manuais M8/Fiscal/Cadastro de Operação Fiscal de Entrada.html"
+                "arquivo": "Manuais M8/Fiscal/Cadastro de Operação Fiscal de Entrada.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro de Operação Fiscal de Saída",
-                "arquivo": "Manuais M8/Fiscal/Cadastro de Operação Fiscal de Saída.html"
+                "arquivo": "Manuais M8/Fiscal/Cadastro de Operação Fiscal de Saída.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro de Tipos de Documentos",
-                "arquivo": "Manuais M8/Fiscal/Cadastro de Tipos de Documentos.html"
+                "arquivo": "Manuais M8/Fiscal/Cadastro de Tipos de Documentos.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro de Tributação Fiscal",
-                "arquivo": "Manuais M8/Fiscal/Cadastro de Tributação Fiscal.html"
+                "arquivo": "Manuais M8/Fiscal/Cadastro de Tributação Fiscal.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Configuração Imposto",
-                "arquivo": "Manuais M8/Fiscal/Configuração Imposto.html"
+                "arquivo": "Manuais M8/Fiscal/Configuração Imposto.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Consulta Notas Fiscais Saída",
-                "arquivo": "Manuais M8/Fiscal/Consulta Notas Fiscais Saída.html"
+                "arquivo": "Manuais M8/Fiscal/Consulta Notas Fiscais Saída.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Definir Limites de Lançamentos - Fiscal",
-                "arquivo": "Manuais M8/Fiscal/Definir Limites de Lançamentos - Fiscal.html"
+                "arquivo": "Manuais M8/Fiscal/Definir Limites de Lançamentos - Fiscal.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Demonstrativo ECF",
-                "arquivo": "Manuais M8/Fiscal/Demonstrativo ECF.html"
+                "arquivo": "Manuais M8/Fiscal/Demonstrativo ECF.html",
+                "tipo": "html"
             },
             {
                 "titulo": "ICMS DIFAL para Não Contribuinte",
-                "arquivo": "Manuais M8/Fiscal/ICMS DIFAL para Não Contribuinte.html"
+                "arquivo": "Manuais M8/Fiscal/ICMS DIFAL para Não Contribuinte.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Livro Registro Entradas Agrupado por CFOP",
-                "arquivo": "Manuais M8/Fiscal/Livro Registro Entradas Agrupado por CFOP.html"
+                "arquivo": "Manuais M8/Fiscal/Livro Registro Entradas Agrupado por CFOP.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Manutenção ICMS",
-                "arquivo": "Manuais M8/Fiscal/Manutenção ICMS.html"
+                "arquivo": "Manuais M8/Fiscal/Manutenção ICMS.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Manutenção IPI",
-                "arquivo": "Manuais M8/Fiscal/Manutenção IPI.html"
+                "arquivo": "Manuais M8/Fiscal/Manutenção IPI.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Nota Fiscal com ICMS Diferido",
-                "arquivo": "Manuais M8/Fiscal/Nota Fiscal com ICMS Diferido.html"
+                "arquivo": "Manuais M8/Fiscal/Nota Fiscal com ICMS Diferido.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Onde configurar a alíquota de ICMS no M8",
-                "arquivo": "Manuais M8/Fiscal/Onde configurar a alíquota de ICMS no M8.html"
+                "arquivo": "Manuais M8/Fiscal/Onde configurar a alíquota de ICMS no M8.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Outra Operação IPI",
-                "arquivo": "Manuais M8/Fiscal/Outra Operação IPI.html"
+                "arquivo": "Manuais M8/Fiscal/Outra Operação IPI.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Pesquisa Qualidade",
-                "arquivo": "Manuais M8/Fiscal/Pesquisa Qualidade.html"
+                "arquivo": "Manuais M8/Fiscal/Pesquisa Qualidade.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Ratear IPI no valor Unitário Item",
-                "arquivo": "Manuais M8/Fiscal/Ratear IPI no valor Unitário Item.html"
+                "arquivo": "Manuais M8/Fiscal/Ratear IPI no valor Unitário Item.html",
+                "tipo": "html"
             },
             {
                 "titulo": "SPED Fiscal",
-                "arquivo": "Manuais M8/Fiscal/SPED Fiscal.html"
+                "arquivo": "Manuais M8/Fiscal/SPED Fiscal.html",
+                "tipo": "html"
+            }
+        ]
+    },
+    {
+        "categoria": "Manuais Implantação",
+        "artigos": [
+            {
+                "titulo": "MANUAL CADASTRO DE PRODUTOS",
+                "arquivo": "Manuais M8/Manuais Implantação/MANUAL CADASTRO DE PRODUTOS.pdf",
+                "tipo": "pdf"
             }
         ]
     },
@@ -1262,43 +1569,53 @@
         "artigos": [
             {
                 "titulo": "Cotações - Como fazer uma Cotação de Preços_",
-                "arquivo": "Manuais M8/Monitor NFE/Cotações - Como fazer uma Cotação de Preços_.html"
+                "arquivo": "Manuais M8/Monitor NFE/Cotações - Como fazer uma Cotação de Preços_.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Erro importar NFe Monitor-NFe",
-                "arquivo": "Manuais M8/Monitor NFE/Erro importar NFe Monitor-NFe.html"
+                "arquivo": "Manuais M8/Monitor NFE/Erro importar NFe Monitor-NFe.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Markup - Como calcular o markup (conceito)_",
-                "arquivo": "Manuais M8/Monitor NFE/Markup - Como calcular o markup (conceito)_.html"
+                "arquivo": "Manuais M8/Monitor NFE/Markup - Como calcular o markup (conceito)_.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Markup - O que é Markup_",
-                "arquivo": "Manuais M8/Monitor NFE/Markup - O que é Markup_.html"
+                "arquivo": "Manuais M8/Monitor NFE/Markup - O que é Markup_.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Markup - Por que o markup é importante para minha empresa_",
-                "arquivo": "Manuais M8/Monitor NFE/Markup - Por que o markup é importante para minha empresa_.html"
+                "arquivo": "Manuais M8/Monitor NFE/Markup - Por que o markup é importante para minha empresa_.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Monitor NF-e",
-                "arquivo": "Manuais M8/Monitor NFE/Monitor NF-e.html"
+                "arquivo": "Manuais M8/Monitor NFE/Monitor NF-e.html",
+                "tipo": "html"
             },
             {
                 "titulo": "NF de Entrada - O que mais você precisa saber sobre nota fiscal de entrada_",
-                "arquivo": "Manuais M8/Monitor NFE/NF de Entrada - O que mais você precisa saber sobre nota fiscal de entrada_.html"
+                "arquivo": "Manuais M8/Monitor NFE/NF de Entrada - O que mais você precisa saber sobre nota fiscal de entrada_.html",
+                "tipo": "html"
             },
             {
                 "titulo": "NF de Entrada - O que é uma Nota Fiscal de Entrada_",
-                "arquivo": "Manuais M8/Monitor NFE/NF de Entrada - O que é uma Nota Fiscal de Entrada_.html"
+                "arquivo": "Manuais M8/Monitor NFE/NF de Entrada - O que é uma Nota Fiscal de Entrada_.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Ordem de Compra - Como montar uma Ordem de Compra_",
-                "arquivo": "Manuais M8/Monitor NFE/Ordem de Compra - Como montar uma Ordem de Compra_.html"
+                "arquivo": "Manuais M8/Monitor NFE/Ordem de Compra - Como montar uma Ordem de Compra_.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Ordem de Compra - O que é uma Ordem de Compra_",
-                "arquivo": "Manuais M8/Monitor NFE/Ordem de Compra - O que é uma Ordem de Compra_.html"
+                "arquivo": "Manuais M8/Monitor NFE/Ordem de Compra - O que é uma Ordem de Compra_.html",
+                "tipo": "html"
             }
         ]
     },
@@ -1307,55 +1624,68 @@
         "artigos": [
             {
                 "titulo": "Agrupamento de Pedidos",
-                "arquivo": "Manuais M8/PCP Produção/Agrupamento de Pedidos.html"
+                "arquivo": "Manuais M8/PCP Produção/Agrupamento de Pedidos.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro de Modalidade de Negócio",
-                "arquivo": "Manuais M8/PCP Produção/Cadastro de Modalidade de Negócio.html"
+                "arquivo": "Manuais M8/PCP Produção/Cadastro de Modalidade de Negócio.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Cadastro de Tipo de Ordem de Produção",
-                "arquivo": "Manuais M8/PCP Produção/Cadastro de Tipo de Ordem de Produção.html"
+                "arquivo": "Manuais M8/PCP Produção/Cadastro de Tipo de Ordem de Produção.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Composição Estrutura de Produtos",
-                "arquivo": "Manuais M8/PCP Produção/Composição Estrutura de Produtos.html"
+                "arquivo": "Manuais M8/PCP Produção/Composição Estrutura de Produtos.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Configurações Bloco K",
-                "arquivo": "Manuais M8/PCP Produção/Configurações Bloco K.html"
+                "arquivo": "Manuais M8/PCP Produção/Configurações Bloco K.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Desmontagem de Produto",
-                "arquivo": "Manuais M8/PCP Produção/Desmontagem de Produto.html"
+                "arquivo": "Manuais M8/PCP Produção/Desmontagem de Produto.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Estorno de Materiais",
-                "arquivo": "Manuais M8/PCP Produção/Estorno de Materiais.html"
+                "arquivo": "Manuais M8/PCP Produção/Estorno de Materiais.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Exportar FCI",
-                "arquivo": "Manuais M8/PCP Produção/Exportar FCI.html"
+                "arquivo": "Manuais M8/PCP Produção/Exportar FCI.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Gestão de Ordens de Produção",
-                "arquivo": "Manuais M8/PCP Produção/Gestão de Ordens de Produção.html"
+                "arquivo": "Manuais M8/PCP Produção/Gestão de Ordens de Produção.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Importar FCI",
-                "arquivo": "Manuais M8/PCP Produção/Importar FCI.html"
+                "arquivo": "Manuais M8/PCP Produção/Importar FCI.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Manutenção Tabela de Preço",
-                "arquivo": "Manuais M8/PCP Produção/Manutenção Tabela de Preço.html"
+                "arquivo": "Manuais M8/PCP Produção/Manutenção Tabela de Preço.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Planejamento de Produção",
-                "arquivo": "Manuais M8/PCP Produção/Planejamento de Produção.html"
+                "arquivo": "Manuais M8/PCP Produção/Planejamento de Produção.html",
+                "tipo": "html"
             },
             {
                 "titulo": "Requisição Consumo de Materiais",
-                "arquivo": "Manuais M8/PCP Produção/Requisição Consumo de Materiais.html"
+                "arquivo": "Manuais M8/PCP Produção/Requisição Consumo de Materiais.html",
+                "tipo": "html"
             }
         ]
     },
@@ -1364,12 +1694,9 @@
         "artigos": [
             {
                 "titulo": "Conferência de Estoque por Projeto",
-                "arquivo": "Manuais M8/Projetos/Conferência de Estoque por Projeto.html"
+                "arquivo": "Manuais M8/Projetos/Conferência de Estoque por Projeto.html",
+                "tipo": "html"
             }
         ]
-    },
-    {
-        "categoria": "_imagens",
-        "artigos": []
     }
 ]

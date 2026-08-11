@@ -143,6 +143,21 @@ button {
   border-right: 1px solid #202532;
 
   background: rgba(12, 15, 21, 0.82);
+
+  position: sticky;
+  top: 92px;
+
+  height: calc(100vh - 92px);
+
+  overflow-y: auto;
+  align-self: start;
+
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.sidebar::-webkit-scrollbar {
+  display: none;
 }
 
 .sidebar h2 {

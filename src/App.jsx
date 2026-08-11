@@ -62,12 +62,21 @@ function App() {
   }
 
   function abrirManual(artigo) {
-    setManualAtual({
-      titulo: artigo.titulo,
-      url: montarCaminho(artigo.arquivo),
-      tipo: artigo.tipo || "html",
-    });
+  const url = montarCaminho(artigo.arquivo);
+
+  const isMobile = window.innerWidth <= 800;
+
+  if (artigo.tipo === "pdf" && isMobile) {
+    window.open(url, "_blank");
+    return;
   }
+
+  setManualAtual({
+    titulo: artigo.titulo,
+    url,
+    tipo: artigo.tipo || "html",
+  });
+}
 
   function voltar() {
     setManualAtual(null);
